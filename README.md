@@ -64,10 +64,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0075-sort-colors](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0075-sort-colors) |
+| [0680-valid-palindrome-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0680-valid-palindrome-ii) |
 ## String
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0680-valid-palindrome-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## String Matching
@@ -83,4 +85,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
+## Greedy
+|  |
+| ------- |
+| [0680-valid-palindrome-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0680-valid-palindrome-ii) |
 <!---LeetCode Topics End-->
