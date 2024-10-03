@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0268-missing-number) |
+| [0807-custom-sort-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0807-custom-sort-string) |
 | [2406-decode-the-message](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2406-decode-the-message) |
 ## Math
 |  |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0075-sort-colors) |
 | [0268-missing-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0268-missing-number) |
+| [0807-custom-sort-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0807-custom-sort-string) |
 ## Matrix
 |  |
 | ------- |
@@ -75,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0647-palindromic-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0680-valid-palindrome-ii) |
+| [0807-custom-sort-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0807-custom-sort-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2406-decode-the-message](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2406-decode-the-message) |
