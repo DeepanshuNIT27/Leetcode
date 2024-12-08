@@ -141,4 +141,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0658-find-k-closest-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0658-find-k-closest-elements) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
