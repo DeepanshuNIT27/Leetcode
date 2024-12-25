@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0141-linked-list-cycle](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0242-valid-anagram](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0268-missing-number) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0807-custom-sort-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0807-custom-sort-string) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0075-sort-colors) |
+| [0242-valid-anagram](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0268-missing-number) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0658-find-k-closest-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0658-find-k-closest-elements) |
@@ -108,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0242-valid-anagram](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0242-valid-anagram) |
 | [0647-palindromic-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0807-custom-sort-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0807-custom-sort-string) |
