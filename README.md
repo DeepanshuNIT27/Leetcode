@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0882-peak-index-in-a-mountain-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0926-find-and-replace-pattern](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0926-find-and-replace-pattern) |
 | [0943-sum-of-subarray-minimums](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2227-sum-of-subarray-ranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2358-number-of-ways-to-split-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2465-shifting-letters-ii) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0724-find-pivot-index](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0724-find-pivot-index) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2358-number-of-ways-to-split-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2465-shifting-letters-ii) |
@@ -135,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0953-reverse-only-letters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0953-reverse-only-letters) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2406-decode-the-message](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2406-decode-the-message) |
