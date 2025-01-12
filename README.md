@@ -149,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2406-decode-the-message](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2406-decode-the-message) |
 | [2465-shifting-letters-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2465-shifting-letters-ii) |
@@ -172,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0943-sum-of-subarray-minimums](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2227-sum-of-subarray-ranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 ## Simulation
 |  |
@@ -183,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0134-gas-station) |
 | [0680-valid-palindrome-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [1502-construct-k-palindrome-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 ## Dynamic Programming
 |  |
 | ------- |
