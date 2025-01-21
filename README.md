@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1524-string-matching-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2227-sum-of-subarray-ranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
+| [2269-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2269-count-elements-with-strictly-smaller-and-greater-elements) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2358-number-of-ways-to-split-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2465-shifting-letters-ii) |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0658-find-k-closest-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0807-custom-sort-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0807-custom-sort-string) |
+| [2269-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2269-count-elements-with-strictly-smaller-and-greater-elements) |
 ## Matrix
 |  |
 | ------- |
@@ -290,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1502-construct-k-palindrome-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
+| [2269-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2269-count-elements-with-strictly-smaller-and-greater-elements) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Brainteaser
 |  |
