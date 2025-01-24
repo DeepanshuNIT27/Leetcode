@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0037-sudoku-solver](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0051-n-queens) |
 | [0074-search-a-2d-matrix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0074-search-a-2d-matrix) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0037-sudoku-solver) |
 | [0141-linked-list-cycle](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0169-majority-element](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0169-majority-element) |
@@ -134,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0037-sudoku-solver) |
 | [0074-search-a-2d-matrix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [1396-count-servers-that-communicate](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1396-count-servers-that-communicate) |
@@ -346,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0051-n-queens) |
 ## Union Find
