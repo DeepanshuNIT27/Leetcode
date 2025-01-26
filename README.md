@@ -329,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1396-count-servers-that-communicate) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -346,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 ## Shortest Path
 |  |
 | ------- |
@@ -362,4 +364,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1396-count-servers-that-communicate](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
+## Topological Sort
+|  |
+| ------- |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 <!---LeetCode Topics End-->
