@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0926-find-and-replace-pattern](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0926-find-and-replace-pattern) |
 | [0943-sum-of-subarray-minimums](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0952-word-subsets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0952-word-subsets) |
+| [1364-tuple-with-same-product](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1524-string-matching-in-an-array) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0807-custom-sort-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0807-custom-sort-string) |
 | [0926-find-and-replace-pattern](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0926-find-and-replace-pattern) |
 | [0952-word-subsets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0952-word-subsets) |
+| [1364-tuple-with-same-product](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1502-construct-k-palindrome-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -349,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0169-majority-element) |
+| [1364-tuple-with-same-product](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1502-construct-k-palindrome-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
