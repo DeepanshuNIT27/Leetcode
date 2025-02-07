@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3427-special-array-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3427-special-array-ii) |
 | [3429-special-array-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3429-special-array-i) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Binary Search
 |  |
 | ------- |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2406-decode-the-message](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2406-decode-the-message) |
 | [2685-first-completely-painted-row-or-column](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Math
 |  |
@@ -258,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Greedy
 |  |
 | ------- |
