@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1524-string-matching-in-an-array) |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1876-map-of-highest-peak](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -490,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0051-n-queens) |
 | [0113-path-sum-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0113-path-sum-ii) |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 ## Union Find
 |  |
 | ------- |
