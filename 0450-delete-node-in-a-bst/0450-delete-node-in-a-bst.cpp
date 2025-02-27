@@ -33,6 +33,7 @@ public:
             }
             //2.root with only left child;
             if(root->left!=NULL && root->right==NULL){
+                
                 TreeNode* leftchild = root->left;
                 root->left = NULL;
                 delete root;
@@ -48,10 +49,21 @@ public:
             //4. root with both child;
             if(root->left!= NULL && root->right!=NULL){
                 //JUST MEANS AND JUST MAX DONO SE KE SKTE HAI 
-                int maxval = getMax(root->left);
-                root->val = maxval;
-                root->left = deleteNode(root->left,maxval);
-                return root;
+                //ye copy se ho rha .
+                // int maxval = getMax(root->left);
+                // root->val = maxval;
+                // root->left = deleteNode(root->left,maxval);
+                // return root;
+
+                //inplace aise hoga 
+                auto rscan = root->right;
+                while(rscan->left){
+                    rscan = rscan->left;
+                }
+                rscan->left = root->left ;
+                auto rightchild = root->right;
+                delete root;
+                return rightchild;
             }
             
         }
