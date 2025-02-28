@@ -292,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0647-palindromic-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0943-sum-of-subarray-minimums](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 ## Enumeration
 |  |
 | ------- |
@@ -412,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -432,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0854-making-a-large-island](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0854-making-a-large-island) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1396-count-servers-that-communicate](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1396-count-servers-that-communicate) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1558-course-schedule-iv) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
@@ -475,6 +478,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 ## Graph
 |  |
 | ------- |
@@ -522,6 +526,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1475-maximum-sum-bst-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 ## Ordered Set
 |  |
 | ------- |
