@@ -257,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2406-decode-the-message](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2406-decode-the-message) |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2465-shifting-letters-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -329,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0643-maximum-average-subarray-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0658-find-k-closest-elements) |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
