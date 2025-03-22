@@ -7,6 +7,7 @@ class TrieNode{
     data = value;
     isTerminal = false;
  }
+};
   void insertWord(TrieNode* root , string word){
          if(word.length()==0){
             root->isTerminal = true;
@@ -23,37 +24,33 @@ class TrieNode{
         }
         insertWord(child,word.substr(1));
     }
-    void search (TrieNode* root , string word, int &count){
-        if(word.size()==0){
-            return ;
-        }
-        char ch = word[0];
-        TrieNode* child;
-        if(root->children.find(ch)!=root->children.end()){
-            child = root->children[ch];
-            count++;
-        }
-        else{
-            return ;
-        }
-        search(child,word.substr(1),count);
+   
+void findlcp(TrieNode* root , string &ans){
+    if(root->isTerminal == true){
+        return ;
     }
-};
+    TrieNode* child;
+    if(root->children.size() == 1){
+        for(auto i: root->children){
+            char ch = i.first;
+            ans.push_back(ch);
+            child = i.second;
+        }
+    }
+    else{
+        return ;
+    }
+    findlcp(child,ans);
+}
 class Solution {
 public:
  TrieNode* root = new TrieNode('-');
     string longestCommonPrefix(vector<string>& strs) {
-        auto s = strs[0];
-      root->insertWord(root,s);
-       
-        int ans = INT_MAX;
-        for(int i=1;i<strs.size();i++){
-            auto word = strs[i];
-             int count = 0;
-          root->search(root,word,count);
-            ans = min(ans,count);
+        for(auto i:strs){
+            insertWord(root,i);
         }
-        return strs[0].substr(0,ans);
-        
+        string ans ="";
+       findlcp(root,ans);
+        return ans;
     }
 };
