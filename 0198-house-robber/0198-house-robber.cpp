@@ -12,7 +12,7 @@ public:
 //     return maxi;
 // }
 
-// using dp
+// using dp top-down 
 int solveTopDown(vector<int>&nums ,int n ,int i,vector<int>&dp){
     if(i>=n){
         return 0;
@@ -23,6 +23,21 @@ int solveTopDown(vector<int>&nums ,int n ,int i,vector<int>&dp){
     dp[i] = max(includes ,excludes);
     return dp[i];
 }
+//using bottom-up approach
+int solvetabultion(vector<int>&nums){
+    int n = nums.size();
+    vector<int>dp(n+20,0);
+   //0->n
+   //n->0
+   for(int i=n-1;i>=0;i--){
+    int includes =  nums[i] +dp[i+2];
+    int excludes =   0 + dp[i+1] ;
+    dp[i] = max(includes ,excludes);
+   }
+    return dp[0];
+   
+}
+
 
     int rob(vector<int>& nums) {
     int n = nums.size();
@@ -31,8 +46,12 @@ int solveTopDown(vector<int>&nums ,int n ,int i,vector<int>&dp){
 //    return ans;
 
 //1-d dp
-    vector<int>dp(n+1,-1);
-    return solveTopDown(nums,n,0,dp);
+    // vector<int>dp(n+1,-1);
+    // return solveTopDown(nums,n,0,dp);
+    // }
+
+    //tabulation;
+    return solvetabultion(nums);
+
     }
-    
 };
