@@ -40,6 +40,22 @@ for(int i=2;i<=n ;i++){
 }
 return dp[n];
  }
+ //METHOD-4 
+ //SPACE OPTIMIZATION
+ int solvespaceOpti(int n){
+
+ if(n==0 || n==1) return n;
+ int prev = 0;
+ int curr = 1;
+  int ans ;
+for(int i=2;i<=n ;i++){
+   ans = prev + curr;
+   prev = curr;
+   curr = ans;
+}
+return curr;
+ }
+
     int fib(int n) {
  //top-down approach
 //step-1 create a DP array here 1d dp will used
@@ -47,6 +63,9 @@ return dp[n];
 // return solveMemo(n,dp);
 
 //bottom -up approach
- return solveTabulation(n);
+//  return solveTabulation(n);
+
+//SPACE OPTIMIZATION
+return solvespaceOpti(n);
     }
 };
