@@ -8,12 +8,12 @@ class TrieNode{
         isTerminal = false;
     }
 
-    void insertWord(TrieNode* root , string word){
-         if(word.length()==0){
+    void insertWord(TrieNode* root , string &word , int i){
+         if(i>= word.length()){
             root->isTerminal = true;
             return ;
      }
-        char ch = word[0];
+        char ch = word[i];
         TrieNode* child;
         if(root->children.find(ch)!=root->children.end()){
             child = root->children[ch];
@@ -22,14 +22,14 @@ class TrieNode{
             child = new TrieNode(ch);
             root->children[ch] = child;
         }
-        insertWord(child,word.substr(1));
+        insertWord(child,word,i+1);
     }
 
-    bool searchWord(TrieNode* root ,string word){
-        if(word.size()==0){
+    bool searchWord(TrieNode* root ,string &word , int i){
+        if(i>= word.size()){
             return root->isTerminal;
         }
-        char ch = word[0];
+        char ch = word[i];
         TrieNode* child ;
         if(root->children.find(ch)!=root->children.end()){
             child = root->children[ch];
@@ -37,14 +37,14 @@ class TrieNode{
         else{
             return false;
         }
-        bool recursionKaAns = searchWord(child,word.substr(1));
+        bool recursionKaAns = searchWord(child,word,i+1);
         return recursionKaAns;
     }
-    bool searchPrefix(TrieNode* root ,string word){
-        if(word.size()==0){
+    bool searchPrefix(TrieNode* root ,string &word,int i){
+        if(i>= word.size()){
             return true;
         }
-        char ch = word[0];
+        char ch = word[i];
         TrieNode* child ;
         if(root->children.find(ch)!=root->children.end()){
             child = root->children[ch];
@@ -52,7 +52,7 @@ class TrieNode{
         else{
             return false;
         }
-        bool recursionKaAns = searchPrefix(child,word.substr(1));
+        bool recursionKaAns = searchPrefix(child,word,i+1);
         return recursionKaAns;
     }
 };
@@ -66,16 +66,16 @@ public:
    
     
     void insert(string word) {
-      root->insertWord(root,word);
+      root->insertWord(root,word,0);
     }
     
     bool search(string word) {
-        bool ans = root->searchWord(root,word);
+        bool ans = root->searchWord(root,word,0);
         return ans;
     }
     
     bool startsWith(string prefix) {
-        bool ans = root->searchPrefix(root,prefix);
+        bool ans = root->searchPrefix(root,prefix,0);
         return ans;
     }
 };
