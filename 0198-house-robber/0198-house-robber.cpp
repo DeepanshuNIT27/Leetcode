@@ -37,6 +37,22 @@ int solvetabultion(vector<int>&nums){
     return dp[0];
    
 }
+//space optimization
+int solvetabultionSpace(vector<int>&nums){
+    int n = nums.size();
+   int next1 = 0;
+   int next2 = 0;
+   for(int i=n-1;i>=0;i--){
+    int includes =  nums[i] +next2;
+    int excludes =   0 + next1 ;
+    int curr = max(includes ,excludes);
+    //ye bhul jata hu
+    next2 = next1;
+    next1 = curr;
+   }
+    return next1;
+   
+}
 
 
     int rob(vector<int>& nums) {
@@ -51,7 +67,10 @@ int solvetabultion(vector<int>&nums){
     // }
 
     //tabulation;
-    return solvetabultion(nums);
+    // return solvetabultion(nums);
+
+    //space optimization
+  return  solvetabultionSpace(nums);
 
     }
 };
