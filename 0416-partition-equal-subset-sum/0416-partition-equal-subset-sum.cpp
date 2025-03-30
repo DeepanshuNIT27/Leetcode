@@ -42,6 +42,30 @@ bool solveTebu(vector<int>&nums , int target){
    }
    return dp[target][0];
 }
+// space optimization
+bool solveTebuSO(vector<int>&nums , int target){
+    int n = nums.size();
+     
+     vector<int>curr(target+1,0);
+     vector<int>next(target+1,0);
+    for(int col=0;col<=nums.size() ;col++){
+       next[0] = true;
+     }
+      for(int i = n-1 ;i>=0;i--){
+   for(int t=1;t<=target;t++){
+   
+    bool inc = 0;
+    if(t-nums[i]>=0){
+        inc = next[t-nums[i]];
+    }
+    bool exc =  next[t];
+
+    curr[t] = inc || exc;
+    }
+    next = curr;
+   }
+   return next[target];
+}
 
 
     bool canPartition(vector<int>& nums) {
@@ -58,6 +82,9 @@ bool solveTebu(vector<int>&nums , int target){
         // return solveMemo(nums,target,i,dp);
 
         //tabulation method
-      return  solveTebu(nums,target);
+    //   return  solveTebu(nums,target);
+
+    // space optimization
+  return   solveTebuSO(nums,target);
     }
 };
