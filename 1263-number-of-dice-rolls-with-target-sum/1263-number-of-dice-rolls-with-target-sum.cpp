@@ -31,13 +31,35 @@ int solveMemo(int n ,int k ,int target,vector<vector< long long int>>&dp){
     dp[n][target] = ans%mod;
     return dp[n][target];
 }
+
+//tabulation 
+int solveTebu(int n ,int k ,int target){
+     vector<vector<long long int>>dp(n+2,vector< long long int>(target+2,0));
+      dp[0][0] = 1;
+    
+    for(int N =1; N<=n ;N++){
+        for(int t =1; t<=target ;t++){
+             long long int ans = 0;
+         for(int i=1;i<=k;i++){
+             if(t-i>=0){
+            ans += dp[N-1][t-i];
+           }
+          }
+         dp[N][t] = ans%mod;
+         }
+    }
+    return dp[n][target];
+      
+}
     int numRollsToTarget(int n, int k, int target) {
         //recursive 
         // return solveRec(n,k,target);
 
         //memo
-        vector<vector<long long int>>dp(n+1,vector< long long int>(target+1,-1));
-        return solveMemo(n,k,target,dp);
+        // vector<vector<long long int>>dp(n+1,vector< long long int>(target+1,-1));
+        // return solveMemo(n,k,target,dp);
         
+        //tabulation
+       return solveTebu(n,k,target);
     }
 };
