@@ -58,6 +58,30 @@ int solveUsingTab(string &text1, string &text2){
     }
     return dp[0][0];
   }
+  //space optimization
+  int solveUsingTabSO(string &text1, string &text2){
+    //yha text ko by reference pass krna ni to tle milega q ki copy bahut bn jayegi n
+    vector<int>prev(text2.size()+1,0);
+    vector<int>curr(text2.size()+1,0);
+
+    //yha flow ko reverse krte hai
+    for(int i=text1.size()-1 ;i>=0 ;i--){
+        for(int j=text2.size()-1;j>=0;j--){
+         int ans = 0;
+        if(text1[i] == text2[j]){
+        ans = 1 + prev[j+1];
+       
+    }
+    else{
+        ans = 0 + max(prev[j] ,curr[j+1]);
+       
+    }
+    curr[j] = ans;
+        }
+        prev = curr;
+    }
+    return prev[0];
+  }
 
     int longestCommonSubsequence(string text1, string text2) {
         //recursion
@@ -72,7 +96,11 @@ int solveUsingTab(string &text1, string &text2){
     //   return  solveUsingMemo(text1,text2,i,j,dp);
 
       // tabulation
-     return  solveUsingTab(text1,text2);
+    //  return  solveUsingTab(text1,text2);
+
+      // space optimization
+      return solveUsingTabSO(text1,text2);
+
 
     }
 };
