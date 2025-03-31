@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0943-sum-of-subarray-minimums](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0952-word-subsets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0952-word-subsets) |
 | [1364-tuple-with-same-product](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1364-tuple-with-same-product) |
+| [1367-maximum-height-by-stacking-cuboids](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1367-maximum-height-by-stacking-cuboids) |
 | [1396-count-servers-that-communicate](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1477-product-of-the-last-k-numbers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -225,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0658-find-k-closest-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0807-custom-sort-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0807-custom-sort-string) |
+| [1367-maximum-height-by-stacking-cuboids](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1367-maximum-height-by-stacking-cuboids) |
 | [2269-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2269-count-elements-with-strictly-smaller-and-greater-elements) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -364,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1013-fibonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1263-number-of-dice-rolls-with-target-sum) |
+| [1367-maximum-height-by-stacking-cuboids](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1367-maximum-height-by-stacking-cuboids) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 ## Enumeration
 |  |
