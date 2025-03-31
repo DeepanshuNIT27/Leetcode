@@ -72,6 +72,28 @@ int solveTebuSO(int n ,int k ,int target){
     return prev[target];
       
 }
+
+//space otimization-02
+int solveTebuSO2(int n ,int k ,int target){
+    vector<int>curr(target+1,0);
+      curr[0] = 1;
+    
+    
+    for(int N =1; N<=n ;N++){
+        for(int t =target; t>=0 ;t--){
+         long long int ans = 0;
+         for(int i=1;i<=k;i++){
+             if(t-i>=0){
+            ans += curr[t-i];
+           }
+          }
+         curr[t] = ans%mod;
+         }
+        
+    }
+    return curr[target];
+      
+}
     int numRollsToTarget(int n, int k, int target) {
         //recursive 
         // return solveRec(n,k,target);
@@ -85,6 +107,8 @@ int solveTebuSO(int n ,int k ,int target){
 
     // space opti.
      return solveTebuSO(n,k,target);
+     //space opti -02
+     return solveTebuSO2(n,k,target);
 
     }
 };
