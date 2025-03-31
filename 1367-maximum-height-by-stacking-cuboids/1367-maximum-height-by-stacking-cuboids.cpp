@@ -74,6 +74,26 @@ public:
       return prevRow[0];
   }
 
+  //space optimization 
+   int solveUsingTabuSO2(vector<vector<int>>& cuboids){
+     int n = cuboids.size();
+     vector<int>currRow(n+1,0);
+   
+    for(int curr = n-1;curr>=0 ;curr--){
+        for(int prev = -1; prev<=curr-1;prev++){
+         int inc = 0;
+     if(prev == -1  || isSafe(cuboids[prev], cuboids[curr])){
+        inc = cuboids[curr][2] + currRow[curr+1];
+     }
+      int exc = 0 +currRow[prev+1];
+
+      currRow[prev+1] = max(inc,exc);
+        }
+
+    }
+      return currRow[0];
+  }
+
     int maxHeight(vector<vector<int>>& cuboids) {
        
         for(auto & cuboid:cuboids){
@@ -94,8 +114,11 @@ public:
         //tabulation
         // return solveUsingTabu(cuboids);
 
-        //space optimization
-        return solveUsingTabuSO(cuboids);
+        //space optimization01
+       // return solveUsingTabuSO(cuboids);
+
+       // space optimization
+       return solveUsingTabuSO(cuboids);
 
 
 
