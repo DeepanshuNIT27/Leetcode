@@ -16,6 +16,8 @@ public:
   }
   //2d dp Memo
   int solveUsingMemo(string &text1, string &text2 , int i ,int j,vector<vector<int>>&dp){
+    //yha text ko by reference pass krna ni to tle milega q ki copy bahut bn jayegi n
+
     //BASE CASE
     if(i>= text1.size() || j>= text2.size()) return 0;
 
@@ -35,6 +37,28 @@ public:
     return dp[i][j];
   }
 
+// tabulation
+int solveUsingTab(string &text1, string &text2){
+    //yha text ko by reference pass krna ni to tle milega q ki copy bahut bn jayegi n
+    vector<vector<int>>dp(text1.size()+1,vector<int>(text2.size()+1,0));
+    //yha flow ko reverse krte hai
+    for(int i=text1.size()-1 ;i>=0 ;i--){
+        for(int j=text2.size()-1;j>=0;j--){
+         int ans = 0;
+        if(text1[i] == text2[j]){
+        ans = 1 + dp[i+1][j+1];
+       
+    }
+    else{
+        ans = 0 + max(dp[i+1][j] ,dp[i][j+1]);
+       
+    }
+    dp[i][j] = ans;
+        }
+    }
+    return dp[0][0];
+  }
+
     int longestCommonSubsequence(string text1, string text2) {
         //recursion
         int i =0;
@@ -45,6 +69,10 @@ public:
         int n = text1.size();
         int m = text2.size();
         vector<vector<int>>dp(n+1,vector<int>(m+1,-1));
-      return  solveUsingMemo(text1,text2,i,j,dp);
+    //   return  solveUsingMemo(text1,text2,i,j,dp);
+
+      // tabulation
+     return  solveUsingTab(text1,text2);
+
     }
 };
