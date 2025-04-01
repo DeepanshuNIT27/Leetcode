@@ -26,6 +26,28 @@ int solveUsingMemo(int s,int e,vector<vector<int>>&dp){
      dp[s][e] = ans;
     return dp[s][e];
 }
+
+//tabulation
+int solveUsingTab(int n){
+    vector<vector<int>>dp(n+2,vector<int>(n+2,0));
+   for(int s =n ;s>=1;s--){
+    for(int e = s;e<=n ;e++){
+        if(s >= e){
+            continue;
+        }
+        else{
+             int ans = INT_MAX;
+           for(int i =s;i<= e;i++){
+        ans = min(ans,i+max(dp[s][i-1],dp[i+1][e]));
+         }
+         dp[s][e] = ans;
+        }
+    }
+   }
+    
+    return dp[1][n];
+}
+
     int getMoneyAmount(int n) {
        // RECURSION
         // int ans = solveUsingRec(1,n);
@@ -34,5 +56,8 @@ int solveUsingMemo(int s,int e,vector<vector<int>>&dp){
         //Memo
         vector<vector<int>>dp(n+1,vector<int>(n+1,-1));
         return solveUsingMemo(1,n,dp);
+
+        //Tab
+        return solveUsingTab(n);
     }
 };
