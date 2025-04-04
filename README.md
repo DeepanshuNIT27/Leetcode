@@ -278,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0030-substring-with-concatenation-of-all-words) |
+| [0044-wildcard-matching](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0049-group-anagrams) |
 | [0208-implement-trie-prefix-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0242-valid-anagram) |
@@ -349,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0044-wildcard-matching) |
 | [0134-gas-station](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0134-gas-station) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0680-valid-palindrome-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0680-valid-palindrome-ii) |
@@ -361,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0044-wildcard-matching) |
 | [0198-house-robber](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0198-house-robber) |
 | [0300-longest-increasing-subsequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0322-coin-change) |
@@ -435,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0025-reverse-nodes-in-k-group) |
+| [0044-wildcard-matching](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0044-wildcard-matching) |
 | [0206-reverse-linked-list](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [1013-fibonacci-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1013-fibonacci-number) |
