@@ -145,6 +145,9 @@ bool solveTabSO(string s, string p, int m,int n){
 
        //tabulation 
       return  solveTab(s,p,m,n);
+
+      //space opti
+      return solveTabSO(s,p,m,n);
         
     }
 };
