@@ -553,6 +553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0538-convert-bst-to-greater-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0547-number-of-provinces](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0684-redundant-connection](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0684-redundant-connection) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
@@ -575,6 +576,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0322-coin-change](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0322-coin-change) |
 | [0407-trapping-rain-water-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0407-trapping-rain-water-ii) |
+| [0547-number-of-provinces](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0684-redundant-connection](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0684-redundant-connection) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
@@ -620,6 +622,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0210-course-schedule-ii) |
+| [0547-number-of-provinces](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0684-redundant-connection) |
 | [1300-critical-connections-in-a-network](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -642,6 +645,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0684-redundant-connection) |
 | [0854-making-a-large-island](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0854-making-a-large-island) |
 | [1396-count-servers-that-communicate](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1396-count-servers-that-communicate) |
