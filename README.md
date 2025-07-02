@@ -154,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3427-special-array-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3427-special-array-ii) |
+| [3618-find-the-original-typed-string-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3849-equal-sum-grid-partition-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3849-equal-sum-grid-partition-i) |
 ## Hash Table
 |  |
@@ -325,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3455-minimum-length-of-string-after-operations](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3617-find-the-original-typed-string-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3617-find-the-original-typed-string-i) |
+| [3618-find-the-original-typed-string-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 ## String Matching
@@ -393,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1263-number-of-dice-rolls-with-target-sum) |
 | [1367-maximum-height-by-stacking-cuboids](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1367-maximum-height-by-stacking-cuboids) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [3618-find-the-original-typed-string-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Enumeration
 |  |
 | ------- |
