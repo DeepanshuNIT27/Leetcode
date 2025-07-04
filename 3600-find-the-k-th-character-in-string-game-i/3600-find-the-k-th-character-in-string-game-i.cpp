@@ -1,14 +1,14 @@
 class Solution {
 public:
     char kthCharacter(int k) {
-        std::string sb = "a";
-        while (sb.length() < k) {
-            int size = sb.length();
-            for (int i = 0; i < size; ++i) {
-                char nextChar = 'a' + ((sb[i] - 'a' + 1) % 26);
-                sb += nextChar;
+        string s = "a";
+        while(s.size()<k){
+            int n = s.size();
+            for(int i=0;i<n;i++){
+                char newchar = 'a' + ((s[i]-'a'+1)%26);
+                s += newchar;
             }
         }
-        return sb[k - 1];
+      return s[k-1];
     }
 };
