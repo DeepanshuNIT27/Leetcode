@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2145-grid-game](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2145-grid-game) |
 | [2227-sum-of-subarray-ranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1502-construct-k-palindrome-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2308-divide-array-into-equal-pairs](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2406-decode-the-message](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2406-decode-the-message) |
@@ -496,6 +498,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0295-find-median-from-data-stream](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [1477-product-of-the-last-k-numbers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2434-design-a-number-container-system](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2434-design-a-number-container-system) |
 ## Queue
 |  |
