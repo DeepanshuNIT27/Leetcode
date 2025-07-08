@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1510-find-lucky-integer-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1524-string-matching-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1876-map-of-highest-peak](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3427-special-array-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3427-special-array-ii) |
 ## Prefix Sum
@@ -252,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0807-custom-sort-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0807-custom-sort-string) |
 | [1367-maximum-height-by-stacking-cuboids](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1367-maximum-height-by-stacking-cuboids) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2269-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2269-count-elements-with-strictly-smaller-and-greater-elements) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -414,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1263-number-of-dice-rolls-with-target-sum) |
 | [1367-maximum-height-by-stacking-cuboids](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1367-maximum-height-by-stacking-cuboids) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [3618-find-the-original-typed-string-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3857-find-maximum-number-of-non-intersecting-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3857-find-maximum-number-of-non-intersecting-substrings) |
 ## Enumeration
