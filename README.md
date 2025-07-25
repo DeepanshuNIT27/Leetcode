@@ -239,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3815-sum-of-largest-prime-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3815-sum-of-largest-prime-substrings) |
 | [3859-maximum-product-of-two-digits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3859-maximum-product-of-two-digits) |
+| [3918-check-divisibility-by-digit-sum-and-product](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3918-check-divisibility-by-digit-sum-and-product) |
 ## Sorting
 |  |
 | ------- |
