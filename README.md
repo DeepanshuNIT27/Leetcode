@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0342-power-of-four](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0342-power-of-four) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2308-divide-array-into-equal-pairs](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2509-minimize-xor](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2509-minimize-xor) |
@@ -237,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0268-missing-number) |
 | [0326-power-of-three](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0326-power-of-three) |
+| [0342-power-of-four](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0342-power-of-four) |
 | [0367-valid-perfect-square](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0797-rabbits-in-forest](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0797-rabbits-in-forest) |
@@ -520,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0326-power-of-three](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0326-power-of-three) |
+| [0342-power-of-four](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0342-power-of-four) |
 | [1013-fibonacci-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1013-fibonacci-number) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
