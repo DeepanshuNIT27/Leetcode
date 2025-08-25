@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0407-trapping-rain-water-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0498-diagonal-traverse](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0525-contiguous-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0525-contiguous-array) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
@@ -296,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0037-sudoku-solver) |
 | [0074-search-a-2d-matrix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0407-trapping-rain-water-ii) |
+| [0498-diagonal-traverse](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0733-flood-fill](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0854-making-a-large-island) |
 | [1036-rotting-oranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1036-rotting-oranges) |
@@ -412,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0415-add-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0415-add-strings) |
+| [0498-diagonal-traverse](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0498-diagonal-traverse) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2551-apply-operations-to-an-array) |
