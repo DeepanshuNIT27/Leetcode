@@ -1,16 +1,20 @@
 class Solution {
 public:
-void solve( vector<string>&ans , string out , int open , int close, int n){
+void solve( vector<string>&ans , string &out , int open , int close, int n){
     //Base case 
     if(open + close == 2*n){
         ans.push_back(out);
         return;
     }
     if(open<n){
-        solve(ans,out+'(',open+1,close,n);
+        out.push_back('(');
+        solve(ans,out,open+1,close,n);
+        out.pop_back(); //backtracking
     }
     if(close<open){
-        solve(ans,out+')',open,close+1,n);
+        out.push_back(')');
+        solve(ans,out,open,close+1,n);
+         out.pop_back(); //backtracking
     }
 }
     vector<string> generateParenthesis(int n) {
