@@ -1,9 +1,9 @@
 class Solution {
 public:
-void solve(vector<vector<int>>& matrix,int target,int index , int &n, bool &ans){
+bool solve(vector<vector<int>>& matrix,int target,int index , int &n){
     //base case
     if(index>=matrix.size()){
-        return ;
+        return false;
     }
     //1 case hm dekhenge 
 
@@ -13,21 +13,20 @@ void solve(vector<vector<int>>& matrix,int target,int index , int &n, bool &ans)
          break;
      }
      else if(matrix[index][i]==target){
-        ans = true;
         n = 0;
-        break;
+       return true;
      }
     }
 
-      solve(matrix,target,index+1,n,ans);
+    int ans =   solve(matrix,target,index+1,n);
+    return ans;
 }
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
         int m = matrix.size();
         int n = matrix[0].size();
         int index = 0;
-        bool ans = false;
-       solve(matrix,target,index,n,ans);
-       return ans;
+     return  solve(matrix,target,index,n);
+    
         
     }
 };
