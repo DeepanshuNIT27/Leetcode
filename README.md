@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0051-n-queens) |
 | [0074-search-a-2d-matrix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0075-sort-colors) |
+| [0079-word-search](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -304,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0037-sudoku-solver) |
 | [0074-search-a-2d-matrix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0498-diagonal-traverse](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0498-diagonal-traverse) |
@@ -355,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0030-substring-with-concatenation-of-all-words](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0044-wildcard-matching](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0049-group-anagrams) |
+| [0079-word-search](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0079-word-search) |
 | [0127-word-ladder](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0127-word-ladder) |
 | [0208-implement-trie-prefix-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0242-valid-anagram) |
@@ -650,6 +653,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -758,6 +762,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0051-n-queens) |
 | [0077-combinations](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0077-combinations) |
+| [0079-word-search](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0079-word-search) |
 | [0113-path-sum-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0113-path-sum-ii) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 ## Union Find
