@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3483-alternating-groups-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3483-alternating-groups-ii) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3748-sort-matrix-by-diagonals](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3748-sort-matrix-by-diagonals) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3790-fruits-into-baskets-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3790-fruits-into-baskets-ii) |
 | [3849-equal-sum-grid-partition-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3849-equal-sum-grid-partition-i) |
@@ -294,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2689-rearranging-fruits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2689-rearranging-fruits) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
+| [3748-sort-matrix-by-diagonals](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3748-sort-matrix-by-diagonals) |
 | [3815-sum-of-largest-prime-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3815-sum-of-largest-prime-substrings) |
 | [3859-maximum-product-of-two-digits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3859-maximum-product-of-two-digits) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
@@ -316,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3227-find-missing-and-repeated-values](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3748-sort-matrix-by-diagonals](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3748-sort-matrix-by-diagonals) |
 | [3849-equal-sum-grid-partition-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3849-equal-sum-grid-partition-i) |
 ## Two Pointers
 |  |
