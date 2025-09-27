@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0733-flood-fill) |
 | [0792-binary-search](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0792-binary-search) |
 | [0797-rabbits-in-forest](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0797-rabbits-in-forest) |
+| [0830-largest-triangle-area](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0830-largest-triangle-area) |
 | [0854-making-a-large-island](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0854-making-a-large-island) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0926-find-and-replace-pattern](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0926-find-and-replace-pattern) |
@@ -258,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0375-guess-number-higher-or-lower-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0415-add-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0415-add-strings) |
 | [0797-rabbits-in-forest](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0797-rabbits-in-forest) |
+| [0830-largest-triangle-area](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0830-largest-triangle-area) |
 | [1013-fibonacci-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1013-fibonacci-number) |
 | [1448-maximum-69-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1448-maximum-69-number) |
 | [1477-product-of-the-last-k-numbers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
@@ -851,4 +853,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3790-fruits-into-baskets-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3790-fruits-into-baskets-ii) |
+## Geometry
+|  |
+| ------- |
+| [0830-largest-triangle-area](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0830-largest-triangle-area) |
 <!---LeetCode Topics End-->
