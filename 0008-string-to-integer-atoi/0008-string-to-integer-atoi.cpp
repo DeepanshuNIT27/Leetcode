@@ -1,5 +1,16 @@
 class Solution {
 public:
+   int solve(string &s , int index , int sign, long long &ans){
+    if(index==s.size() || !(isdigit(s[index])) ){
+        return sign*ans;
+    }
+    int d = s[index] -'0';
+    ans = ans*10 + d;
+    if(sign*ans>INT_MAX) return INT_MAX;
+    if(sign*ans<INT_MIN) return INT_MIN;
+    return solve(s,index+1,sign,ans);
+
+   }
     int myAtoi(string s) {
         int i= 0;
         int n = s.size();
@@ -10,14 +21,6 @@ public:
             i++;
         }
         long long ans = 0;
-        while(i<n && isdigit(s[i])){
-         ans = ans*10 + (s[i]-'0');
-
-         if(sign*ans>INT_MAX) return INT_MAX;
-         if(sign*ans<INT_MIN) return INT_MIN;
-
-         i++;
-        }
-        return (int)(sign*ans);
+    return solve(s, i, sign, ans);
     }
 };
