@@ -1,25 +1,24 @@
 class Solution {
 public:
-void PermtationTwo( vector<vector<int>>&ans,vector<int>& nums,int index){
+//OPTIMIZED WAY TO HANDLE DUBLICATES AT RUNTIME
+void PermtationTwo( vector<vector<int>>&ans,vector<int>& nums,int start){
     //BASE CASE
-    if(index>=nums.size()){
+    if(start>=nums.size()){
         ans.push_back(nums);
         return ;
     }
-
-    for(int j=index;j<nums.size();j++){
-        swap(nums[index],nums[j]);
-        PermtationTwo(ans,nums,index+1);
-        swap(nums[index],nums[j]);
+    unordered_map<int,bool>visited;
+    for(int i=start;i<nums.size();i++){
+        if(visited.find(nums[i])!= visited.end()) continue;
+        visited[nums[i]] = true;
+        swap(nums[start],nums[i]);
+        PermtationTwo(ans,nums,start+1);
+        swap(nums[start],nums[i]);
     }
 }
     vector<vector<int>> permuteUnique(vector<int>& nums) {
         vector<vector<int>>ans;
       PermtationTwo(ans,nums,0);
-        set<vector<int>>st;
-        for(auto&it:ans) st.insert(it);
-        ans.clear();
-        for(auto&s:st) ans.push_back(s);
         return ans;
     }
 };
