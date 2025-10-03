@@ -1,26 +1,26 @@
 class Solution {
 public:
-  void solve (vector<vector<int>>&ans, vector<int>&curr,vector<int>& candidates, int target , int index){
-    //base case
-    if(index>=candidates.size() || target<0){
+void solve(vector<int>& candidates,vector<vector<int>>&ans,  vector<int>&temp, int target , int index){
+    //BASE CASE
+    if(index >= candidates.size() || target<0) return ;
+    if(target == 0){
+        ans.push_back(temp);
         return ;
     }
-    if(target == 0){
-        ans.push_back(curr);
-        return;
-    }
-    //ek case hm krenge
-    //include kro.
-    curr.push_back(candidates[index]);
-    solve(ans,curr,candidates,target-candidates[index],index);
-    curr.pop_back();
-    //exclude kro
-    solve(ans,curr,candidates,target,index+1);
-  }
+    // 1 CASE HM SMBHALENGE
+    //include
+    temp.push_back(candidates[index]);
+    solve(candidates,ans,temp,target-candidates[index],index);
+    temp.pop_back();
+    //exclude
+    solve(candidates,ans,temp,target,index+1);
+
+}
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         vector<vector<int>>ans;
-        vector<int>curr;
-        solve(ans,curr,candidates,target,0);
-        return ans;
+        vector<int>temp;
+        int index = 0;
+        solve(candidates,ans,temp,target,index);
+return ans;
     }
 };
