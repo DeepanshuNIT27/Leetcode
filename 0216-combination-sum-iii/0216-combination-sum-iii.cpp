@@ -4,6 +4,7 @@ void solve(vector<vector<int>>&ans,vector<int>&temp,int target , int index,int k
     if(target<0) return ;
     if(target==0 && temp.size()==k){
         ans.push_back(temp);
+        return ;
     }
     for(int i= index;i<=9;i++){
         temp.push_back(i);
