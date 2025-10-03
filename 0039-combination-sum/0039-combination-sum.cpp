@@ -2,11 +2,12 @@ class Solution {
 public:
 void solve(vector<int>& candidates,vector<vector<int>>&ans,  vector<int>&temp, int target , int index){
     //BASE CASE
-    if(index >= candidates.size() || target<0) return ;
     if(target == 0){
         ans.push_back(temp);
         return ;
     }
+    if(index >= candidates.size() || target<0) return ;
+    
     // 1 CASE HM SMBHALENGE
     //include
     temp.push_back(candidates[index]);
