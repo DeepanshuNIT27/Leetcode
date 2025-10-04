@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0342-power-of-four) |
 | [0473-matchsticks-to-square](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0473-matchsticks-to-square) |
 | [0526-beautiful-arrangement](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0526-beautiful-arrangement) |
+| [1758-distribute-repeating-integers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1758-distribute-repeating-integers) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2308-divide-array-into-equal-pairs](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2509-minimize-xor](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2509-minimize-xor) |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1510-find-lucky-integer-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1524-string-matching-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [1758-distribute-repeating-integers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1758-distribute-repeating-integers) |
 | [1813-maximum-erasure-value](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
@@ -512,6 +514,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1367-maximum-height-by-stacking-cuboids](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1367-maximum-height-by-stacking-cuboids) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [1758-distribute-repeating-integers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1758-distribute-repeating-integers) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [3618-find-the-original-typed-string-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
@@ -806,6 +809,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0216-combination-sum-iii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0473-matchsticks-to-square](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0473-matchsticks-to-square) |
 | [0526-beautiful-arrangement](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0526-beautiful-arrangement) |
+| [1758-distribute-repeating-integers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1758-distribute-repeating-integers) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 ## Union Find
 |  |
@@ -902,6 +906,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0473-matchsticks-to-square](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0473-matchsticks-to-square) |
 | [0526-beautiful-arrangement](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0526-beautiful-arrangement) |
+| [1758-distribute-repeating-integers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1758-distribute-repeating-integers) |
 ## Radix Sort
 |  |
 | ------- |
