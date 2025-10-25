@@ -284,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1448-maximum-69-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1448-maximum-69-number) |
 | [1477-product-of-the-last-k-numbers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1642-water-bottles](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1642-water-bottles) |
+| [1817-calculate-money-in-leetcode-bank](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
