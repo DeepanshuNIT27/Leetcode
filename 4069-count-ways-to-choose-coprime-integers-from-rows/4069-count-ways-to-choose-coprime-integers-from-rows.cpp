@@ -31,10 +31,7 @@ int solveMemo(int i , int gcd ,vector<vector<int>>& mat , vector<vector<int>>&dp
     if(dp[i][gcd]!=-1) return dp[i][gcd];
    int ans = 0;
     for(int j=0;j<n;j++){
-        if(i!=0){
        ans = (ans + solveMemo(i+1 , __gcd(gcd,mat[i][j]),mat,dp))%MOD;
-        }
-        else  ans = (ans + solveMemo(i+1,mat[i][j],mat,dp))%MOD; 
     }
     dp[i][gcd] = ans;
     return dp[i][gcd];
