@@ -80,6 +80,37 @@ bool solveTab(string &s , string &p , int n , int m){
     }
     return dp[0][0];
 }
+//SPACE OPTIMIZATION
+bool solveTabSo(string &s , string &p , int n , int m){
+   vector<int>curr(m+1,0);
+   vector<int>next(m+1,0);
+    //BASE CASE
+    next[m] = true;
+  
+    for(int i=n;i>=0;i--){
+        if(i==n) curr[m] = true;
+        else curr[m] = false;
+        for(int j=m-1;j>=0;j--){
+    bool currmatch = ( i<s.size() && ((s[i]==p[j]) || (p[j]=='.')));
+    bool ans ;
+    if(j+1<p.size() && p[j+1]=='*'){
+         bool EmptyWala = curr[j+2];
+         bool PreElementWala = currmatch &&  next[j];
+         ans =  EmptyWala || PreElementWala;
+    }
+    else if(currmatch){
+         ans = next[j+1];
+    }
+    else {
+        ans =  false;
+    }
+ curr[j] = ans;
+   
+        }
+        next = curr;
+    }
+    return next[0];
+}
 
     bool isMatch(string s, string p) {
         //RECURSION
@@ -92,7 +123,10 @@ bool solveTab(string &s , string &p , int n , int m){
        // return solveMemo(s,p,0,0,dp);
        
        //TABULATION METHOD 
-  return solveTab(s,p,n,m);
+  //return solveTab(s,p,n,m);
+
+  //SPACE OPTIMIZATION
+  return solveTabSo(s,p,n,m);
 
     }
 };
