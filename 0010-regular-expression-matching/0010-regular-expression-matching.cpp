@@ -53,6 +53,33 @@ bool solveMemo(string &s , string &p , int i , int j, vector<vector<int>>&dp){
  dp[i][j] = ans;
    return dp[i][j];
 }
+//TABULATION METHOD
+bool solveTab(string &s , string &p , int n , int m){
+     vector<vector<int>>dp(n+1,vector<int>(m+1,0));
+    //BASE CASE
+    dp[n][m] = true;
+  
+    for(int i=n;i>=0;i--){
+        for(int j=m-1;j>=0;j--){
+    bool currmatch = ( i<s.size() && ((s[i]==p[j]) || (p[j]=='.')));
+    bool ans ;
+    if(j+1<p.size() && p[j+1]=='*'){
+         bool EmptyWala = dp[i][j+2];
+         bool PreElementWala = currmatch &&  dp[i+1][j];
+         ans =  EmptyWala || PreElementWala;
+    }
+    else if(currmatch){
+         ans = dp[i+1][j+1];
+    }
+    else {
+        ans =  false;
+    }
+ dp[i][j] = ans;
+   
+        }
+    }
+    return dp[0][0];
+}
 
     bool isMatch(string s, string p) {
         //RECURSION
@@ -62,6 +89,10 @@ bool solveMemo(string &s , string &p , int i , int j, vector<vector<int>>&dp){
         int n = s.size();
         int m = p.size();
         vector<vector<int>>dp(n+1,vector<int>(m+1,-1));
-        return solveMemo(s,p,0,0,dp);
+       // return solveMemo(s,p,0,0,dp);
+       
+       //TABULATION METHOD 
+  return solveTab(s,p,n,m);
+
     }
 };
