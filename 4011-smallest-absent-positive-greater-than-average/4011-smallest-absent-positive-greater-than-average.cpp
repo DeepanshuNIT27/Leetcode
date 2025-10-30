@@ -1,8 +1,8 @@
 class Solution {
 public:
     int smallestAbsent(vector<int>& nums) {
-        float sum = accumulate(nums.begin(),nums.end(),0LL);
-         float avg =  sum / nums.size();
+        float  sum = accumulate(nums.begin(),nums.end(),0LL);
+         float  avg =  sum / nums.size();
          sort(nums.begin(),nums.end());
          auto it = upper_bound(nums.begin(),nums.end(),0);
          if(it==nums.end()) return 1;
