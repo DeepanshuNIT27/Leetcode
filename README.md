@@ -173,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3849-equal-sum-grid-partition-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3849-equal-sum-grid-partition-i) |
 | [3953-minimum-discards-to-balance-inventory](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3953-minimum-discards-to-balance-inventory) |
 | [4011-smallest-absent-positive-greater-than-average](https://github.com/DeepanshuNIT27/Leetcode/tree/master/4011-smallest-absent-positive-greater-than-average) |
+| [4116-minimum-moves-to-equal-array-elements-iii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/4116-minimum-moves-to-equal-array-elements-iii) |
 ## Binary Search
 |  |
 | ------- |
@@ -311,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3815-sum-of-largest-prime-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3815-sum-of-largest-prime-substrings) |
 | [3859-maximum-product-of-two-digits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3859-maximum-product-of-two-digits) |
 | [3918-check-divisibility-by-digit-sum-and-product](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3918-check-divisibility-by-digit-sum-and-product) |
+| [4116-minimum-moves-to-equal-array-elements-iii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/4116-minimum-moves-to-equal-array-elements-iii) |
 ## Sorting
 |  |
 | ------- |
