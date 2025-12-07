@@ -294,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1013-fibonacci-number) |
 | [1448-maximum-69-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1448-maximum-69-number) |
 | [1477-product-of-the-last-k-numbers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
+| [1523-count-odd-numbers-in-an-interval-range](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1642-water-bottles](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1642-water-bottles) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
