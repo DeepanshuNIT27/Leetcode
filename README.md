@@ -298,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1642-water-bottles](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1642-water-bottles) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [1925-count-square-sum-triples](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1925-count-square-sum-triples) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
@@ -555,6 +556,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0204-count-primes) |
+| [1925-count-square-sum-triples](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1925-count-square-sum-triples) |
 | [3201-distribute-candies-among-children-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3201-distribute-candies-among-children-ii) |
 | [3849-equal-sum-grid-partition-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3849-equal-sum-grid-partition-i) |
 | [4055-longest-balanced-substring-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/4055-longest-balanced-substring-i) |
