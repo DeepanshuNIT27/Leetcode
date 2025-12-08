@@ -315,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3750-minimum-number-of-flips-to-reverse-binary-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3750-minimum-number-of-flips-to-reverse-binary-string) |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3815-sum-of-largest-prime-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3815-sum-of-largest-prime-substrings) |
@@ -555,6 +556,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [3618-find-the-original-typed-string-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3857-find-maximum-number-of-non-intersecting-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3857-find-maximum-number-of-non-intersecting-substrings) |
 ## Enumeration
 |  |
@@ -562,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0204-count-primes) |
 | [1925-count-square-sum-triples](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1925-count-square-sum-triples) |
 | [3201-distribute-candies-among-children-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3201-distribute-candies-among-children-ii) |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3849-equal-sum-grid-partition-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3849-equal-sum-grid-partition-i) |
 | [4055-longest-balanced-substring-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/4055-longest-balanced-substring-i) |
 ## Number Theory
