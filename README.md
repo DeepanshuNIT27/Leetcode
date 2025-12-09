@@ -168,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3483-alternating-groups-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3483-alternating-groups-ii) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3583-count-special-triplets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3583-count-special-triplets) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3748-sort-matrix-by-diagonals](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3748-sort-matrix-by-diagonals) |
 | [3752-lexicographically-smallest-negated-permutation-that-sums-to-target](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3752-lexicographically-smallest-negated-permutation-that-sums-to-target) |
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3455-minimum-length-of-string-after-operations](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3583-count-special-triplets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3583-count-special-triplets) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3815-sum-of-largest-prime-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3815-sum-of-largest-prime-substrings) |
 | [3857-find-maximum-number-of-non-intersecting-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3857-find-maximum-number-of-non-intersecting-substrings) |
@@ -705,6 +707,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3583-count-special-triplets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3583-count-special-triplets) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 | [3953-minimum-discards-to-balance-inventory](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3953-minimum-discards-to-balance-inventory) |
 | [4055-longest-balanced-substring-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/4055-longest-balanced-substring-i) |
