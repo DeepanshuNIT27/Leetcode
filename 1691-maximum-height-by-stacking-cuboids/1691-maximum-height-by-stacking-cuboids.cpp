@@ -1,6 +1,17 @@
 class Solution {
 public:
-//yha internal sorting ke bad 0 index based sorting hui hai 
+//yha internal sortig ke bad 1 based sorting krenge focus on how my comprator is written
+static bool mycomp(vector<int>&a , vector<int>&b){
+    if(a[1] == b[1]){
+        if(a[0]==b[0]){
+            return a[2]<b[2];
+        }
+        else return a[0]<b[0];
+    }
+    return a[1]<b[1];
+
+    
+}
   bool isSafe(vector<int>prev ,vector<int>curr){
   if(prev[0]<=curr[0] && prev[1]<=curr[1] && prev[2]<=curr[2]){
     return true;
@@ -100,7 +111,7 @@ public:
         for(auto & cuboid:cuboids){
             sort(cuboid.begin(),cuboid.end());
         }
-        sort(cuboids.begin(),cuboids.end());
+        sort(cuboids.begin(),cuboids.end(),mycomp);
          int prev = -1;
         int curr = 0;
         //recursion
