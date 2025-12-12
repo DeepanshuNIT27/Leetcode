@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0948-sort-an-array) |
 | [0952-word-subsets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0952-word-subsets) |
 | [1036-rotting-oranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1036-rotting-oranges) |
+| [1046-last-stone-weight](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1046-last-stone-weight) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1228-minimum-cost-tree-from-leaf-values](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1228-minimum-cost-tree-from-leaf-values) |
 | [1364-tuple-with-same-product](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1364-tuple-with-same-product) |
@@ -623,6 +624,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0658-find-k-closest-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0948-sort-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0948-sort-an-array) |
+| [1046-last-stone-weight](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1046-last-stone-weight) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2434-design-a-number-container-system](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2434-design-a-number-container-system) |
