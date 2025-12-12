@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1510-find-lucky-integer-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1524-string-matching-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [1642-furthest-building-you-can-reach](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1642-furthest-building-you-can-reach) |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1691-maximum-height-by-stacking-cuboids) |
 | [1758-distribute-repeating-integers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1758-distribute-repeating-integers) |
 | [1813-maximum-erasure-value](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1813-maximum-erasure-value) |
@@ -536,6 +537,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1448-maximum-69-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1448-maximum-69-number) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1502-construct-k-palindrome-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
+| [1642-furthest-building-you-can-reach](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1642-furthest-building-you-can-reach) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2509-minimize-xor](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2509-minimize-xor) |
 | [2689-rearranging-fruits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2689-rearranging-fruits) |
@@ -627,6 +629,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-last-stone-weight](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1046-last-stone-weight) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1642-furthest-building-you-can-reach](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1642-furthest-building-you-can-reach) |
 | [2434-design-a-number-container-system](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
