@@ -29,7 +29,7 @@ public:
 //Tabulation
   int solveTab(vector<int>& stones){
     int totalsum = accumulate(stones.begin(),stones.end(),0);
-        vector<vector<int>>dp(stones.size()+1,vector<int>(2*totalsum+1,-1));
+        vector<vector<int>>dp(stones.size()+1,vector<int>(2*totalsum+1,0));
     for(int sum =-totalsum ; sum<=totalsum;sum++){
         dp[stones.size()][sum+totalsum] = sum<0 ? INT_MAX : sum;
     }
@@ -47,6 +47,29 @@ public:
     return dp[0][totalsum];
  }
 
+ //Space optimization
+
+ int solveSO(vector<int>& stones){
+    int totalsum = accumulate(stones.begin(),stones.end(),0);
+    vector<int>curr(2*totalsum+1,0);
+     vector<int>next(2*totalsum+1,0);
+
+    for(int sum =-totalsum ; sum<=totalsum;sum++){
+        next[sum+totalsum] = sum<0 ? INT_MAX : sum;
+    }
+    for(int i=stones.size()-1;i>=0;i--){
+        for(int j=totalsum ;j>= -totalsum ;j--){
+             int pos = INT_MAX ; int neg = INT_MAX;
+            if(j+stones[i]<=totalsum)
+              pos = next[totalsum +j+stones[i]];
+            if(j-stones[i]>=-totalsum)
+              neg =  next[totalsum +j-stones[i]];
+             curr[j+totalsum] =  min(pos,neg);
+        }
+      next = curr;
+    }
+    return curr[totalsum];
+ }
     int lastStoneWeightII(vector<int>& stones) {
         //recursion
        //  return solve(stones,0,0);
@@ -55,7 +78,8 @@ public:
     //    int totalsum = accumulate(stones.begin(),stones.end(),0);
     //     vector<vector<int>>dp(stones.size()+1,vector<int>(2*totalsum+1,-1));
         // return solveMemo(stones,0,0,totalsum,dp);
-        return solveTab(stones);
+      //  return solveTab(stones);
+      return solveSO(stones);
 
     }
 };
