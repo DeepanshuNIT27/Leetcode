@@ -10,12 +10,9 @@ public:
            
             i++;
         }
-        cout<<count<<" ";
         i++;
         int counti = 0;
         int prev = i;
-        cout<<s.size()<<" ";
-        cout<<i<<" ";
         while(i<s.size()){
             if(s[i]=='a' ||s[i]=='e' ||s[i]=='i' ||s[i]=='o' ||s[i]=='u'){
                 counti++;
