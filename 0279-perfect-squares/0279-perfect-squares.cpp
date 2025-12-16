@@ -22,8 +22,9 @@ int solveMemo(int n, vector<int>&perfect,vector<int>&dp ){
     for(int i=0;i<perfect.size();i++){
        if(perfect[i]>n) break;
       ans = min(ans , 1+ solveMemo(n-perfect[i],perfect,dp));
-      dp[n] = ans;
+     
     }
+     dp[n] = ans;
     return dp[n];
 }
 
