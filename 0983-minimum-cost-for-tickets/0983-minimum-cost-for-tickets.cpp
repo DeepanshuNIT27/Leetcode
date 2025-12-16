@@ -56,12 +56,45 @@ int solveMemo(vector<int>& days,vector<int>& costs,int i,vector<int>&dp){
   return dp[i];
     
 }
+//TABULATION
+int solveTab(vector<int>& days,vector<int>& costs){
+     vector<int>dp(days.size()+1,0);
+   dp[days.size()] = 0;
+   for(int i=days.size()-1;i>=0;i--){
+
+    int cost1 = costs[0] + dp[i+1];
+
+    //7 days ka leke dekho
+    int passday = days[i] + 7 - 1;
+    int j = i;
+    while(j<days.size()  && days[j]<=passday){
+        j++;
+    }
+    int cost7 = costs[1] + dp[j];
+
+    //30 days ka leke dekho
+    passday = days[i] + 30 - 1;
+    j = i;
+    while(j<days.size()  && days[j]<=passday){
+        j++;
+    }
+    int cost30 = costs[2] + dp[j];
+
+  dp[i] =  min(cost1 , min(cost7,cost30));   
+}
+return dp[0];
+}
+
+
 
     int mincostTickets(vector<int>& days, vector<int>& costs) {
         //RECURSIVE 
        // return solveRec(days,costs,0);
         //MEMOIZATION
         vector<int>dp(days.size(),-1);
-        return solveMemo(days,costs,0,dp);
+      //  return solveMemo(days,costs,0,dp);
+
+        //Tabulation
+        return solveTab(days,costs);
     }
 };
