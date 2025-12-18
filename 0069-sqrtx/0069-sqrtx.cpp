@@ -1,26 +1,21 @@
 class Solution {
 public:
     int mySqrt(int x) {
-        int  s =0;
-int e = x;
-int ans = -1;
-long long int  mid = s+(e-s)/2;
-while(s<=e){
-    long long int square = (long long int)mid*mid;
-    if( square ==x){
-        return mid;
-    }
-    if(square>x){
-        e = mid-1;
-    }
-    else{
-        ans=mid;
-        s= mid+1;
-    }
-    mid = s+(e-s)/2;
-}
-return ans;
-        
-
+        long long low = 0;
+        long long high = x;
+        long long mid = low + (high - low)/2;
+        long long ans = -1;
+    while(low<=high){
+      long long pow = mid*mid;
+      if(pow<=x){
+        ans = max(ans,mid);
+        low = mid + 1;
+      }
+      else {
+        high = mid -1;
+      }
+      mid = low + (high - low)/2;
+        }
+        return ans;
     }
 };
