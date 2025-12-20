@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
+| [1929-concatenation-of-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1929-concatenation-of-array) |
 | [1983-maximum-population-year](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1983-maximum-population-year) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2145-grid-game](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2145-grid-game) |
@@ -519,6 +520,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0415-add-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0415-add-strings) |
 | [0498-diagonal-traverse](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0498-diagonal-traverse) |
 | [1642-water-bottles](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1642-water-bottles) |
+| [1929-concatenation-of-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1929-concatenation-of-array) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2211-count-collisions-on-a-road](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2211-count-collisions-on-a-road) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
