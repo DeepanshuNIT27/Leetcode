@@ -76,6 +76,35 @@ public:
         }
 return dp[0][0];
     }
+    //Space optimization
+    int solveSO(string &word1 , string &word2){
+      int n = word1.size();
+      int m = word2.size();
+      vector<int>next(m+1,0), curr(m+1,0);
+      //1 base case yha hai 
+      for(int i=0;i<m;i++) next[i] = m-i;
+        for(int i=n-1;i>=0;i--){
+            //1 base case yha
+            curr[m] = n-i;
+            for(int j=m-1;j>=0;j--){
+                 int cost = 0;
+         if(word1[i]==word2[j])  cost = next[j+1];
+        else{
+        //insert
+        int  cost1 = 1 + curr[j+1];
+        //delete
+        int   cost2 = 1 + next[j];
+
+        //replace 
+        int  cost3 = 1 + next[j+1];
+        cost = min(min(cost1,cost2),cost3);
+       }
+       curr[j] = cost;
+            }
+            next = curr;
+        }
+return next[0];
+    }
 
     int minDistance(string word1, string word2) {
         //Recursion
@@ -86,6 +115,9 @@ return dp[0][0];
        // return solveMemo(word1,word2,0,0,dp);
 
        //Tabulation
-        return solveTab(word1,word2);
+       // return solveTab(word1,word2);
+
+       //space optimization
+       return solveSO(word1,word2);
     }
 };
