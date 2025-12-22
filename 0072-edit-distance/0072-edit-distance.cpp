@@ -52,13 +52,40 @@ public:
         dp[i][j] = cost;
         return dp[i][j];
     }
+    //Tabulation
+    int solveTab(string &word1 , string &word2){
+        vector<vector<int>>dp(word1.size()+1,vector<int>(word2.size()+1,0));
+       for(int j=word2.size()-1;j>=0;j--) dp[word1.size()][j] = dp[word1.size()][j+1] +1 ;
+        for(int i=word1.size()-1;i>=0;i--) dp[i][word2.size()] = dp[i+1][word2.size()] +1 ;
+        for(int i=word1.size()-1;i>=0;i--){
+            for(int j=word2.size()-1;j>=0;j--){
+                 int cost = 0;
+         if(word1[i]==word2[j])  cost = dp[i+1][j+1];
+        else{
+        //insert
+        int  cost1 = 1 + dp[i][j+1];
+        //delete
+        int   cost2 = 1 + dp[i+1][j];
+
+        //replace 
+        int  cost3 = 1 + dp[i+1][j+1];
+        cost = min(min(cost1,cost2),cost3);
+       }
+       dp[i][j] = cost;
+            }
+        }
+return dp[0][0];
+    }
 
     int minDistance(string word1, string word2) {
         //Recursion
         //return solveRec(word1,word2,0,0);
 
         //Memoization
-        vector<vector<int>>dp(word1.size()+1,vector<int>(word2.size(),-1));
-        return solveMemo(word1,word2,0,0,dp);
+        vector<vector<int>>dp(word1.size()+1,vector<int>(word2.size()+1,-1));
+       // return solveMemo(word1,word2,0,0,dp);
+
+       //Tabulation
+        return solveTab(word1,word2);
     }
 };
