@@ -444,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0072-edit-distance) |
 | [0079-word-search](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0079-word-search) |
+| [0115-distinct-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0127-word-ladder) |
 | [0208-implement-trie-prefix-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0242-valid-anagram) |
@@ -569,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0053-maximum-subarray) |
 | [0072-edit-distance](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0072-edit-distance) |
+| [0115-distinct-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
