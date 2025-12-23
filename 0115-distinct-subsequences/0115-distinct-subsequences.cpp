@@ -49,6 +49,27 @@ int solveTab(string&s , string&t){
     }
  return dp[0][0];
 }
+// Space optimization
+int solveSO(string&s , string&t){
+    vector<int>next(t.size()+1,0),curr(t.size()+1,0);
+    next[t.size()] = 1; 
+    for(int i=s.size()-1;i>=0;i--){
+        curr[t.size()] = 1;
+        for(int j=t.size()-1;j>=0;j--){
+            long long ans = 0LL;
+           if(s[i]==t[j]){
+            //dono bdhao
+          ans += next[j+1];
+    }
+           //i ko bs bdao
+         ans += next[j];
+         curr[j] = ans;
+        }
+         next = curr;
+    }
+ return next[0];
+}
+
 
     int numDistinct(string s, string t) {
         //recursion
@@ -59,7 +80,10 @@ int solveTab(string&s , string&t){
       //  return solveMemo(s,t,0,0,dp);
 
         //Tabulation
-        return solveTab(s,t);
+        //return solveTab(s,t);
+
+        //space optimization 
+        return solveSO(s,t);
 
     }
 };
