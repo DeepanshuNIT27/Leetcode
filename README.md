@@ -138,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1929-concatenation-of-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1929-concatenation-of-array) |
+| [1975-maximum-matrix-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [1983-maximum-population-year](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1983-maximum-population-year) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2145-grid-game](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2145-grid-game) |
@@ -400,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1396-count-servers-that-communicate](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1876-map-of-highest-peak](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1876-map-of-highest-peak) |
+| [1975-maximum-matrix-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2145-grid-game](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2145-grid-game) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2685-first-completely-painted-row-or-column](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2685-first-completely-painted-row-or-column) |
@@ -563,6 +565,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1502-construct-k-palindrome-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1642-furthest-building-you-can-reach](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1642-furthest-building-you-can-reach) |
+| [1975-maximum-matrix-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2509-minimize-xor](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2509-minimize-xor) |
 | [2689-rearranging-fruits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2689-rearranging-fruits) |
