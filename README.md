@@ -270,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0926-find-and-replace-pattern](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0926-find-and-replace-pattern) |
 | [0940-fruit-into-baskets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0952-word-subsets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0952-word-subsets) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1364-tuple-with-same-product](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1502-construct-k-palindrome-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
@@ -804,6 +805,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
@@ -834,6 +836,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0854-making-a-large-island](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0854-making-a-large-island) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1300-critical-connections-in-a-network](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
@@ -863,6 +866,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1036-rotting-oranges) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -899,6 +903,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
