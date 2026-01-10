@@ -67,6 +67,29 @@ int solveTab(string &s1 , string &s2){
      }
      return dp[0][0];
 }
+// space optimization 
+int solveSO(string&s1, string&s2){
+    int ans = 0;
+     int n = s1.size();
+     int m = s2.size();
+    vector<int>next(m+1,0) , curr(m+1,0);
+    for(int i=m-1;i>=0;i--) next[i] = s2[i]+ next[i+1];
+    for(int i=n-1;i>=0;i--){
+        curr[m] = s1[i] + next[m];
+        for(int j=m-1;j>=0;j--){
+     if(s1[i]==s2[j])  ans = next[j+1];
+    else {
+        int ans1 = s1[i] + next[j];
+        int ans2=  s2[j] + curr[j+1];
+        ans = min(ans1,ans2);
+    }
+    curr[j] =  ans;
+        }
+        next = curr;
+    }
+return  next[0];
+ }
+
 
     int minimumDeleteSum(string s1, string s2) {
         int n = s1.size();
@@ -79,7 +102,10 @@ int solveTab(string &s1 , string &s2){
     // return solveMemo(s1,s2,0,0,dp);
 
     //Tabulation
-    return solveTab(s1,s2);
+  //  return solveTab(s1,s2);
+
+  // space optimization
+   return solveSO(s1,s2);
 
 
     }
