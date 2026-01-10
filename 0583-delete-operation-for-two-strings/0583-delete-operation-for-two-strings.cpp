@@ -56,6 +56,29 @@ public:
     }
 return  dp[0][0];
  }
+ // Space optimization
+ int solveSO(string&word1, string&word2){
+    int ans = 0;
+     int n = word1.size();
+     int m = word2.size();
+    vector<int>next(m+1,0) , curr(m+1,0);
+    for(int i=m-1;i>=0;i--) next[i] = 1 + next[i+1];
+    for(int i=n-1;i>=0;i--){
+        curr[m] = 1 + next[m];
+        for(int j=m-1;j>=0;j--){
+     if(word1[i]==word2[j])  ans = next[j+1];
+    else {
+        int ans1 = 1 + next[j];
+        int ans2=  1 + curr[j+1];
+        ans = min(ans1,ans2);
+    }
+    curr[j] =  ans;
+        }
+        next = curr;
+    }
+return  next[0];
+ }
+
 
     int minDistance(string word1, string word2) {
         int n = word1.size();
@@ -69,6 +92,9 @@ return  dp[0][0];
       //return solveMemo(word1,word2,0,0,dp);
 
       //Tabulation
-      return solveTab(word1,word2);
+     // return solveTab(word1,word2);
+
+     //Space optimization
+     return solveSO(word1,word2);
     }
 };
