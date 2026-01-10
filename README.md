@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0137-single-number-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0137-single-number-ii) |
 | [0169-majority-element](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0216-combination-sum-iii) |
@@ -394,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0037-sudoku-solver) |
 | [0074-search-a-2d-matrix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0498-diagonal-traverse](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0498-diagonal-traverse) |
@@ -823,6 +825,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0113-path-sum-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0113-path-sum-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0200-number-of-islands](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -854,6 +857,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0112-path-sum) |
 | [0127-word-ladder](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0127-word-ladder) |
+| [0200-number-of-islands](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0279-perfect-squares](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0279-perfect-squares) |
@@ -948,6 +952,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0684-redundant-connection) |
 | [0854-making-a-large-island](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0854-making-a-large-island) |
