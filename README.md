@@ -467,6 +467,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0345-reverse-vowels-of-a-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0415-add-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0415-add-strings) |
 | [0451-sort-characters-by-frequency](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0583-delete-operation-for-two-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
@@ -601,6 +602,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0473-matchsticks-to-square](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0473-matchsticks-to-square) |
 | [0526-beautiful-arrangement](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0526-beautiful-arrangement) |
+| [0583-delete-operation-for-two-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0646-maximum-length-of-pair-chain](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0647-palindromic-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
