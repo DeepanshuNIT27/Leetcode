@@ -53,12 +53,12 @@ int solveTab(string &s1 , string &s2){
 
      for(int i=n-1;i>=0;i--){
         for(int j=m-1;j>=0;j--){
-            if(s1[i]==s2[j])  ans  =solveMemo(s1,s2,i+1,j+1,dp);
+            if(s1[i]==s2[j])  ans  = dp[i+1][j+1];
             else {
               //  s1 delte hoga 
-              int  ans1 = s1[i] + solveMemo(s1,s2,i+1,j,dp);
+              int  ans1 = s1[i] + dp[i+1][j];
                  //s2 delete hoga
-              int  ans2 = s2[j] + solveMemo(s1,s2,i,j+1,dp);
+              int  ans2 = s2[j] + dp[i][j+1];
 
       ans = min(ans1,ans2);
     }
