@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0948-sort-an-array) |
 | [0952-word-subsets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0952-word-subsets) |
 | [0983-minimum-cost-for-tickets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0983-minimum-cost-for-tickets) |
+| [0994-rotting-oranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1036-rotting-oranges) |
 | [1046-last-stone-weight](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1046-last-stone-weight) |
 | [1049-last-stone-weight-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1049-last-stone-weight-ii) |
@@ -407,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0733-flood-fill](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0854-making-a-large-island) |
+| [0994-rotting-oranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1036-rotting-oranges) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1396-count-servers-that-communicate](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1396-count-servers-that-communicate) |
@@ -882,6 +884,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0799-minimum-distance-between-bst-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0854-making-a-large-island](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0854-making-a-large-island) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [0994-rotting-oranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0994-rotting-oranges) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1036-rotting-oranges) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
