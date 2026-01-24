@@ -1,28 +1,37 @@
 class Solution {
 public:
-//DFS
-void dfs(vector<vector<char>>& grid, vector<vector<bool>>&visited, int i , int j){
-    if(i<0 || i>=grid.size() || j<0 || j>=grid[0].size()) return ;
-    if(visited[i][j]==true ||  grid[i][j]=='0') return ;
-
-    visited[i][j] = true;
-    dfs(grid,visited,i+1,j);
-    dfs(grid,visited,i-1,j);
-    dfs(grid,visited,i,j+1);
-    dfs(grid,visited,i,j-1);
-
-}
+ //BFS
+ void BFS(int y , int z ,vector<vector<char>>& grid, vector<vector<bool>>&visited ){
+    int n = grid.size();
+    int m = grid[0].size();
+    queue<pair<int,int>>q;
+    q.push({y,z});
+    visited[y][z] = true;
+    int dx[] = {1,-1,0,0};
+    int dy[] = {0,0,1,-1};
+     while(!q.empty()){
+     auto front = q.front();
+     int i = front.first;
+     int j = front.second;
+     q.pop();
+     for(int k=0;k<4;k++){
+        if(i+dx[k]>=0 && i+dx[k]<n && j+dy[k]>=0 && j+dy[k] < m &&  grid[i+dx[k]][j+dy[k]]=='1' && visited[i+dx[k]][j+dy[k]]==false )  {
+            q.push({i+dx[k] , j+dy[k]});
+            visited[i+dx[k]][j+dy[k]] = true;
+        }
+     }
+    }
+ }
     int numIslands(vector<vector<char>>& grid) {
-        int count = 0;
         int n = grid.size();
         int m = grid[0].size();
         vector<vector<bool>>visited(n,vector<bool>(m,false));
+        int count = 0;
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                if(grid[i][j]=='1'  && visited[i][j]==false){
-                    dfs(grid,visited,i,j);
-                    count++;
-                }
+                if(grid[i][j]=='0' || visited[i][j]==true) continue;
+                BFS(i,j,grid,visited);
+                count++;
             }
         }
         return count;
