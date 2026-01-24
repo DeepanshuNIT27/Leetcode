@@ -1072,4 +1072,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
