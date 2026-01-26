@@ -1,5 +1,6 @@
 class Solution {
 public:
+//DFS
 bool dfs(int i , int j ,vector<vector<bool>>&visited,vector<vector<int>>& grid, int &count ,int n , int m ){
      bool ans = true;
     visited[i][j] = true;
