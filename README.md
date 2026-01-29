@@ -868,6 +868,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0684-redundant-connection](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0733-flood-fill) |
+| [0785-is-graph-bipartite](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0854-making-a-large-island](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0854-making-a-large-island) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
@@ -901,6 +902,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0684-redundant-connection](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0733-flood-fill) |
+| [0785-is-graph-bipartite](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0854-making-a-large-island](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0854-making-a-large-island) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
@@ -1101,5 +1103,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0130-surrounded-regions](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0200-number-of-islands) |
+| [0785-is-graph-bipartite](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1020-number-of-enclaves) |
+## Graph Theory
+|  |
+| ------- |
+| [0785-is-graph-bipartite](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0785-is-graph-bipartite) |
 <!---LeetCode Topics End-->
