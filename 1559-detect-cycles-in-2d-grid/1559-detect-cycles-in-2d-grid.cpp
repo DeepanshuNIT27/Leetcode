@@ -10,7 +10,8 @@ public:
     if(newx>=0 && newx<n && newy>=0 && newy<m && grid[newx][newy]==grid[i][j] && !visited[newx][newy]){
        if(dfs(newx,newy,visited,grid,dx,dy,{i,j},n,m)) return true;
     }
-    else if(newx>=0 && newx<n && newy>=0 && newy<m && grid[newx][newy]==grid[i][j] && visited[newx][newy]==true && newx!=p.first && newy!=p.second) {return true;}
+    else if(newx>=0 && newx<n && newy>=0 && newy<m && grid[newx][newy]==grid[i][j] && visited[newx][newy]==true && !(newx == p.first && newy == p.second)
+) {return true;}
  }
  return false; 
   }
