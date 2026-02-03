@@ -872,6 +872,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [0802-find-eventual-safe-states](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0854-making-a-large-island) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1020-number-of-enclaves](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1020-number-of-enclaves) |
@@ -907,6 +908,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [0802-find-eventual-safe-states](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0854-making-a-large-island) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0994-rotting-oranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0994-rotting-oranges) |
@@ -1007,6 +1009,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0210-course-schedule-ii) |
+| [0802-find-eventual-safe-states](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [1558-course-schedule-iv](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1558-course-schedule-iv) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 ## Binary Search Tree
@@ -1114,4 +1117,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0785-is-graph-bipartite](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0785-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0802-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
