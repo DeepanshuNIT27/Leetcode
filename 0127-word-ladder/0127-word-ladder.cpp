@@ -1,38 +1,28 @@
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
-        // create queue
         queue<pair<string,int>>q;
-        q.push({beginWord,1});
-        // set bnao
         unordered_set<string>st(wordList.begin(),wordList.end());
+        q.push({beginWord,1});
         st.erase(beginWord);
         while(!q.empty()){
-            auto front = q.front();
+            string  word = q.front().first;
+            int steps = q.front().second;
             q.pop();
-            string frontstring = front.first;
-            int frontDistance  = front.second;
-
-            if(frontstring == endWord){
-                return frontDistance;
-            }
-            else{
-            for(int index=0; index<frontstring.size();index++){
-             char originalchar = frontstring[index];
-             for(char ch='a' ;ch<='z';ch++){
-                frontstring[index] = ch;
-                //checking newstring is in dixtionary or not
-            if(st.find(frontstring)!=st.end()){
-                q.push({frontstring,frontDistance+1});
-                st.erase(frontstring);
-            }
-             }
-             //backtracking
-            frontstring[index] = originalchar;
-             }
+            // N* word length *26 * log n  ...-> complexity
+            if(word == endWord) return steps;
+            for(int i=0;i<word.size();i++){
+              char original = word[i];
+              for(char ch ='a' ; ch<='z';ch++){
+                word[i] = ch;
+                if(st.find(word)!=st.end()){
+                    st.erase(word);
+                    q.push({word,steps+1});
+                }
+              }
+              word[i] = original;
             }
         }
-return 0;
-        
+        return 0;
     }
 };
