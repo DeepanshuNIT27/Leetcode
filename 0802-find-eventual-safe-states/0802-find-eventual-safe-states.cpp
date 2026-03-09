@@ -1,39 +1,31 @@
 class Solution {
 public:
-bool dfs(int i ,vector<int>&visited ,  vector<int>&pathvisited , vector<int>&cycle , vector<vector<int>>& graph ){
-
-    visited[i] = 1;
-    pathvisited[i] = 1;
-    cycle[i] = 0;
-    
-    for(auto nbr :graph[i] ){
-        if(!visited[nbr]){
-
-            if(dfs(nbr,visited,pathvisited,cycle,graph)) return true;
-        }
-
-        else if(pathvisited[nbr]) return true;
-    }
-
-    cycle[i] = 1;
-    pathvisited[i] = 0;
-    return false;
-}
+//Using the Topo sort
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
         int V = graph.size();
-        vector<int>ans;
-        vector<int>visited(V,0);
-        vector<int>pathvisited(V,0);
-        vector<int>cycle(V,0);
-
-        for(int i=0;i<V;i++){
-            if(!visited[i]){
-                dfs(i,visited,pathvisited,cycle,graph);
-            }
+        unordered_map<int,list<int>>ReAdj;
+        queue<int>q;
+       vector<int>indegree(V,0);
+       vector<int>ans;
+       for(int i=0;i<V;i++){
+        auto temp = graph[i];
+        for(int j=0;j<temp.size();j++){
+            ReAdj[temp[j]].push_back(i);
+            indegree[i]++;
         }
-        for(int i=0;i<V;i++){
-            if(cycle[i]==1) ans.push_back(i);
+       }
+       for(int i=0;i<V;i++) if(indegree[i]==0) q.push(i);
+       while(!q.empty()){
+        int front = q.front();
+        q.pop();
+        ans.push_back(front);
+        for(auto nbr:ReAdj[front]){
+            indegree[nbr]--;
+            if(indegree[nbr]==0) q.push(nbr);
         }
-        return ans;
+      
+       }
+       sort(ans.begin(),ans.end());
+       return ans;
     }
 };
