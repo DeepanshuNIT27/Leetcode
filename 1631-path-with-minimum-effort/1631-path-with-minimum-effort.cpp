@@ -11,6 +11,7 @@ public:
         vector<vector<int>>distance(n,vector<int>(m,INT_MAX));
        distance[0][0] = 0;
       
+     // n*m*4 * log(n*m)
         while(!pq.empty()){
             auto front = pq.top();
              int cost = front.first;
