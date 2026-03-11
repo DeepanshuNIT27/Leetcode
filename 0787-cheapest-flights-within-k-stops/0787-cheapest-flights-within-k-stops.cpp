@@ -16,11 +16,13 @@ public:
             int limit =  front.first;
             int node =  front.second.first;
             int cost = front.second.second;
+             pq.pop();
 
-            pq.pop();
+            if(limit>k) continue;
 
+           
             for(auto nbr : Adj[node]){
-                if(cost + nbr.second < distance[nbr.first] && limit-1<k){
+                if(cost + nbr.second < distance[nbr.first] && limit<=k){
                     distance[nbr.first] = cost + nbr.second;
                     pq.push({limit+1,{nbr.first, distance[nbr.first]}});
                 }
