@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0948-sort-an-array) |
+| [3864-minimum-cost-to-partition-a-binary-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3864-minimum-cost-to-partition-a-binary-string) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -256,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3432-count-partitions-with-even-sum-difference](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3618-find-the-original-typed-string-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3849-equal-sum-grid-partition-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3849-equal-sum-grid-partition-i) |
+| [3864-minimum-cost-to-partition-a-binary-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3864-minimum-cost-to-partition-a-binary-string) |
 ## Hash Table
 |  |
 | ------- |
@@ -544,6 +546,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3798-largest-even-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3798-largest-even-number) |
 | [3815-sum-of-largest-prime-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3815-sum-of-largest-prime-substrings) |
 | [3857-find-maximum-number-of-non-intersecting-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3857-find-maximum-number-of-non-intersecting-substrings) |
+| [3864-minimum-cost-to-partition-a-binary-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3864-minimum-cost-to-partition-a-binary-string) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 | [4055-longest-balanced-substring-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/4055-longest-balanced-substring-i) |
 ## String Matching
