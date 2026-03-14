@@ -906,6 +906,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1192-critical-connections-in-a-network](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1192-critical-connections-in-a-network) |
 | [1300-critical-connections-in-a-network](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
@@ -1117,6 +1118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Biconnected Component
 |  |
 | ------- |
+| [1192-critical-connections-in-a-network](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1192-critical-connections-in-a-network) |
 | [1300-critical-connections-in-a-network](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1300-critical-connections-in-a-network) |
 ## Segment Tree
 |  |
@@ -1165,6 +1167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0785-is-graph-bipartite](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0802-find-eventual-safe-states) |
+| [1192-critical-connections-in-a-network](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1192-critical-connections-in-a-network) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
