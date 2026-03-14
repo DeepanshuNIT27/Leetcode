@@ -902,6 +902,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1300-critical-connections-in-a-network](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1300-critical-connections-in-a-network) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
@@ -942,6 +943,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1036-rotting-oranges) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1396-count-servers-that-communicate](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1558-course-schedule-iv](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1558-course-schedule-iv) |
@@ -1144,6 +1146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1020-number-of-enclaves) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
@@ -1155,6 +1158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0785-is-graph-bipartite](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0802-find-eventual-safe-states) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 <!---LeetCode Topics End-->
