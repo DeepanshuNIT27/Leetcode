@@ -67,6 +67,32 @@ int solveTab(vector<int>& prices ,int i , int buy , int limit, vector<vector<vec
     return dp[0][1][2];
 
 }
+// spaceoptimization 
+int solveSO(vector<int>& prices ,int i , int buy , int limit, vector<vector<vector<int>>>&dp){
+    int n = prices.size();
+    for(int i=n-1;i>=0;i--){
+        for(int buy=0;buy<2;buy++){
+            for(int limit=1;limit<3;limit++){
+                 int profit = 0;
+                 if(buy){
+              int buyItProfit = -prices[i] + dp[1][0][limit];
+                 int skipIt  =  0 + dp[1][buy][limit];
+                  profit = max(buyItProfit,skipIt);
+                }
+
+                 else{
+          int sellItProfit =  +prices[i] + dp[1][1][limit-1];
+          int skipIt = 0 + dp[1][buy][limit];
+                  profit = max(sellItProfit,skipIt);
+    }
+            dp[0][buy][limit] = profit;
+            }
+        }
+        dp[1] = dp[0];
+    }
+    return dp[0][1][2];
+
+}
 
     int maxProfit(vector<int>& prices) {
         int n  = prices.size();
@@ -79,8 +105,13 @@ int solveTab(vector<int>& prices ,int i , int buy , int limit, vector<vector<vec
      //   return solveMemo(prices,0,1,2,dp);
 
      // tabulation 
-      vector<vector<vector<int>>>dp(n+1,vector<vector<int>>(2,vector<int>(2+1,0)));
+    //   vector<vector<vector<int>>>dp(n+1,vector<vector<int>>(2,vector<int>(2+1,0)));
 
-     return solveTab(prices,0,1,2,dp);
+    //  return solveTab(prices,0,1,2,dp);
+
+    // Spaceoptimization 
+     vector<vector<vector<int>>>dp(2,vector<vector<int>>(2,vector<int>(2+1,0)));
+
+     return solveSO(prices,0,1,2,dp);
     }
 };
