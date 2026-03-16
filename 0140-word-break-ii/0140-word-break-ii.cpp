@@ -34,7 +34,7 @@ vector<string>solveRec(string&s,  unordered_map<string,bool>&dict ,int i){
         if(dict.find(word)==dict.end()) continue;
 
         //found a valid word;
-      auto right = solveRec(s,dict,j+1);
+      auto right = solveMemo(s,dict,j+1);
         for(auto eachRightPart : right){
             string endPart;
             if(eachRightPart.size()>0) endPart = " " + eachRightPart;
