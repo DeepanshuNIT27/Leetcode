@@ -1,33 +1,31 @@
 class Solution {
 public:
- void solveRec(string&s, unordered_set<string>&dict,int start ,string temp ,vector<string>&ans ){
 
-    //Base case
-     
-    if(start == s.size()){
-        temp.pop_back();
-        ans.push_back(temp);
-        return ;
-    }
+// Recursion 
+vector<string>solveRec(string&s,  unordered_map<string,bool>&dict ,int i){
+ if(i== s.size()) return {""};
 
-    string word = "";
+    vector<string>ans;
+    string word ;
+    for(int j =i;j<s.size();j++){
+        word.push_back(s[j]);
+        if(dict.find(word)==dict.end()) continue;
 
-    for(int i = start;i<s.size();i++){
-        word += s[i];
-
-        if(dict.find(word)!=dict.end()){
-         
-          solveRec(s,dict,i+1,temp+word+' ',ans);
+        //found a valid word;
+      auto right = solveRec(s,dict,j+1);
+        for(auto eachRightPart : right){
+            string endPart;
+            if(eachRightPart.size()>0) endPart = " " + eachRightPart;
+            ans.push_back(word + endPart);
         }
     }
+    return ans;
+}
 
- }
     vector<string> wordBreak(string s, vector<string>& wordDict) {
-        unordered_set<string>dict(wordDict.begin(),wordDict.end());
-        vector<string>ans;
-        string temp = "";
-        //Recursion
-       solveRec(s,dict,0,temp,ans);
-       return ans;
+        unordered_map<string,bool>dict;
+        for(auto word : wordDict) dict[word] = 1;
+
+        return solveRec(s,dict,0);
     }
 };
