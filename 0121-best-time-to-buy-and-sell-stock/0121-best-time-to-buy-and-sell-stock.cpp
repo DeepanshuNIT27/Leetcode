@@ -1,22 +1,16 @@
 class Solution {
 public:
-void solve(vector<int>& prices,int index , int &mini , int &maxi){
-    //base case
-    if(index>=prices.size()){
-        return ;
-    }
-    if(prices[index]<mini){
-        mini = prices[index];
-    }
-    if((prices[index]-mini)>maxi){
-        maxi = (prices[index]-mini);
-    }
-    solve(prices,index+1,mini,maxi);
-}
     int maxProfit(vector<int>& prices) {
-        int mini = INT_MAX;
-        int maxi = INT_MIN;
-        solve(prices,0,mini,maxi);
-        return maxi;
+        int n = prices.size();
+        vector<int>suff(n);
+        suff[n-1] = prices[n-1];
+        for(int i=n-2;i>=0;i--){
+            suff[i] = max(suff[i+1],prices[i]);
+        }
+        int ans = 0;
+        for(int i=0;i<n;i++){
+           ans = max(ans,suff[i]- prices[i]);
+        }
+        return ans;
     }
 };
