@@ -42,6 +42,31 @@ int solveMemo(vector<int>& prices ,int i , int buy , int limit, vector<vector<ve
     return dp[i][buy][limit];
 }
 
+// tabulation 
+int solveTab(vector<int>& prices ,int i , int buy , int limit, vector<vector<vector<int>>>&dp){
+    int n = prices.size();
+    for(int i=n-1;i>=0;i--){
+        for(int buy=0;buy<2;buy++){
+            for(int limit=1;limit<3;limit++){
+                 int profit = 0;
+                 if(buy){
+              int buyItProfit = -prices[i] + dp[i+1][0][limit];
+                 int skipIt  =  0 + dp[i+1][buy][limit];
+                  profit = max(buyItProfit,skipIt);
+                }
+
+                 else{
+          int sellItProfit =  +prices[i] + dp[i+1][1][limit-1];
+          int skipIt = 0 + dp[i+1][buy][limit];
+                  profit = max(sellItProfit,skipIt);
+    }
+            dp[i][buy][limit] = profit;
+            }
+        }
+    }
+    return dp[0][1][2];
+
+}
 
     int maxProfit(vector<int>& prices) {
         int n  = prices.size();
@@ -49,8 +74,13 @@ int solveMemo(vector<int>& prices ,int i , int buy , int limit, vector<vector<ve
         //return solveRec(prices,0,1,2);
 
         //Memoization
-        vector<vector<vector<int>>>dp(n,vector<vector<int>>(2,vector<int>(2+1,-1)));
+        // vector<vector<vector<int>>>dp(n+1,vector<vector<int>>(2,vector<int>(2+1,-1)));
 
-        return solveMemo(prices,0,1,2,dp);
+     //   return solveMemo(prices,0,1,2,dp);
+
+     // tabulation 
+      vector<vector<vector<int>>>dp(n+1,vector<vector<int>>(2,vector<int>(2+1,0)));
+
+     return solveTab(prices,0,1,2,dp);
     }
 };
