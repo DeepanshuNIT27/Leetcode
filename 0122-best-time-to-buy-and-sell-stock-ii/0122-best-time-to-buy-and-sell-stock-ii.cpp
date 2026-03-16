@@ -37,10 +37,11 @@ int  solveMemo(vector<int>& prices, int i ,int flag , vector<vector<int>>&dp){
     dp[i][flag] = max(max(ans1,ans2),ans3);
     return dp[i][flag];
 }
+// Tabulation 
 int solveTab(vector<int>& prices){
     int n = prices.size();
     vector<vector<int>>dp(n+1,vector<int>(2,0));
-    
+
     for(int i=n-1;i>=0;i--){
         for(int flag = 0;flag<=1;flag++){
      int   ans1 = 0;
@@ -59,6 +60,32 @@ int solveTab(vector<int>& prices){
 
 }
 
+// space optimization
+int solveSO(vector<int>& prices){
+    int n = prices.size();
+    vector<int>curr(2,0);
+    vector<int>next(2,0);
+
+    for(int i=n-1;i>=0;i--){
+        for(int flag = 0;flag<=1;flag++){
+     int   ans1 = 0;
+     int  ans2 = 0;
+     int ans3 = 0;
+   if(flag)  ans1 =  prices[i] + next[0];
+    // buy 
+   if(flag == false) ans2 = - prices[i] + next[1];
+    // nothing to do 
+     ans3 =  0 + next[flag];
+
+    curr[flag] = max(max(ans1,ans2),ans3);
+    }
+    next = curr;
+    }
+    return curr[0];
+
+} 
+
+
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
         //recursion
@@ -69,7 +96,10 @@ int solveTab(vector<int>& prices){
      //return solveMemo(prices,0,false,dp);
 
      //tabulation
-     return solveTab(prices);
+     //return solveTab(prices);
+
+     //space optimization
+     return solveSO(prices);
 
 
     }
