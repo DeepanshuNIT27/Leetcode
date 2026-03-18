@@ -22,11 +22,27 @@ int solveMemo(int n , vector<int>&dp ){
    dp[n] = ans1 + ans2 ;
    return dp[n];
 }
+
+// tabulation 
+int solveTab(int n ){
+    vector<int>dp(n+1,0);
+    dp[0] = 1;
+    dp[1] = 1;
+    
+    for(int i=2;i<=n;i++){
+       int ans1 = dp[i-1];
+       int ans2 = dp[i-2] ;
+       dp[i] = ans1 + ans2;
+    }
+    return dp[n];
+
+}
     int climbStairs(int n) {
       
        // return solveRec(n);
 
-       vector<int>dp(n+1,-1);
-       return solveMemo(n,dp);
+      // vector<int>dp(n+1,-1);
+      // return solveMemo(n,dp);
+      return solveTab(n);
     }
 };
