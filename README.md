@@ -337,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0002-add-two-numbers) |
 | [0069-sqrtx](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0069-sqrtx) |
+| [0070-climbing-stairs](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0070-climbing-stairs) |
 | [0204-count-primes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0268-missing-number) |
@@ -643,6 +644,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0115-distinct-subsequences) |
@@ -1122,6 +1124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0070-climbing-stairs) |
 | [0140-word-break-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0140-word-break-ii) |
 | [1013-fibonacci-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1013-fibonacci-number) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
