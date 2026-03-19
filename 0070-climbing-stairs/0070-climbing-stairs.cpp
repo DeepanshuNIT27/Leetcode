@@ -37,12 +37,34 @@ int solveTab(int n ){
     return dp[n];
 
 }
+
+//space optimization
+  int solveSO(int n ){
+   int prev1 = 1;
+   int prev2 = 1;
+   int curr ;
+    
+    for(int i=2;i<=n;i++){
+       int ans1 = prev2;
+       int ans2 = prev1 ;
+       curr  = ans1 + ans2;
+
+       prev1 = prev2;
+       prev2 = curr;
+    }
+ 
+return prev2;
+}
+
     int climbStairs(int n) {
       
        // return solveRec(n);
 
       // vector<int>dp(n+1,-1);
       // return solveMemo(n,dp);
-      return solveTab(n);
+     // return solveTab(n);
+  
+  return solveSO(n);
+
     }
 };
