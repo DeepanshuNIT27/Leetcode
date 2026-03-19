@@ -41,18 +41,62 @@ public:
     return dp[mp[sum]][jump];
  }
 
+ //Tabulation
+ bool solveTab( unordered_map<int,int>&mp,vector<int>& stones){
+     int n = stones.size();
+      vector<vector<int>>dp(n+1 , vector<int>(n+1,0)) ;
+      dp[0][0] = 1;
+     
+      for(int i=0;i<n;i++){
+        for(int jump=0;jump<=n;jump++){
+            if(dp[i][jump]==0) continue;
+
+            //try jump -1 
+            if(jump-1>0){
+                int next = stones[i] + jump - 1;
+                if(mp.find(next)!=mp.end()){
+                    dp[mp[next]][jump-1] = 1;
+                }
+            }
+
+            // try jump
+            if(jump>0){
+               int next = stones[i] + jump;
+                if(mp.find(next)!=mp.end()){
+                    dp[mp[next]][jump] = 1;
+                }
+            }
+            if(jump+1<=n){
+             int next = stones[i] + (jump+1);
+                if(mp.find(next) != mp.end()){
+                    dp[mp[next]][jump+1] = 1;
+                }
+            }
+        }
+      }
+
+      for(int j = 0; j <= n; j++){
+        if(dp[n-1][j]) return true;
+    }
+    return false;
+ }
+
     bool canCross(vector<int>& stones) {
         int n = stones.size();
         if(stones[0]+1 != stones[1]) return false;
-      //  unordered_set<int>st(stones.begin(),stones.end());
+      // unordered_set<int>st(stones.begin(),stones.end()); --Rec soln
         unordered_map<int,int>mp;
         for(int i=0;i<n;i++) mp[stones[i]] = i;
         int target = stones[n-1];
-        //Recursion 
+      //Recursion 
      // return   solveRec(st,1,stones[1],target);
 
       // Memoization
-      vector<vector<int>>dp(n+1 , vector<int>(n+1,-1)) ;
-     return solveMemo(mp,stones[1],1,target,dp);
+    //   vector<vector<int>>dp(n+1 , vector<int>(n+1,-1)) ;
+    //  return solveMemo(mp,stones[1],1,target,dp);
+
+      // Tabulation 
+
+return solveTab(mp,stones);
     }
 };
