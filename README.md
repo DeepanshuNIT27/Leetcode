@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0403-frog-jump](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0403-frog-jump) |
 | [0407-trapping-rain-water-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0473-matchsticks-to-square](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0473-matchsticks-to-square) |
@@ -660,6 +661,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0322-coin-change) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0375-guess-number-higher-or-lower-ii) |
+| [0403-frog-jump](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0403-frog-jump) |
 | [0416-partition-equal-subset-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0473-matchsticks-to-square](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0473-matchsticks-to-square) |
 | [0526-beautiful-arrangement](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0526-beautiful-arrangement) |
