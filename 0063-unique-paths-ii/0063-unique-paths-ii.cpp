@@ -36,6 +36,28 @@ int solveMemo(int i, int j , int m , int n, vector<vector<int>>&dp,vector<vector
      dp[i][j] =  ans;
      return dp[i][j];
 }
+// Tabulation 
+int solveTab(int m , int n,vector<vector<int>>& obstacleGrid ){
+vector<vector<long long >>dp(m+1,vector<long long>(n+1,0));
+  dp[m-1][n-1] = 1;
+
+  for(int i=m-1;i>=0;i--){
+    for(int j=n-1;j>=0;j--){
+     if(i == m-1 && j==n-1) continue;
+     long long  ans = 0LL;
+     int dx[] = {0,1};
+     int dy[] = {1,0};
+     for(int k=0;k<2;k++){
+        if(isSafe(i+dx[k] , j+dy[k],m,n,obstacleGrid)){
+           ans += dp[i+dx[k]][j+dy[k]];
+        }
+     }
+      dp[i][j] = ans;
+    }
+   
+  }
+  return (int)dp[0][0];
+}
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
        
         int m = obstacleGrid.size();
@@ -46,7 +68,10 @@ int solveMemo(int i, int j , int m , int n, vector<vector<int>>&dp,vector<vector
        // return solveRec(0,0,m,n,obstacleGrid);
 
        // Memoization
-         vector<vector<int>>dp(m+1,vector<int>(n+1,-1));
-        return solveMemo(0,0,m,n,dp,obstacleGrid);
+        //  vector<vector<int>>dp(m+1,vector<int>(n+1,-1));
+        // return solveMemo(0,0,m,n,dp,obstacleGrid);
+
+        //  Tabulation 
+      return solveTab(m,n,obstacleGrid);
     }
 };
