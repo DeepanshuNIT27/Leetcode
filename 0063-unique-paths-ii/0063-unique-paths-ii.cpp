@@ -58,6 +58,38 @@ vector<vector<long long >>dp(m+1,vector<long long>(n+1,0));
   }
   return (int)dp[0][0];
 }
+
+// space optimizatio
+int solveSO(int m , int n,vector<vector<int>>& obstacleGrid ){
+vector<long long >next(n+1,0);
+vector<long long >curr(n+1,0);
+  next[n-1] = 1;
+
+  for(int i=m-1;i>=0;i--){
+    for(int j=n-1;j>=0;j--){
+     if(i == m-1 && j==n-1) {
+        curr[j] = 1;
+        continue;
+     }
+     long long  ans = 0;
+     int dx[] = {0,1};
+     int dy[] = {1,0};
+     for(int k=0;k<2;k++){
+        if(isSafe(i+dx[k] , j+dy[k],m,n,obstacleGrid )){
+         if(dx[k]==0)  ans += curr[j+1];
+         else ans += next[j];
+        }
+     }
+      curr[j] = ans;
+    }
+    next = curr;
+   
+  }
+  return curr[0];
+}
+
+
+
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
        
         int m = obstacleGrid.size();
@@ -72,6 +104,10 @@ vector<vector<long long >>dp(m+1,vector<long long>(n+1,0));
         // return solveMemo(0,0,m,n,dp,obstacleGrid);
 
         //  Tabulation 
-      return solveTab(m,n,obstacleGrid);
+     // return solveTab(m,n,obstacleGrid);
+
+    
+      //space optimization
+      return solveSO(m,n,obstacleGrid);
     }
 };
