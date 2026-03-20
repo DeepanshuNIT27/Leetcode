@@ -342,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0002-add-two-numbers) |
+| [0062-unique-paths](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0070-climbing-stairs) |
 | [0204-count-primes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0204-count-primes) |
@@ -650,6 +651,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0085-maximal-rectangle) |
@@ -1111,6 +1113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Combinatorics
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0062-unique-paths) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3201-distribute-candies-among-children-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3201-distribute-candies-among-children-ii) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
