@@ -177,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2432-number-of-zero-filled-subarrays](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2448-count-number-of-bad-pairs](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2452-words-within-two-edits-of-dictionary) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2465-shifting-letters-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -313,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2406-decode-the-message](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2406-decode-the-message) |
 | [2434-design-a-number-container-system](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2685-first-completely-painted-row-or-column](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2689-rearranging-fruits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2689-rearranging-fruits) |
@@ -724,6 +726,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1813-maximum-erasure-value](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3483-alternating-groups-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3483-alternating-groups-ii) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
