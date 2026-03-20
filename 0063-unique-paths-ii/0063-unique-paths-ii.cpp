@@ -1,0 +1,52 @@
+class Solution {
+public:
+bool isSafe(int i , int j , int m , int n,vector<vector<int>>& obstacleGrid){
+    if(i>=0 && i<m && j>=0 && j<n && obstacleGrid[i][j]==0) return true;
+    return false;
+}
+//Recursion
+int solveRec(int i, int j , int m , int n,vector<vector<int>>& obstacleGrid){
+     if(i==m-1 && j==n-1) return 1;
+     if(i>=m || j>=n) return 0;
+     int ans = 0;
+     int dx[] = {0,1};
+     int dy[] = {1,0};
+     for(int k=0;k<2;k++){
+        if(isSafe(i+dx[k] , j+dy[k],m,n,obstacleGrid)){
+           ans += solveRec(i+dx[k] , j+dy[k] , m , n,obstacleGrid);
+
+        }
+     }
+     return ans;
+}
+//Memoization soln 
+int solveMemo(int i, int j , int m , int n, vector<vector<int>>&dp,vector<vector<int>>& obstacleGrid){
+     if(i==m-1 && j==n-1) return 1;
+     if(i>=m || j>=n) return 0;
+     if(dp[i][j]!=-1) return dp[i][j];
+     int ans = 0;
+     int dx[] = {0,1};
+     int dy[] = {1,0};
+     for(int k=0;k<2;k++){
+        if(isSafe(i+dx[k] , j+dy[k],m,n,obstacleGrid)){
+           ans += solveMemo(i+dx[k] , j+dy[k] , m , n,dp,obstacleGrid);
+
+        }
+     }
+     dp[i][j] =  ans;
+     return dp[i][j];
+}
+    int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
+       
+        int m = obstacleGrid.size();
+        int n  = obstacleGrid[0].size();
+        if(obstacleGrid[0][0] == 1 ||obstacleGrid[m-1][n-1]==1 ) return 0;
+
+         // Recursion 
+       // return solveRec(0,0,m,n,obstacleGrid);
+
+       // Memoization
+         vector<vector<int>>dp(m+1,vector<int>(n+1,-1));
+        return solveMemo(0,0,m,n,dp,obstacleGrid);
+    }
+};
