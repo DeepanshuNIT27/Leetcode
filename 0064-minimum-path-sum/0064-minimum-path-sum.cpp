@@ -28,7 +28,26 @@ int solveMemo(int i, int j ,vector<vector<int>>& grid, int n , int m , vector<ve
     return dp[i][j] ;
 }
 
+//Tabulation 
+int solveTab(vector<vector<int>>& grid){
+     int n = grid.size();
+     int m = grid[0].size();
+     vector<vector<int>>dp(n+1,vector<int>(m+1,INT_MAX));
+     dp[n-1][m-1] = grid[n-1][m-1];
 
+     for(int i=n-1;i>=0;i--){
+        for(int j=m-1;j>=0;j--){
+            if(i==n-1 && j==m-1) continue;
+          
+             int right = dp[i][j+1];
+             int left = dp[i+1][j];
+
+             dp[i][j] =  grid[i][j] + min(right,left);
+
+        }
+     }
+     return dp[0][0];
+}
     int minPathSum(vector<vector<int>>& grid) {
         int n = grid.size();
         int m = grid[0].size();
@@ -36,7 +55,12 @@ int solveMemo(int i, int j ,vector<vector<int>>& grid, int n , int m , vector<ve
         //return solveRec(0,0,grid,n,m);
 
         //Memoization
-        vector<vector<int>>dp(n+1,vector<int>(m+1,-1));
-        return solveMemo(0,0,grid,n,m,dp);
+        // vector<vector<int>>dp(n+1,vector<int>(m+1,-1));
+        // return solveMemo(0,0,grid,n,m,dp);
+
+        //Tabulation 
+        return  solveTab(grid);
+        
+
     }
 };
