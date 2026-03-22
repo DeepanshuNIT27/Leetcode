@@ -45,6 +45,29 @@ int solveTab(vector<vector<int>>& triangle){
     }
     return dp[0][0];
 }
+// space optimization 
+int solveSO(vector<vector<int>>& triangle){
+    int n = triangle.size();
+   vector<int>curr(n+1,INT_MAX);
+   vector<int>next(n+1,INT_MAX);
+
+    //Base case
+    for(int i=0;i<n;i++){
+        next[i] = triangle[n-1][i];
+    }
+
+    for(int i=n-2;i>=0;i--){
+        for(int j=i;j>=0;j--){
+
+             int ans1 = next[j];
+             int ans2 = next[j+1];
+
+             curr[j] =  triangle[i][j] + min(ans1,ans2);
+        }
+        next = curr;
+    }
+    return next[0];
+}
 
 
 
@@ -58,7 +81,10 @@ int solveTab(vector<vector<int>>& triangle){
         // return solveMemo(0,0,triangle,dp);
 
         //Tabulation 
-        return solveTab(triangle);
+        // return solveTab(triangle);
+
+        //space optimization 
+        return solveSO(triangle);
 
     }
 };
