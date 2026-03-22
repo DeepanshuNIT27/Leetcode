@@ -72,7 +72,44 @@ int solveTab(vector<vector<int>>& grid, int k){
  return dp[0][0][grid[0][0] % k];
 }
 
+//space optimization 
+int solveSO(vector<vector<int>>& grid, int k){
+    int  n = grid.size();
+    int  m = grid[0].size();
 
+ 
+   vector<vector<int>>next(m+1,vector<int>(k+1,0));
+   next[m-1][0] = 1;
+
+    for(int i=n-1;i>=0;i--){
+          vector<vector<int>>curr(m+1,vector<int>(k+1,0));
+        for(int j=m-1;j>=0;j--){
+             if(i==n-1 && j==m-1) {
+                curr[j][0]= 1;
+                continue;
+             }
+            for(int sum=0;sum<k;sum++){
+           
+              int paths = 0;
+              //move down 
+              if(i+1<n){
+                int newSum = (sum + grid[i+1][j])%k;
+                paths = (paths + next[j][newSum]) % mod;
+              }
+              //move left 
+               if(j+1 < m) {
+                        int newSum = (sum + grid[i][j+1]) % k;
+                        paths = (paths + curr[j+1][newSum]) % mod;
+                    }
+             curr[j][sum] = paths;
+              
+            }
+        }
+        next =curr;
+    }
+
+ return next[0][grid[0][0] % k];
+}
 
 
 
@@ -90,7 +127,10 @@ int solveTab(vector<vector<int>>& grid, int k){
         // return ans%mod;
 
         //Tabulation 
-        return solveTab(grid,k);
+       // return solveTab(grid,k);
+
+       //space optimization 
+       return solveSO(grid,k);
 
 
     }
