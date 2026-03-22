@@ -69,6 +69,30 @@ int solveSO(vector<vector<int>>& triangle){
     return next[0];
 }
 
+// 1 vector me bhi kr skte hai 
+int solveSO2(vector<vector<int>>& triangle){
+    int n = triangle.size();
+  // 1 d dp
+   vector<int>dp(n+1,INT_MAX);
+
+    //Base case
+    for(int i=0;i<n;i++){
+        dp[i] = triangle[n-1][i];
+    }
+
+    for(int i=n-2;i>=0;i--){
+        for(int j=0;j<=i;j++){
+
+             int ans1 = dp[j];
+             int ans2 = dp[j+1];
+
+             dp[j] =  triangle[i][j] + min(ans1,ans2);
+        }
+        
+    }
+    return dp[0];
+}
+
 
 
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -84,7 +108,10 @@ int solveSO(vector<vector<int>>& triangle){
         // return solveTab(triangle);
 
         //space optimization 
-        return solveSO(triangle);
+       // return solveSO(triangle);
+
+       //space optimization2 
+       return solveSO2(triangle);
 
     }
 };
