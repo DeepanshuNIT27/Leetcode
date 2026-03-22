@@ -36,25 +36,40 @@ int solveMemo(int i , int j , int sum ,vector<vector<int>>& grid,int k , int n ,
 }
 
 //Tabulation 
-void solveTab(vector<vector<int>>& grid, int p){
+int solveTab(vector<vector<int>>& grid, int k){
     int  n = grid.size();
     int  m = grid[0].size();
 
-    vector<vector<vector<int>>>dp(n+1,vector<vector<int>>(m+1,vector<int>(p+1,-1)));
-    dp[n-1][m-1][0] = 1;
+    vector<vector<vector<int>>>dp(n+1,vector<vector<int>>(m+1,vector<int>(k+1,-1)));
+    //Base case 
+    for(int s=0;s<k;s++){
+       int newSum = (s + grid[n-1][m-1])% k ;
+       dp[n-1][m-1][newSum] = (newSum == 0) ? 1 : 0;
+    }
+   
 
-    // for(int i=n-1;i>=0;i--){
-    //     for(int j=m-1;j>=0;j--){
-    //         for(int k=p;k>=0;k--){
+    for(int i=n-1;i>=0;i--){
+        for(int j=m-1;j>=0;j--){
+            for(int sum=0;sum<k;sum++){
+            if(i==n-1 && j==m-1) continue;
+              int paths = 0;
+              //move down 
+              if(i+1<n){
+                int newSum = (sum + grid[i+1][j])%k;
+                paths = (paths + dp[i+1][j][newSum]) % mod;
+              }
+              //move left 
+               if(j+1 < m) {
+                        int newSum = (sum + grid[i][j+1]) % k;
+                        paths = (paths + dp[i][j+1][newSum]) % mod;
+                    }
+             dp[i][j][sum] = paths;
+              
+            }
+        }
+    }
 
-    //             int right = dp[i][j+1][sum];
-    //             int left = dp[i+1][j][sum];
-
-    //            dp[i][j][sum] =  (left + right)%mod;
-    //         }
-    //     }
-    // }
-
+ return dp[0][0][grid[0][0] % k];
 }
 
 
@@ -70,11 +85,12 @@ void solveTab(vector<vector<int>>& grid, int p){
         // return ans%mod;
 
         //Memoization 
-        vector<vector<vector<int>>>dp(n+1,vector<vector<int>>(m+1,vector<int>(k+1,-1)));
-        int ans = solveMemo(0,0,0,grid,k,n,m,dp);
-        return ans%mod;
+        // vector<vector<vector<int>>>dp(n+1,vector<vector<int>>(m+1,vector<int>(k+1,-1)));
+        // int ans = solveMemo(0,0,0,grid,k,n,m,dp);
+        // return ans%mod;
 
         //Tabulation 
+        return solveTab(grid,k);
 
 
     }
