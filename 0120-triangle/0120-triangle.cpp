@@ -15,7 +15,6 @@ int solveRec(int i , int j , vector<vector<int>>& triangle){
 // Memoization 
 int solveMemo(int i , int j , vector<vector<int>>& triangle, vector<vector<int>>&dp){
     //Base case
-    if(i>= triangle.size()) return INT_MAX;
     if(i == triangle.size()-1) return triangle[i][j];
    if(dp[i][j]!=INT_MAX) return dp[i][j];
     int ans1 = solveMemo(i+1,j,triangle,dp);
