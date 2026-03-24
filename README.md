@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3750-minimum-number-of-flips-to-reverse-binary-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3750-minimum-number-of-flips-to-reverse-binary-string) |
+| [3849-maximum-bitwise-xor-after-rearrangement](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3849-maximum-bitwise-xor-after-rearrangement) |
 ## Array
 |  |
 | ------- |
@@ -572,6 +573,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3798-largest-even-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3798-largest-even-number) |
 | [3815-sum-of-largest-prime-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3815-sum-of-largest-prime-substrings) |
+| [3849-maximum-bitwise-xor-after-rearrangement](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3849-maximum-bitwise-xor-after-rearrangement) |
 | [3857-find-maximum-number-of-non-intersecting-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3857-find-maximum-number-of-non-intersecting-substrings) |
 | [3864-minimum-cost-to-partition-a-binary-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3864-minimum-cost-to-partition-a-binary-string) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
@@ -651,6 +653,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3075-maximize-happiness-of-selected-children](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3752-lexicographically-smallest-negated-permutation-that-sums-to-target](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3752-lexicographically-smallest-negated-permutation-that-sums-to-target) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3849-maximum-bitwise-xor-after-rearrangement](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3849-maximum-bitwise-xor-after-rearrangement) |
 | [3857-find-maximum-number-of-non-intersecting-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3857-find-maximum-number-of-non-intersecting-substrings) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 ## Dynamic Programming
