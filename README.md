@@ -221,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3752-lexicographically-smallest-negated-permutation-that-sums-to-target](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3752-lexicographically-smallest-negated-permutation-that-sums-to-target) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3790-fruits-into-baskets-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3790-fruits-into-baskets-ii) |
+| [3847-find-the-score-difference-in-a-game](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3847-find-the-score-difference-in-a-game) |
 | [3849-equal-sum-grid-partition-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3849-equal-sum-grid-partition-i) |
 | [3953-minimum-discards-to-balance-inventory](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3953-minimum-discards-to-balance-inventory) |
 | [4011-smallest-absent-positive-greater-than-average](https://github.com/DeepanshuNIT27/Leetcode/tree/master/4011-smallest-absent-positive-greater-than-average) |
@@ -621,6 +622,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3790-fruits-into-baskets-ii) |
+| [3847-find-the-score-difference-in-a-game](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3847-find-the-score-difference-in-a-game) |
 | [3953-minimum-discards-to-balance-inventory](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3953-minimum-discards-to-balance-inventory) |
 ## Greedy
 |  |
