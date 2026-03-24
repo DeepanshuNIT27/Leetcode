@@ -391,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3815-sum-of-largest-prime-substrings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3815-sum-of-largest-prime-substrings) |
+| [3848-check-digitorial-permutation](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3848-check-digitorial-permutation) |
 | [3859-maximum-product-of-two-digits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3859-maximum-product-of-two-digits) |
 | [3918-check-divisibility-by-digit-sum-and-product](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3918-check-divisibility-by-digit-sum-and-product) |
 | [4116-minimum-moves-to-equal-array-elements-iii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/4116-minimum-moves-to-equal-array-elements-iii) |
@@ -868,6 +869,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3242-count-elements-with-maximum-frequency](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3583-count-special-triplets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3583-count-special-triplets) |
+| [3848-check-digitorial-permutation](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3848-check-digitorial-permutation) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 | [3953-minimum-discards-to-balance-inventory](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3953-minimum-discards-to-balance-inventory) |
 | [4055-longest-balanced-substring-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/4055-longest-balanced-substring-i) |
