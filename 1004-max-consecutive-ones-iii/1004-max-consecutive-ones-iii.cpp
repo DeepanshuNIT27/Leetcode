@@ -1,5 +1,6 @@
 class Solution {
 public:
+// O(2N) approach
     int longestOnes(vector<int>& nums, int k) {
         int zero = 0; 
         int i = 0;
