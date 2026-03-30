@@ -131,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0952-word-subsets) |
 | [0983-minimum-cost-for-tickets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0983-minimum-cost-for-tickets) |
 | [0994-rotting-oranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0994-rotting-oranges) |
+| [1004-max-consecutive-ones-iii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1020-number-of-enclaves](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1036-rotting-oranges) |
 | [1046-last-stone-weight](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1046-last-stone-weight) |
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
+| [1004-max-consecutive-ones-iii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
@@ -258,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0525-contiguous-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0525-contiguous-array) |
 | [0724-find-pivot-index](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0724-find-pivot-index) |
+| [1004-max-consecutive-ones-iii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1477-product-of-the-last-k-numbers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -745,6 +748,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0940-fruit-into-baskets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0940-fruit-into-baskets) |
+| [1004-max-consecutive-ones-iii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1813-maximum-erasure-value](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1813-maximum-erasure-value) |
