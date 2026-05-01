@@ -46,6 +46,25 @@ bool solveTab(vector<int>& nums , int sum ){
    }
  return   dp[0][sum];
 }
+// Solvespace optimization
+bool solveSO(vector<int>& nums , int sum ){
+   int n = nums.size();
+  vector<bool>curr(sum+1,false);
+  vector<bool>next(sum+1,false);
+   next[0] = true;
+  
+   for(int i=n-1;i>=0;i--){
+    for(int j=sum ;j>=0;j--){
+    bool inc = false;
+    if(j>=nums[i]) inc = next[j-nums[i]];
+    bool exc =  next[j];
+
+    curr[j] = inc || exc ;
+    }
+    next = curr;
+   }
+ return   next[sum];
+}
 
 
     bool canPartition(vector<int>& nums) {
@@ -58,6 +77,9 @@ bool solveTab(vector<int>& nums , int sum ){
     //    return solveMemo(0,d,nums,dp);
 
         // Tabulation 
-        return solveTab(nums,d);
+       // return solveTab(nums,d);
+
+       //space optimization 
+       return solveSO(nums,d);
     }
 };
