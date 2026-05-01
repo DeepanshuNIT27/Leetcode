@@ -9,12 +9,14 @@ public:
         for(int i=1;i<n;i++){
             pre[i] = pre[i-1] + nums[i];
         }
+        unordered_map<int,int>mp;
+        mp[0] = 1;
 
         for(int i=0;i<n;i++){
-            for(int j=i;j<n;j++){
-             int d = pre[j] - (i-1>=0 ? pre[i-1] : 0);
-             if(d==k) count++;
-            }
+        
+          if(mp.find(pre[i]- k)!=mp.end()) count += mp[pre[i] - k];
+           mp[pre[i]] ++;
+        
         }
         return count;
     }
