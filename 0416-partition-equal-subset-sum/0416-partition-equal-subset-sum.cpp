@@ -29,6 +29,24 @@ bool solveMemo(int i , int sum ,vector<int>& nums,vector<vector<int>>&dp){
     return dp[i][sum] = inc || exc ;
 }
 
+//Tabulation 
+bool solveTab(vector<int>& nums , int sum ){
+   int n = nums.size();
+   vector<vector<bool>>dp(nums.size()+1 , vector<bool>(sum+1,false));
+   dp[n][0] = true;
+  
+   for(int i=n-1;i>=0;i--){
+    for(int j=sum ;j>=0;j--){
+   bool inc = false;
+    if(j>=nums[i]) inc = dp[i+1][j-nums[i]];
+    bool exc =  dp[i+1][j];
+
+    dp[i][j] = inc || exc ;
+    }
+   }
+ return   dp[0][sum];
+}
+
 
     bool canPartition(vector<int>& nums) {
         int sum = accumulate(nums.begin(),nums.end(),0);
@@ -36,7 +54,10 @@ bool solveMemo(int i , int sum ,vector<int>& nums,vector<vector<int>>&dp){
 
        // return solveRec(0,sum/2,nums);
        int d = sum/2;
-       vector<vector<int>>dp(nums.size()+1 , vector<int>(d+1,-1));
-       return solveMemo(0,d,nums,dp);
+    //    vector<vector<int>>dp(nums.size()+1 , vector<int>(d+1,-1));
+    //    return solveMemo(0,d,nums,dp);
+
+        // Tabulation 
+        return solveTab(nums,d);
     }
 };
