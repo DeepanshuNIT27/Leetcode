@@ -54,6 +54,30 @@ int solveTab(vector<int>& coins, int amount){
     return dp[0][amount];
 }
 
+// space optimization 
+
+int solveSO(vector<int>& coins, int amount){
+
+    int n = coins.size();
+   vector<int>next(amount+1,INT_MAX);
+   next[0] = 0;
+    for(int i=n-1;i>=0;i--){
+         vector<int>curr(amount+1,INT_MAX);
+         curr[0] = 0;
+        for(int j =0; j<=amount;j++){
+          
+          int inc = INT_MAX;
+           if(j - coins[i] >=0) inc = curr[j - coins[i]];
+            if(inc!=INT_MAX) inc += 1;
+            int exc = next[j];
+
+            curr[j] = min(inc,exc);
+        }
+        next = curr;
+    }
+    return next[amount];
+}
+
 
     int coinChange(vector<int>& coins, int amount) {
         int n = coins.size();
@@ -72,7 +96,14 @@ int solveTab(vector<int>& coins, int amount){
     //   return ans;
 
     // Tabulation 
-     int ans  =  solveTab(coins,amount);
+    //  int ans  =  solveTab(coins,amount);
+
+    //   if(ans==INT_MAX) return -1;
+    //   return ans;
+
+    //Space optimization 
+
+     int ans  =  solveSO(coins,amount);
 
       if(ans==INT_MAX) return -1;
       return ans;
