@@ -35,6 +35,26 @@ int solveMemo(int i , int target , vector<int>& nums, vector<vector<int>>&dp ){
      return  dp[i][target] = max(inc,exc);
 }
 
+// TABULATION 
+int solveTab(int target , vector<int>&nums){
+    int n = nums.size();
+    vector<vector<int>>dp(n+1, vector<int>(target+1 , INT_MIN));
+    dp[n][0] = 0;
+
+    for(int i=n-1;i>=0;i--){
+        for(int j=0;j<=target;j++){
+            int inc = INT_MIN;
+            if(j-nums[i]>=0) inc = dp[i+1][j-nums[i]];
+             if(inc!=INT_MIN) inc += 1;
+             int exc = dp[i+1][j];
+
+             dp[i][j] = max(inc,exc);
+
+        }
+    }
+ return dp[0][target];
+}
+
     int lengthOfLongestSubsequence(vector<int>& nums, int target) {
         int n = nums.size();
         //RECURSION 
@@ -43,9 +63,15 @@ int solveMemo(int i , int target , vector<int>& nums, vector<vector<int>>&dp ){
         // return ans;
 
         //MEMOIZATION
-        vector<vector<int>>dp(n+1,vector<int>(target+1,-1));
-        int ans = solveMemo(0,target,nums,dp);
+        // vector<vector<int>>dp(n+1,vector<int>(target+1,-1));
+        // int ans = solveMemo(0,target,nums,dp);
+        // if(ans==INT_MIN) return -1;
+        // return ans;
+
+        //Tabulation 
+        int ans = solveTab(target,nums);
         if(ans==INT_MIN) return -1;
         return ans;
+
     }
 };
