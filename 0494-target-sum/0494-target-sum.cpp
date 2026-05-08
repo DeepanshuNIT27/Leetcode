@@ -53,6 +53,34 @@ int solveTab(vector<int>& nums , int target , vector<vector<int>>&dp , int &offs
     return dp[0][offset];
 }
 
+//Space optimization 
+
+int solveSO(vector<int>& nums , int target  , int &offset ){
+    vector<int>curr(2*offset+1);
+    vector<int>next(2*offset+1);
+    int n = nums.size();
+    int S = offset;
+   next[target+offset] = 1;
+    for(int i=n-1;i>=0;i--){
+        for(int sum = -S ; sum<=S;sum++){
+
+            int add  = 0 ;
+            int sub  = 0;
+
+          if(sum + nums[i] <= S && sum + nums[i] >= -S)  add = next[sum+nums[i]+offset];
+           if(sum - nums[i] <= S && sum - nums[i] >= -S)sub = next[sum-nums[i]+offset];
+
+           curr[sum+offset]  = add + sub ;
+
+        }
+        next = curr;
+    }
+
+    return next[offset];
+}
+
+
+
 
 
     int findTargetSumWays(vector<int>& nums, int target) {
@@ -71,8 +99,13 @@ int solveTab(vector<int>& nums , int target , vector<vector<int>>&dp , int &offs
 
     // Tabulation 
      
-     vector<vector<int>>dp(n+1,vector<int>(2*s + 1 ,0));
-     return solveTab(nums,target, dp , offset);
+    //  vector<vector<int>>dp(n+1,vector<int>(2*s + 1 ,0));
+    //  return solveTab(nums,target, dp , offset);
+
+    // Space optimization 
+   
+    return solveSO(nums,target,offset);
+
 
 
 
