@@ -55,6 +55,31 @@ int solveTab(int target , vector<int>&nums){
  return dp[0][target];
 }
 
+// SPACE OPTIMIZATION 
+
+int solveSO(int target , vector<int>&nums){
+    int n = nums.size();
+   vector<int>curr(target+1,INT_MIN);
+   vector<int>next(target+1,INT_MIN);
+    next[0] = 0;
+
+    for(int i=n-1;i>=0;i--){
+        for(int j=0;j<=target;j++){
+            int inc = INT_MIN;
+            if(j-nums[i]>=0) inc = next[j-nums[i]];
+             if(inc!=INT_MIN) inc += 1;
+             int exc = next[j];
+
+             curr[j] = max(inc,exc);
+
+        }
+        next = curr;
+    }
+ return next[target];
+}
+
+
+
     int lengthOfLongestSubsequence(vector<int>& nums, int target) {
         int n = nums.size();
         //RECURSION 
@@ -68,8 +93,13 @@ int solveTab(int target , vector<int>&nums){
         // if(ans==INT_MIN) return -1;
         // return ans;
 
-        //Tabulation 
-        int ans = solveTab(target,nums);
+        //TABULATION 
+        // int ans = solveTab(target,nums);
+        // if(ans==INT_MIN) return -1;
+        // return ans;
+
+        //SPACE OPTIMIZATION
+        int ans = solveSO(target,nums);
         if(ans==INT_MIN) return -1;
         return ans;
 
