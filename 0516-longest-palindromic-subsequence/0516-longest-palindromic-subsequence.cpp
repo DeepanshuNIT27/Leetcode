@@ -46,6 +46,28 @@ int solveTab(string&s){
     }
   return   dp[0][n-1];
 }
+
+//SPACE OPTIMIZATION 
+
+int solveSO(string&s){
+
+    int n = s.size();
+  
+    vector<int>next(n+1,0);
+    vector<int>curr(n+1,0);
+    for(int i=n-1;i>=0;i--){
+      
+        for(int j=i;j<n;j++){
+         if(i==j) curr[j] = 1;
+         else  if(s[i]==s[j]) curr[j] = 2 + next[j-1];
+          else curr[j] = max(next[j] , curr[j-1]);
+
+        }
+        next = curr ;
+    }
+  return   next[n-1];
+}
+
     int longestPalindromeSubseq(string s) {
         int n = s.size();
         int i = 0;
@@ -58,6 +80,9 @@ int solveTab(string&s){
         // return solveMemo(i,j,s,dp);
 
         //TABULATION
-        return solveTab(s);
+        //return solveTab(s);
+
+        // SPACE OPTIMIZATION 
+        return solveSO(s);
     }
 };
