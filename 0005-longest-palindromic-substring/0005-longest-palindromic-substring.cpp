@@ -1,36 +1,35 @@
 class Solution {
 public:
-
-//EXPAND AROUND THE CENTER SOLUTION 
-string  expand(int i , int j ,string s){
-    int ans = 0;
-    string p = "";
-    while(i>=0 && j<s.size() && s[i]==s[j]){
-       if(ans< j-i+1) p = s.substr(i,j-i+1);
-       i--;
-       j++;
-    }
-    return p;
-}
+//DP SOLUTION 
     string longestPalindrome(string s) {
-        string ans = "";
+        int n = s.size();
+     vector<vector<bool>>dp(n+1,vector<bool>(n+1,false));
+      int start = 0;
+      int length = 1;
+       for(int i=n-1;i>=0;i--){
+        for(int j =i;j<n;j++){
+            // 1 length 
+            if(i==j){
+                dp[i][j] = true;
+            }
 
-        for(int center=0;center<s.size();center++){
-            //odd length
-            int i = center;
-            int j = center;
+            //2 
+          else  if(j-i==1 && s[i]==s[j]){
+                dp[i][j] = true;
+            }
 
-            auto ex1 = expand(i,j,s);
+            //>=3 length 
+            else if(s[i]==s[j] && dp[i+1][j-1]){
+                dp[i][j] = true;
+            }
 
-            // even length 
-            i = center ;
-            j = center + 1 ;
-
-            auto ex2 = expand(i,j,s);
-
-            if(ex2.size() > ans.size()) ans = ex2;
-            if(ex1.size() > ans.size()) ans = ex1;
+            //update 
+            if(dp[i][j] && (j-i+1)>length){
+                length = j-i+1;
+                start = i;
+            }
         }
-        return ans;
+       }
+       return s.substr(start,length);
     }
 };
