@@ -54,9 +54,9 @@ int solveSO(string&s){
     int n = s.size();
   
     vector<int>next(n+1,0);
-    vector<int>curr(n+1,0);
+    
     for(int i=n-1;i>=0;i--){
-      
+      vector<int>curr(n+1,0);
         for(int j=i;j<n;j++){
          if(i==j) curr[j] = 1;
          else  if(s[i]==s[j]) curr[j] = 2 + next[j-1];
