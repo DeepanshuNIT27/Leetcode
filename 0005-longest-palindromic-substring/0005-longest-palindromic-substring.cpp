@@ -1,28 +1,35 @@
 class Solution {
 public:
-int start = 0; int length = 1;
-bool  solveRec(string &s, int i , int j, vector<vector<int>>&dp){
-    if(i>=j) return true;
-    if(dp[i][j]!=-1) return dp[i][j];
-    bool flag = false;
-    if(s[i]==s[j]) flag =  solveRec(s,i+1,j-1,dp);
-    if(flag){
-         if(j-i+1 > length){
-            length = j-i+1;
-            start = i;
-         }
+
+string  expand(int i , int j ,string s){
+    int ans = 0;
+    string p = "";
+    while(i>=0 && j<s.size() && s[i]==s[j]){
+       if(ans< j-i+1) p = s.substr(i,j-i+1);
+       i--;
+       j++;
     }
-    dp[i][j] = flag;
-    return dp[i][j];
+    return p;
 }
     string longestPalindrome(string s) {
-        int n = s.size();
-        vector<vector<int>>dp(n,vector<int>(n,-1));
-        for(int i=0;i<s.size();i++){
-            for(int j=i;j<s.size();j++){
-                bool t = solveRec(s,i,j,dp);
-            }
+        string ans = "";
+
+        for(int center=0;center<s.size();center++){
+            //odd length
+            int i = center;
+            int j = center;
+
+            auto ex1 = expand(i,j,s);
+
+            // even length 
+            i = center ;
+            j = center + 1 ;
+
+            auto ex2 = expand(i,j,s);
+
+            if(ex2.size() > ans.size()) ans = ex2;
+            if(ex1.size() > ans.size()) ans = ex1;
         }
-        return s.substr(start,length);
+        return ans;
     }
 };
