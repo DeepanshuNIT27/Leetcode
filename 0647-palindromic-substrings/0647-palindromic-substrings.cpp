@@ -1,27 +1,35 @@
 class Solution {
 public:
- int expandsaroundcenter(string s,int i ,int j){
-    int count =0;
-    while(i>=0&& j<s.length()&&s[i]==s[j]){
-       count++;
-i--;
-j++;
+
+int expand(int i , int j , string s){
+    int count = 0;
+    while(i>=0 && j<s.size() && s[i]==s[j]){
+        count++;
+        i--;
+        j++;
     }
-    return count;
- }
+    return count ;
+}
     int countSubstrings(string s) {
-        int totalcount =0;
-        for(int center=0 ; center<s.length();center++){
-            //covering odd substring
-            int i = center;
-            int j = center;
-            int oddsubstringcount= expandsaroundcenter(s,i,j);
-            //covering even substring;
-           i  = center;
-        j= center+1;
-            int evenstringcount= expandsaroundcenter(s,i,j);
-             totalcount= totalcount+oddsubstringcount+evenstringcount;
+        
+        int total = 0;
+        for(int center=0;center<s.size();center++){
+
+            //odd length 
+          int   i  = center;
+           int  j = center ;
+
+            int ex1 = expand(i,j,s);
+
+            //even length 
+            i = center ;
+            j = center+1;
+
+            int ex2 = expand(i,j,s);
+
+            total += ex1 + ex2;
         }
-        return totalcount;
+
+return total;
     }
 };
