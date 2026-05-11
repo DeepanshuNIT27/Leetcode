@@ -57,7 +57,30 @@ int solveTab(string&s){
     return dp[0][n-1];
 }
 
+//SAPCE OPTIMIZATION 
 
+int solveSO(string&s){
+    int n = s.size();
+   vector<int>curr(n+1,0);
+   vector<int>next(n+1,0);
+
+    for(int i=n-1;i>=0;i--){
+        for(int j=i+1;j<n;j++){
+             int ans = INT_MAX;
+          if(s[i]==s[j]){
+            ans = next[j-1];
+             }
+            else{
+        ans = min(1 + next[j] , 1+curr[j-1]);
+        }
+          curr[j] =  ans ;
+
+
+        }
+        next = curr;
+    }
+    return next[n-1];
+}
 
     int minInsertions(string s) {
         int i = 0;
@@ -71,7 +94,10 @@ int solveTab(string&s){
     //    return solveMemo(i,j,s,dp);
 
        //TABULATION 
-       return solveTab(s);
+       //return solveTab(s);
+
+       //SPACE OPTIMIZATION 
+       return solveSO(s);
         
     }
 };
