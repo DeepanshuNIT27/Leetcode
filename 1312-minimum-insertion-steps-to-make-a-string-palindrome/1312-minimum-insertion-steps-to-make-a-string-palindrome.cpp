@@ -34,6 +34,29 @@ int solveMemo(int i, int j , string&s,vector<vector<int>>&dp){
     return dp[i][j] =  ans ;
 }
 
+//Tabulation 
+
+int solveTab(string&s){
+    int n = s.size();
+    vector<vector<int>>dp(n+1,vector<int>(n+1,0));
+
+    for(int i=n-1;i>=0;i--){
+        for(int j=i+1;j<n;j++){
+             int ans = INT_MAX;
+          if(s[i]==s[j]){
+            ans = dp[i+1][j-1];
+             }
+            else{
+        ans = min(1 + dp[i+1][j] , 1+dp[i][j-1]);
+        }
+          dp[i][j] =  ans ;
+
+
+        }
+    }
+    return dp[0][n-1];
+}
+
 
 
     int minInsertions(string s) {
@@ -44,8 +67,11 @@ int solveMemo(int i, int j , string&s,vector<vector<int>>&dp){
        // return solveRec(i,j,s);
 
        //MEMOIZATION 
-       vector<vector<int>>dp(n+1,vector<int>(n+1,-1));
-       return solveMemo(i,j,s,dp);
+    //    vector<vector<int>>dp(n+1,vector<int>(n+1,-1));
+    //    return solveMemo(i,j,s,dp);
+
+       //TABULATION 
+       return solveTab(s);
         
     }
 };
