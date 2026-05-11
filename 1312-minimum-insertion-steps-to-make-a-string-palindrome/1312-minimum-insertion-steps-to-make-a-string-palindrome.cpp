@@ -4,8 +4,8 @@ public:
 //RECURSION 
 int solveRec(int i, int j , string&s){
 
-    if(i==j || i-j==1) return 0;
-    if(i>j) return 1000;
+   
+    if(i>=j) return 0;
 
     int ans = INT_MAX;
     if(s[i]==s[j]){
@@ -21,8 +21,7 @@ int solveRec(int i, int j , string&s){
 
 int solveMemo(int i, int j , string&s,vector<vector<int>>&dp){
 
-    if(i==j || i-j==1) return 0;
-    if(i>j) return 1000;
+    if(i>=j) return 0;
     if(dp[i][j]!=-1) return dp[i][j];
     int ans = INT_MAX;
     if(s[i]==s[j]){
