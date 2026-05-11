@@ -529,6 +529,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0953-reverse-only-letters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0953-reverse-only-letters) |
 | [1755-closest-subsequence-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1755-closest-subsequence-sum) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
+| [2193-minimum-number-of-moves-to-make-palindrome](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2193-minimum-number-of-moves-to-make-palindrome) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2410-maximum-matching-of-players-with-trainers) |
 | [2551-apply-operations-to-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2551-apply-operations-to-an-array) |
@@ -587,6 +588,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1980-find-unique-binary-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1980-find-unique-binary-string) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2193-minimum-number-of-moves-to-make-palindrome](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2193-minimum-number-of-moves-to-make-palindrome) |
 | [2211-count-collisions-on-a-road](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2211-count-collisions-on-a-road) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
@@ -686,6 +688,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1975-maximum-matrix-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1975-maximum-matrix-sum) |
+| [2193-minimum-number-of-moves-to-make-palindrome](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2193-minimum-number-of-moves-to-make-palindrome) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2410-maximum-matching-of-players-with-trainers) |
 | [2509-minimize-xor](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2509-minimize-xor) |
@@ -1284,4 +1287,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1114-print-in-order](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1114-print-in-order) |
 | [1195-fizz-buzz-multithreaded](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1195-fizz-buzz-multithreaded) |
 | [1226-the-dining-philosophers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1226-the-dining-philosophers) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [2193-minimum-number-of-moves-to-make-palindrome](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2193-minimum-number-of-moves-to-make-palindrome) |
 <!---LeetCode Topics End-->
