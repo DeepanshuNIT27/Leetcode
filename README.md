@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0830-largest-triangle-area](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0830-largest-triangle-area) |
 | [0854-making-a-large-island](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0854-making-a-large-island) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
+| [0877-stone-game](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0877-stone-game) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0904-fruit-into-baskets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [0926-find-and-replace-pattern](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0926-find-and-replace-pattern) |
@@ -406,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0788-rotated-digits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0788-rotated-digits) |
 | [0797-rabbits-in-forest](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0830-largest-triangle-area](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0830-largest-triangle-area) |
+| [0877-stone-game](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0877-stone-game) |
 | [1013-fibonacci-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1013-fibonacci-number) |
 | [1248-count-number-of-nice-subarrays](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1448-maximum-69-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1448-maximum-69-number) |
@@ -769,6 +771,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0788-rotated-digits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0788-rotated-digits) |
+| [0877-stone-game](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0877-stone-game) |
 | [0943-sum-of-subarray-minimums](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0983-minimum-cost-for-tickets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0983-minimum-cost-for-tickets) |
 | [1013-fibonacci-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1013-fibonacci-number) |
@@ -1259,6 +1262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0375-guess-number-higher-or-lower-ii) |
+| [0877-stone-game](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0877-stone-game) |
 ## Biconnected Component
 |  |
 | ------- |
