@@ -190,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2265-partition-array-according-to-given-pivot](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2269-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2269-count-elements-with-strictly-smaller-and-greater-elements) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2302-count-subarrays-with-score-less-than-k](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2308-divide-array-into-equal-pairs](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2350-find-closest-number-to-zero](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2350-find-closest-number-to-zero) |
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2226-maximum-candies-allocated-to-k-children) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
+| [2302-count-subarrays-with-score-less-than-k](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3427-special-array-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3427-special-array-ii) |
 | [3790-fruits-into-baskets-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3790-fruits-into-baskets-ii) |
@@ -291,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2145-grid-game](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2145-grid-game) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
+| [2302-count-subarrays-with-score-less-than-k](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2358-number-of-ways-to-split-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
@@ -829,6 +832,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1813-maximum-erasure-value](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
+| [2302-count-subarrays-with-score-less-than-k](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2841-maximum-sum-of-almost-unique-subarray](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2841-maximum-sum-of-almost-unique-subarray) |
