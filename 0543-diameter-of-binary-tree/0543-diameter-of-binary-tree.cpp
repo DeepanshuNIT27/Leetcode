@@ -10,24 +10,21 @@
  * };
  */
 class Solution {
-public: 
-     int getHeight(TreeNode* root){
-        if(root == nullptr){
-            return 0;
-        }
-        int left = getHeight(root->left);
-        int right = getHeight(root->right);
-        int maxi = max(left , right);
-        int finalHeigth = maxi + 1 ;
-        return finalHeigth ;
-     }
+public:
+
+int height(TreeNode* root , int &diameter){
+    if(root == nullptr) return 0;
+
+    int l = height(root->left , diameter);
+    int r = height(root->right,diameter);
+
+    diameter = max(diameter , l+r);
+    return 1 + max(l,r);
+}
     int diameterOfBinaryTree(TreeNode* root) {
-        if(root == NULL){
-            return 0 ;
-        }
-        int option1 = diameterOfBinaryTree(root->left);
-        int option2 = diameterOfBinaryTree(root->right);
-        int option3 = getHeight(root->left)+ getHeight(root->right);
-        return max(option1 , max(option2,option3));
+         int diameter = 0;
+        height(root,diameter);
+        return diameter;
+        
     }
 };
