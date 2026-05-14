@@ -11,15 +11,18 @@
  */
 class Solution {
 public:
+
+int depth(TreeNode* root){
+
+    if(root == nullptr) return 0;
+
+
+    int l = depth(root->left);
+    int r = depth(root->right);
+
+    return 1 + max(l ,r);
+}
     int maxDepth(TreeNode* root) {
-        //BASE CASE;
-        if(root == nullptr){
-            return 0;
-        }
-        int leftsubtreeheight = maxDepth(root->left);
-        int rightsubtreeheight= maxDepth(root->right);
-        int maxi = max( leftsubtreeheight,rightsubtreeheight);
-        int finalheigth = maxi+1;
-        return finalheigth ;
+      return   depth(root);
     }
 };
