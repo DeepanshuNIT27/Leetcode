@@ -25,7 +25,7 @@ void  vertiTraversal(TreeNode* root, int row , int column , map<int,vector<pair<
         vector<vector<int>>ans;
         vertiTraversal(root,0,0,mp);
         for(auto&it:mp){
-            auto temp = it.second;
+            auto &temp = it.second;
             sort(temp.begin(),temp.end());
             vector<int>v;
             for(int i=0;i<temp.size();i++){
