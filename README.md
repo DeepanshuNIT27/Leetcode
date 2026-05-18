@@ -586,6 +586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0242-valid-anagram) |
+| [0257-binary-tree-paths](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0273-integer-to-english-words](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0273-integer-to-english-words) |
 | [0345-reverse-vowels-of-a-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0415-add-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0415-add-strings) |
@@ -1010,6 +1011,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0450-delete-node-in-a-bst](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0538-convert-bst-to-greater-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0543-diameter-of-binary-tree) |
@@ -1047,6 +1049,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0538-convert-bst-to-greater-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0547-number-of-provinces) |
@@ -1148,6 +1151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0450-delete-node-in-a-bst](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0538-convert-bst-to-greater-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0543-diameter-of-binary-tree) |
@@ -1197,6 +1201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0113-path-sum-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0113-path-sum-ii) |
 | [0140-word-break-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0140-word-break-ii) |
 | [0216-combination-sum-iii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0216-combination-sum-iii) |
+| [0257-binary-tree-paths](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0473-matchsticks-to-square](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0473-matchsticks-to-square) |
 | [0491-non-decreasing-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0491-non-decreasing-subsequences) |
 | [0494-target-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0494-target-sum) |
