@@ -11,9 +11,10 @@
  */
 class Solution {
 public:
+// Backtracking soln 
+void allPaths(TreeNode* root,string &temp , vector<string>&ans  ){
 
-void allPaths(TreeNode* root,string temp , vector<string>&ans  ){
-
+    int leg = temp.size();
     if(temp.size()>=1)  temp += "->";
     
       temp +=  to_string(root->val);
@@ -21,10 +22,11 @@ void allPaths(TreeNode* root,string temp , vector<string>&ans  ){
 
     if(root->left == nullptr && root->right==nullptr){
         ans.push_back(temp);
-        return ;
     }
     if(root->left!=nullptr) allPaths(root->left,temp,ans);
     if(root->right!=nullptr) allPaths(root->right,temp,ans);
+
+    temp.resize(leg);
 }
     vector<string> binaryTreePaths(TreeNode* root) {
        vector<string>ans;
