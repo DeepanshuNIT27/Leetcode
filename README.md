@@ -364,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2308-divide-array-into-equal-pairs](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2406-decode-the-message](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2406-decode-the-message) |
 | [2434-design-a-number-container-system](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
@@ -1033,6 +1034,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -1087,6 +1089,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1559-detect-cycles-in-2d-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Breadth-First Search
 |  |
@@ -1135,6 +1138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1559-detect-cycles-in-2d-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1876-map-of-highest-peak](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1876-map-of-highest-peak) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Binary Tree
@@ -1179,6 +1183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Graph
 |  |
 | ------- |
