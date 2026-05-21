@@ -11,29 +11,25 @@
  */
 class Solution {
 public:
-
-//METHOD -2 HERE WILL USE STACK APPROACH .
-// COMPLEXITY O(N) BOTH SPACE AND TIME .
+// METHOD -3  MORRIS TRAVERSAL TECHNIQUE 
+//TIME COMPLEXITY O(N) BUT SPACE O(1);
     void flatten(TreeNode* root) {
-        if(!root) return ;
-        stack<TreeNode*>st;
-        st.push(root);
+        
+       TreeNode* cur  = root;
+        while(cur){
 
-        while(!st.empty()){
+            if(cur->left!=NULL){
+                TreeNode* prev = cur->left;
 
-            TreeNode* cur =  st.top();
-            st.pop();
+                while(prev->right){
+                    prev = prev->right;
+                }
 
-            if(cur->right){
-                st.push(cur->right);
+                prev->right = cur->right;
+                cur->right = cur->left;
+                cur->left = NULL;
             }
-
-            if(cur->left){
-                st.push(cur->left);
-            }
-
-            if(!st.empty())cur->right = st.top();
-            cur->left = NULL;
+            cur = cur->right;
         }
     }
 };
