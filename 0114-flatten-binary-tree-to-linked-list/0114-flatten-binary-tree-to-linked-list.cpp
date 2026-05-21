@@ -11,34 +11,22 @@
  */
 class Solution {
 public:
-// THIS IS A RECURSIVE APPROACH HAVING THE TIME COMPLEXITY O(N) AND
-// SPACE COMPLEXITY O(N);
+// APPROACH BY STRIVER COMPLEXITY O(N) SAME FOR SPACE.
+// WE WILL DO RIGHT LEFT ROOT TRAVERSAL 
+TreeNode* prev = NULL;
+void solve(TreeNode* node){
 
-TreeNode* solve(TreeNode* root){
+    if(node == NULL) return ;
 
-    if(root == NULL) return NULL;
+    solve(node->right);
+    solve(node->left);
 
-    TreeNode* leftTail = solve(root->left);
-    TreeNode* rightTail = solve(root->right);
-
-    TreeNode* left = root->left;
-    TreeNode * right = root->right;
-
-    root->left = NULL;
-    if(left){
-        root->right = left;
-        leftTail->right = right;
-    }
-    else{
-        root->right = right;
-    }
-
-    if(rightTail) return rightTail;
-    if(leftTail) return leftTail;
-
-    return root;
+    node->right = prev;
+    node->left = NULL;
+    prev = node;
 }
     void flatten(TreeNode* root) {
-        solve(root);
+        
+       solve(root);
     }
 };
