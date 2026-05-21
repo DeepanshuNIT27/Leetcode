@@ -11,6 +11,9 @@
  */
 class Solution {
 public:
+
+// My brute force approach it might take worst complexity O(n^2)
+//because we are finding the tail node for each node .
     void flatten(TreeNode* root) {
         
         if(root == NULL) return ;
