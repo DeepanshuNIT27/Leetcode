@@ -1032,6 +1032,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
+| [0700-search-in-a-binary-search-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -1187,6 +1188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
+| [0700-search-in-a-binary-search-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -1274,6 +1276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0450-delete-node-in-a-bst](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0538-convert-bst-to-greater-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0700-search-in-a-binary-search-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
