@@ -11,22 +11,29 @@
  */
 class Solution {
 public:
-// APPROACH BY STRIVER COMPLEXITY O(N) SAME FOR SPACE.
-// WE WILL DO RIGHT LEFT ROOT TRAVERSAL 
-TreeNode* prev = NULL;
-void solve(TreeNode* node){
 
-    if(node == NULL) return ;
-
-    solve(node->right);
-    solve(node->left);
-
-    node->right = prev;
-    node->left = NULL;
-    prev = node;
-}
+//METHOD -2 HERE WILL USE STACK APPROACH .
+// COMPLEXITY O(N) BOTH SPACE AND TIME .
     void flatten(TreeNode* root) {
-        
-       solve(root);
+        if(!root) return ;
+        stack<TreeNode*>st;
+        st.push(root);
+
+        while(!st.empty()){
+
+            TreeNode* cur =  st.top();
+            st.pop();
+
+            if(cur->right){
+                st.push(cur->right);
+            }
+
+            if(cur->left){
+                st.push(cur->left);
+            }
+
+            if(!st.empty())cur->right = st.top();
+            cur->left = NULL;
+        }
     }
 };
