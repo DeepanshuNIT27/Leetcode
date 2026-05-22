@@ -12,35 +12,22 @@
 class Solution {
 public:
 
-TreeNode* solve(int &i ,vector<int>& preorder, vector<int>inorder,int instart , int inend ,   unordered_map<int,int>&mp ){
+// OPTIMAL WAY TO CONSTRUCT USING THE PROPERTIES OF THE BST.
+TreeNode* solve(int &i , vector<int>& preorder, int bound ){
 
-    if(i>= preorder.size()) return NULL;
-   
-    if(instart > inend) return NULL;
+    if(i>= preorder.size() || preorder[i]>bound) return NULL;
 
-    TreeNode * temp = new TreeNode(preorder[i]);
-    int element = mp[preorder[i]];
+    TreeNode* root = new TreeNode(preorder[i]);
     i++;
-    temp->left = solve(i,preorder,inorder,instart,element-1,mp);
-    temp->right = solve(i,preorder,inorder,element+1,inend,mp);
+    root->left = solve(i,preorder,root->val);
+    root->right = solve(i,preorder,bound);
 
-    return temp;
+    return root;
 }
     TreeNode* bstFromPreorder(vector<int>& preorder) {
-        int n = preorder.size();
-        vector<int>inorder = preorder;
-        sort(inorder.begin(),inorder.end());
+        
         int i = 0;
-        int instart = 0;
-        int inend = n-1;
-
-        unordered_map<int,int>mp;
-        for(int i=0;i<n;i++) {
-            mp[inorder[i]] = i;
-        }
-
-        return solve(i,preorder,inorder , instart , inend,mp);
-
-
+        int bound = INT_MAX;
+        return solve(i,preorder,bound);
     }
 };
