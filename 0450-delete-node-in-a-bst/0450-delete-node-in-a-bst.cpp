@@ -11,70 +11,54 @@
  */
 class Solution {
 public:
-  int getMax(TreeNode* root){
-    if(root == NULL){
-        return -1;
+
+TreeNode* solve(TreeNode* root, int key){
+
+    if(root == NULL) return NULL;
+
+    // SEARCH PART 
+    if(root->val > key){
+        root->left = solve(root->left,key);
     }
-    while(root->right!=NULL){
-        root = root->right;
+    else if(root->val < key){
+        root->right = solve(root->right,key);
     }
-    return root->val;
-  }
-    TreeNode* deleteNode(TreeNode* root, int key) {
-        if(root ==  NULL){
+    // Node mil gya 
+    else {
+
+        // 0 child 
+        if(root->left==NULL && root->right==NULL){
+            delete root;
             return NULL;
         }
-        if(root->val == key){
-            // 4 CASE.
-            //1.Leaf root/ no child;
-            if(root->left== NULL && root->right==NULL ){
-                delete root;
-                return NULL;
-            }
-            //2.root with only left child;
-            if(root->left!=NULL && root->right==NULL){
-                
-                TreeNode* leftchild = root->left;
-                root->left = NULL;
-                delete root;
-                return leftchild;
-            }
-            //3.root with only right child;
-            if(root->left==NULL && root->right!=NULL){
-                TreeNode* rightchild = root->right;
-                root->right= NULL;
-                delete root;
-                return rightchild;
-            }
-            //4. root with both child;
-            if(root->left!= NULL && root->right!=NULL){
-                //JUST MEANS AND JUST MAX DONO SE KE SKTE HAI 
-                //ye copy se ho rha .
-                // int maxval = getMax(root->left);
-                // root->val = maxval;
-                // root->left = deleteNode(root->left,maxval);
-                // return root;
+        // 1 Child 
 
-                //inplace aise hoga 
-                auto rscan = root->right;
-                while(rscan->left){
-                    rscan = rscan->left;
-                }
-                rscan->left = root->left ;
-                auto rightchild = root->right;
-                delete root;
-                return rightchild;
-            }
-            
+        if(root->left == NULL){
+            TreeNode* temp = root->right;
+            delete root;
+            return temp;
         }
-        else{
-            if(key< root->val){
-                root->left = deleteNode(root->left ,key);
-            }
-            else{
-                root->right = deleteNode(root->right ,key);
-            }
+
+        if(root->right == NULL){
+            TreeNode* temp = root->left;
+            delete root;
+            return temp;
         }
-        return root;
+        //2 Child 
+        TreeNode* temp = root->right;
+        while(temp->left){
+            temp  = temp->left;
+        }
+        // replace the value 
+        root->val = temp->val;
+        // delete dublicate node
+        root->right = solve(root->right,temp->val);
+
+    }
+    return root;
+
+}
+    TreeNode* deleteNode(TreeNode* root, int key) {
+        return solve(root,key);
     }
 };
