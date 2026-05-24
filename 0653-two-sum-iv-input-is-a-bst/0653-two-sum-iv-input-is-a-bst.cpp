@@ -11,38 +11,29 @@
  */
 class Solution {
 public:
-   void inordertraversal(TreeNode* root ,vector<int>&inorder){
-    if(root == NULL){
-        return ;
-    }
-    //LNR;
-    inordertraversal(root->left, inorder);
-    inorder.push_back(root->val);
-     inordertraversal(root->right, inorder);
-   }
+void traversal(TreeNode* root, unordered_map<int,int>&mp){
 
-   bool check(vector<int>&arr, int k){
-    int n = arr.size();
-    int s = 0;
-    int e = n-1;
-    while(s<e){
-        if(arr[s]+arr[e] == k){
-            return true;
-        }
-        if(arr[s]+arr[e] <k){
-            s++;
-        }
-        if(arr[s]+arr[e] > k){
-            e--;
-        }
+    if(root == NULL) return ;
 
-    }
-    return false;
-   }
+    traversal(root->left,mp);
+    mp[root->val]++;
+    traversal(root->right,mp);
+}
+
+bool solve(TreeNode* root, int k , unordered_map<int,int>&mp ){
+
+    if(root==NULL) return false;
+
+    int d =  k - root->val;
+    if(mp.find(d)!=mp.end() && d!= root->val) return true;
+
+    return solve(root->left,k,mp) || solve(root->right,k,mp);
+
+}
     bool findTarget(TreeNode* root, int k) {
-        vector<int>inorder;
-        inordertraversal(root,inorder);
-        bool ans = check(inorder,k);
-        return ans;
+        unordered_map<int,int>mp;
+        traversal(root,mp);
+
+        return solve(root,k,mp);
     }
 };
