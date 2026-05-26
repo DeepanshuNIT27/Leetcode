@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0480-sliding-window-median](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0480-sliding-window-median) |
 | [0491-non-decreasing-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0491-non-decreasing-subsequences) |
 | [0494-target-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0494-target-sum) |
+| [0496-next-greater-element-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0498-diagonal-traverse](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0518-coin-change-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0518-coin-change-ii) |
 | [0525-contiguous-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0525-contiguous-array) |
@@ -337,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0480-sliding-window-median](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0480-sliding-window-median) |
 | [0491-non-decreasing-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0491-non-decreasing-subsequences) |
+| [0496-next-greater-element-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0525-contiguous-array) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -679,6 +681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [0496-next-greater-element-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0943-sum-of-subarray-minimums](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
@@ -932,6 +935,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0085-maximal-rectangle) |
+| [0496-next-greater-element-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0943-sum-of-subarray-minimums](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1228-minimum-cost-tree-from-leaf-values](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1228-minimum-cost-tree-from-leaf-values) |
