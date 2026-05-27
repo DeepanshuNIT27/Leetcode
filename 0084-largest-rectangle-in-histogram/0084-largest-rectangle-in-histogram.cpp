@@ -1,68 +1,61 @@
 class Solution {
 public:
-    void nextSmallerElement(vector<int>& arr, vector<int>& nextAns) {
-        stack<int> st;
-        st.push(-1);
-        int n = arr.size();
 
-        for(int i=n-1; i>=0; i--) {
-            int element = arr[i];
-            while(st.top() != -1 && arr[st.top()] >= element) {
-                st.pop();
-            } 
-            //agar yaha tk pohocha hu, iska mtlb
-            //k ya toh koi choota number stack top pr h 
-            //ya fer -1 stack top pr h 
-            nextAns.push_back(st.top());
-            //current number ko toh stack me push krna hi h 
-            st.push(i);
+// prevsmallest nikalo nextsmallest nikalo eska diff width hoga 
+//current height tera height hoga mul kro store max.
+void prevsmaller(vector<int>& heights,stack<int>st, vector<int>&prev){
+    int n = heights.size();
+
+    for(int i=0;i<n;i++){
+
+        while(!st.empty() && heights[st.top()]>= heights[i]){
+            st.pop();
         }
-    }
-
-    void prevSmallerElement(vector<int>& arr, vector<int>& prevAns) {
-        stack<int> st;
-        st.push(-1);
-        int n = arr.size();
-
-        for(int i=0; i<n; i++) {
-            int element = arr[i];
-            while(st.top() != -1 && arr[st.top()] >= element) {
-                st.pop();
-            } 
-            //agar yaha tk pohocha hu, iska mtlb
-            //k ya toh koi choota number stack top pr h 
-            //ya fer -1 stack top pr h 
-            prevAns.push_back(st.top());
-            //current number ko toh stack me push krna hi h 
-            st.push(i);
+        if(!st.empty()){
+            prev[i] = st.top();
         }
+        else {
+            prev[i] = -1;
+        }
+        st.push(i);
     }
+}
 
+void nextsmaller(vector<int>& heights,stack<int>st, vector<int>&next){
+    int n = heights.size();
 
+    for(int i=n-1;i>=0;i--){
+
+        while(!st.empty() && heights[st.top()]>= heights[i]){
+            st.pop();
+        }
+        if(!st.empty()){
+            next[i] = st.top();
+        }
+        else {
+            next[i] = n;
+        }
+        st.push(i);
+    }
+}
 
     int largestRectangleArea(vector<int>& heights) {
-        vector<int> nextAns;
-        vector<int> prevAns;
-        nextSmallerElement(heights,nextAns);
-        reverse(nextAns.begin(), nextAns.end());
-        //yahi maoin bhul jata hu
-        for(int i=0 ;i<nextAns.size(); i++) {
-            if(nextAns[i] == -1) {
-                nextAns[i] = nextAns.size(); 
-            }
-        }
-        ///corner case -> = wala main bhul jata
 
-        prevSmallerElement(heights, prevAns);
-
-        int maxArea = 0;
-        for(int i=0; i<nextAns.size(); i++) {
-            int width = nextAns[i]-prevAns[i]-1;
-            int height = heights[i];
-            int currArea = width * height;
-            maxArea = max(maxArea, currArea);
-        }
+        int n = heights.size();
+        stack<int>st;
+        vector<int>prev(n);
+        vector<int>next(n);
+        prevsmaller(heights,st,prev);
+        nextsmaller(heights,st,next);
         
-        return maxArea;
+        int maxi = 0;
+        for(int i=0;i<n;i++){
+          
+          int width = next[i] - prev[i] - 1;
+          int height = heights[i];
+
+          maxi = max( maxi , width*height);
+        }
+        return maxi;
     }
 };
