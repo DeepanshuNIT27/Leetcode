@@ -1,58 +1,71 @@
 class Solution {
 public:
-//NEXT SMALLER
-void Nextsmaller(vector<int>&a , vector<int>&ans){
-    int n = a.size();
-    stack<int>st;
-    st.push(-1);
-    for(int i=n-1;i>=0;i--){
-        int element = a[i];
-      while(st.top()!= -1 &&  a[st.top()]>=element){
-        st.pop();
-      }
-      ans.push_back(st.top());
-      st.push(i);
-    }
-}
-//PREV SMALLER
-void Prevsmaller(vector<int>&a , vector<int>&ans){
-    int n = a.size();
-    stack<int>st;
-    st.push(-1);
+// har row ka height banao with help of previous row 
+// now har row ko histrogram ki tarah treat kro 
+// store max ans got from all rows.
+    void prevsmaller(vector<int>& heights,stack<int>st, vector<int>&prev){
+    int n = heights.size();
+
     for(int i=0;i<n;i++){
-        int element = a[i];
-        while(st.top()!=-1 && a[st.top()]>=element){
+
+        while(!st.empty() && heights[st.top()]>= heights[i]){
             st.pop();
         }
-        ans.push_back(st.top());
+        if(!st.empty()){
+            prev[i] = st.top();
+        }
+        else {
+            prev[i] = -1;
+        }
+        st.push(i);
+    }
+}
+
+void nextsmaller(vector<int>& heights,stack<int>st, vector<int>&next){
+    int n = heights.size();
+
+    for(int i=n-1;i>=0;i--){
+
+        while(!st.empty() && heights[st.top()]>= heights[i]){
+            st.pop();
+        }
+        if(!st.empty()){
+            next[i] = st.top();
+        }
+        else {
+            next[i] = n;
+        }
         st.push(i);
     }
 }
     int maximalRectangle(vector<vector<char>>& matrix) {
-        vector<int>prev(matrix[0].size(),0);
-        int fin = 0;
-        for(int i=0;i<matrix.size();i++){
-            vector<int>a(matrix[0].size());
-            for(int j=0;j<matrix[0].size();j++){
-                    if(matrix[i][j] == '1')
-                       a[j] = prev[j] + 1;
-                    else
-                    a[j] = 0;
-            }
-            vector<int>ans1;
-            vector<int>ans2;
-            Nextsmaller(a,ans1);
-            Prevsmaller(a,ans2);
-            reverse(ans1.begin(),ans1.end());
-            for(int k=0;k<ans1.size();k++) if(ans1[k]==-1) ans1[k] = ans1.size();
-            for(int z=0;z<ans1.size();z++){
-                int width = ans1[z] - ans2[z] - 1;
-                int height = a[z];
-             fin = max(fin , width*height);
-            }
-            prev = a;
-        }
         
-        return fin;
+        int n = matrix.size();
+        int m = matrix[0].size();
+        vector<int>height(m,0);
+         int maxi = 0;
+        for(auto &it : matrix){
+
+            for(int col=0;col<m ; col++){
+                if(it[col]=='1') height[col] += 1;
+                else height[col] = 0;
+            }
+            int sz = height.size();
+              stack<int>st;
+              vector<int>prev(sz);
+              vector<int>next(sz);
+               prevsmaller(height,st,prev);
+              nextsmaller(height,st,next);
+
+             for(int i=0;i<sz;i++){
+          
+            int width = next[i] - prev[i] - 1;
+              int h = height[i];
+
+          maxi = max( maxi , width*h);
+        }
+
+        }
+        return maxi;
     }
 };
