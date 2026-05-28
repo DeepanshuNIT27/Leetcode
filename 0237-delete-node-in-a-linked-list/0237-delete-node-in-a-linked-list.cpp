@@ -8,6 +8,7 @@
  */
 class Solution {
 public:
+// THIS IS A METHOD -1 WHERE THE TIME COMPLEXITY IS O(N) AND SPACE O(1)
     void deleteNode(ListNode* node) {
         
       ListNode * curr = node->next;
