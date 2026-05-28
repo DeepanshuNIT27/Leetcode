@@ -8,19 +8,11 @@
  */
 class Solution {
 public:
-// THIS IS A METHOD -1 WHERE THE TIME COMPLEXITY IS O(N) AND SPACE O(1)
+//METHOD-2 OPTIMAL METHOD COMPLEXTY O(1) FOR BOTH TIME AND SPACE
     void deleteNode(ListNode* node) {
         
-      ListNode * curr = node->next;
-      ListNode* prev = node;
-
-      prev->val = curr->val;
-      while(curr->next){
-        prev = curr;
-        curr = curr->next;
-        prev->val = curr->val;
-      }
-      prev->next = NULL;
-
+        node->val = node->next->val;
+        node->next = node->next->next;
+        
     }
 };
