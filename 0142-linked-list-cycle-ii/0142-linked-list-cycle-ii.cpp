@@ -8,36 +8,20 @@
  */
 class Solution {
 public:
-ListNode*hascycle(ListNode*head){
-    ListNode*slow=head;
-    ListNode*fast = head;
-    while(fast!=NULL){
-        fast = fast->next;
-        if(fast!=NULL){
-            fast=fast->next;
-            slow = slow->next;
-            if(fast==slow){
-                return fast;
+// Brute force method O(N) space and time complexity
+    ListNode *detectCycle(ListNode *head) {
+        unordered_map<ListNode*,bool>mp;
+
+       ListNode*curr = head;
+
+        while(curr!=NULL){
+
+            if(mp.find(curr)!=mp.end()) return curr;
+            else{
+                mp[curr] = true;
+                curr = curr->next;
             }
         }
-    }
-    return NULL;
-}
-    ListNode *detectCycle(ListNode *head) {
-        
-        ListNode*fast =hascycle(head);
-        //NO CYCLE IS PRESENT
-        if(fast==NULL){
-            return NULL;
-        }
-        ListNode*slow = head;
-        //CYCLE S PRESENT
-        while(slow!=fast){
-            slow=slow->next;
-            fast=fast->next;
-
-        }
-        return slow;
-        
+        return NULL;
     }
 };
