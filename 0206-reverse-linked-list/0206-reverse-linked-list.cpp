@@ -10,6 +10,7 @@
  */
 class Solution {
 public:
+//ITERATIVE APPROACH 
     ListNode* reverseList(ListNode* head) {
         if(head== NULL || head->next ==NULL) return head;
 
