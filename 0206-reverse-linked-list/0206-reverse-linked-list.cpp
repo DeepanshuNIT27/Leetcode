@@ -10,20 +10,24 @@
  */
 class Solution {
 public:
-//ITERATIVE APPROACH 
-    ListNode* reverseList(ListNode* head) {
-        if(head== NULL || head->next ==NULL) return head;
+//RECURSIVE APPROACH .
 
-        ListNode* prev = NULL;
-        ListNode* curr = head;
-        ListNode* upcome = NULL;
-        while(curr!=NULL){
-            upcome = curr->next;
-            curr->next = prev;
-            prev = curr;
-            curr = upcome;
-          
-        }
-        return prev;
+ListNode* solve( ListNode* prev ,ListNode* curr){
+
+    if(curr== NULL) return prev;
+
+    ListNode*forward = curr->next;
+
+    curr->next = prev;
+    prev = curr;
+    curr = forward;
+
+    return solve(prev,curr);
+
+}
+    ListNode* reverseList(ListNode* head) {
+        ListNode*curr =head;
+        ListNode*prev = NULL;
+        return solve(prev,curr);
     }
 };
