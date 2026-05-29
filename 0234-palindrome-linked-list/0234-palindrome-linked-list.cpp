@@ -10,6 +10,7 @@
  */
 
 //ITERATIVE REVERSE METHOD
+
  ListNode* reverse(ListNode* pali){
 
    ListNode* prev = NULL;
@@ -24,6 +25,9 @@
    return prev;
    
  }
+
+ // THIS IS A OPTIMAL CODE FOR PALINDROME CHECK COMPLEXITY O(N) TIME
+ // AND O(1) SPACE .
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
