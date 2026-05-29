@@ -10,56 +10,24 @@
  */
 class Solution {
 public:
- ListNode* getMiddle(ListNode*&head ,ListNode*&middleNodeKaPrev){
-    ListNode*slow =head;
-    ListNode*fast =head;
-    while(fast!=NULL){
-        fast = fast->next;
-        if(fast!=NULL){
-            fast = fast->next;
-            middleNodeKaPrev=slow;
-            slow = slow->next;
-        }
-    }
-    return slow;
- }
- ListNode* reverseList(ListNode* &prev ,ListNode*curr){
-    
-    while(curr!=NULL){
-        ListNode*forward = curr->next;
-        curr->next = prev;
-        prev = curr;
-        curr= forward;
-    }
-    return prev;
- }
+//BRUTE FORCE - FIRST TRAVERSE THE LINKEDLIST AND STORE  ALL VALUE ON A STRING THEN CHECK WHETHER THE STRING IS PALINDROM OR NOT 
     bool isPalindrome(ListNode* head) {
-        //2 bhago me break kro
-        if(head->next==NULL){
-            return true;
+        
+        string s = "";
+        ListNode* curr = head;
+
+        while(curr!=NULL){
+
+             s +=  to_string(curr->val);
+
+             curr = curr->next;
         }
-        ListNode* firstHalfHead = head;
-        ListNode* middleNodeKaPrev =NULL;
-        ListNode*middleNode =getMiddle(head,middleNodeKaPrev);
-        //break;
-        middleNodeKaPrev->next = NULL;
-        //reverse a second half;
-        ListNode*prev=NULL;
-        ListNode*curr =middleNode;
-        ListNode* secondHalfHead = reverseList(prev,curr); 
-        //compare
-        ListNode* temphead1 = firstHalfHead;
-        ListNode* temphead2 =secondHalfHead;
-        while(temphead1!=NULL){
-            if(temphead1->val!=temphead2->val){
-                return false;
-            }
-            else{
-                temphead1 =temphead1->next;
-                temphead2=temphead2->next;
-            }
+
+        int i = 0; int j= s.size()-1;
+        while(i<j){
+            if(s[i]!=s[j]) return false;
+            i++;j--;
         }
         return true;
-
     }
 };
