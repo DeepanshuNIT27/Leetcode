@@ -10,37 +10,37 @@
  */
 class Solution {
 public:
+// THIS IS A OPTIMAL SOLUTION OF COMPLEXITY O(N) 7 CONSTANT SPACE O(1).
+// BUT HERE 2 CREATED 2 LIST THAT IS CONSTANT SPACE.
+//SO IN METHOD 2 WE WILL DO IN PLACE MERGE .
     ListNode* oddEvenList(ListNode* head) {
-        ListNode*temp =head;
-        int i =1;
-        ListNode* odd = new ListNode(-1);
-        ListNode*odd1=odd;
-         ListNode*eve = new ListNode(-1);
-        ListNode*eve1=eve;
-        while(temp!=nullptr){
-            if(i%2==0){
-                //EVEN ME DALO
-                eve1->next = temp;
-                temp =temp->next;
-                eve1 = eve1->next;
-                i++;
-            }
-            else{
-                //ODD ME DALO
-                odd1->next = temp;
-                temp =temp->next;
-                odd1 = odd1->next;
-                i++;
-            }
-        }
-        //DONO KO MERGE KR DO.
-        eve1->next = nullptr;
-        odd1->next = eve->next;
-    ListNode*Result = odd->next;
-    delete odd;
-    delete eve;
-    return Result;
-
         
+        ListNode* odd = new ListNode(0);
+        ListNode* eve = new ListNode(0);
+        bool flag = true;
+        ListNode*temp1 = odd;
+        ListNode*temp2 = eve;
+
+        ListNode*curr = head;
+
+        while(curr!=NULL){
+           
+           ListNode* forward = curr->next;
+           if( flag ){
+            temp1->next = curr;
+            curr->next = NULL;
+            temp1 = curr;
+           }
+           else{
+            temp2->next = curr;
+            curr->next = NULL;
+            temp2= curr;
+           }
+           flag = !flag;
+           curr = forward;
+        }
+
+        temp1->next = eve->next;
+        return odd->next;
     }
 };
