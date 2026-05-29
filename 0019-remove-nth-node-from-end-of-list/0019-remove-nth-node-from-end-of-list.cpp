@@ -8,33 +8,29 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-
- // 2 pass solution first for count and second for delete 
- //complexity O(N) time ans O(1) space 
 class Solution {
 public:
+// Single pass solution time complexity O(N) and space O(N)
+// But this is not optimal
     ListNode* removeNthFromEnd(ListNode* head, int n) {
         
-        int count = 0;
+        unordered_map<int,ListNode*> mp;
+        int total  = 0; 
         ListNode* curr = head;
+
         while(curr!=NULL){
-            count++;
+            total++;
+            mp[total] = curr;
             curr = curr->next;
         }
-        int index = count - n - 1;
-        if(index == -1) {
-            return head->next;
-        }
+        int index = total - n;
+        if(index==0) return head->next;
 
-        else{
-             ListNode* temp = head;
-            while(index>0){
-               index -- ;
-               temp = temp->next;
-            }
-
-            temp->next = temp->next->next;
-        }
+        ListNode* temp = mp[index];
+        ListNode* del = mp[index+1];
+        temp->next = del->next;
+        delete del;
         return head;
+
     }
 };
