@@ -8,26 +8,47 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+//ITERATIVE REVERSE METHOD
+ ListNode* reverse(ListNode* pali){
+
+   ListNode* prev = NULL;
+
+   while(pali!=NULL){
+
+    ListNode* forward = pali->next;
+    pali->next = prev ;
+    prev = pali ;
+    pali = forward;
+   }
+   return prev;
+   
+ }
 class Solution {
 public:
-//BRUTE FORCE - FIRST TRAVERSE THE LINKEDLIST AND STORE  ALL VALUE ON A STRING THEN CHECK WHETHER THE STRING IS PALINDROM OR NOT 
     bool isPalindrome(ListNode* head) {
+        if(head==NULL || head->next == NULL) return true;
         
-        string s = "";
-        ListNode* curr = head;
+        ListNode* slow = head;
+        ListNode* fast  = head;
 
-        while(curr!=NULL){
+         while(fast!=NULL && fast->next!= NULL && fast->next->next!=NULL){
 
-             s +=  to_string(curr->val);
+            slow = slow->next;
+            fast = fast->next->next;
+         }
 
-             curr = curr->next;
-        }
+         ListNode* pali = slow->next;
+         slow->next = NULL;
+         ListNode* rpali = reverse(pali);
 
-        int i = 0; int j= s.size()-1;
-        while(i<j){
-            if(s[i]!=s[j]) return false;
-            i++;j--;
-        }
-        return true;
+         while(rpali!=NULL &&  head!=NULL){
+
+            if(rpali->val != head->val) return false;
+
+            rpali = rpali->next;
+            head = head->next;
+         }
+         return true;
     }
 };
