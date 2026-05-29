@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0148-sort-list](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -467,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0088-merge-sorted-array) |
+| [0148-sort-list](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0242-valid-anagram) |
@@ -560,6 +562,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0148-sort-list) |
 | [0234-palindrome-linked-list](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0287-find-the-duplicate-number) |
@@ -930,6 +933,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0141-linked-list-cycle](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
@@ -1363,6 +1367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0023-merge-k-sorted-lists) |
+| [0148-sort-list](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0148-sort-list) |
 | [0948-sort-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0948-sort-an-array) |
 ## Bucket Sort
 |  |
