@@ -8,19 +8,26 @@
  */
 class Solution {
 public:
-// Brute force method O(N) space and time complexity
+// SLOW FAST POINTER APPROACH AGR DONO KISI SAME POINT PE MILE MEANS CYCLE PRESENT HAI AB VO DTAR NIKALNE KE LIYE SLOW KO HEAD PE LE JA AB DONO KO 1-1 STEP SE BADATE CHAL AGAIN JAHA MILE VHI START POINT TH CYCLE KA
     ListNode *detectCycle(ListNode *head) {
-        unordered_map<ListNode*,bool>mp;
+        if(head==NULL || head->next == NULL) return NULL;
+        
+        ListNode* slow =  head;
+        ListNode* fast = head;
 
-       ListNode*curr = head;
+        while(fast!=NULL && fast->next!=NULL){
 
-        while(curr!=NULL){
+            slow = slow->next;
+            fast = fast->next->next;
 
-            if(mp.find(curr)!=mp.end()) return curr;
-            else{
-                mp[curr] = true;
-                curr = curr->next;
-            }
+            if(slow == fast){
+                slow = head;
+                while(slow != fast){
+                    slow = slow->next;
+                    fast = fast->next;
+                }
+                return slow;
+        }
         }
         return NULL;
     }
