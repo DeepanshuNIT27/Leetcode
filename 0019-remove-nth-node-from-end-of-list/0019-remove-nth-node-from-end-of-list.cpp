@@ -10,27 +10,26 @@
  */
 class Solution {
 public:
-// Single pass solution time complexity O(N) and space O(N)
-// But this is not optimal
+//OPTIMAL SOLUTION O(N) TIME ANS O(1) AND SINGLE PASS.
     ListNode* removeNthFromEnd(ListNode* head, int n) {
         
-        unordered_map<int,ListNode*> mp;
-        int total  = 0; 
-        ListNode* curr = head;
+        ListNode * temp = new ListNode(0);
+        temp->next = head;
+        ListNode* slow= temp;
+        ListNode* fast = temp;
 
-        while(curr!=NULL){
-            total++;
-            mp[total] = curr;
-            curr = curr->next;
+        for(int i=0;i<n;i++){
+            fast = fast->next;
         }
-        int index = total - n;
-        if(index==0) return head->next;
 
-        ListNode* temp = mp[index];
-        ListNode* del = mp[index+1];
-        temp->next = del->next;
+        while( fast!=NULL && fast->next!=NULL){
+            fast = fast->next;
+            slow = slow->next;
+        }
+
+        ListNode* del = slow->next;
+        slow->next = del->next;
         delete del;
-        return head;
-
+        return temp->next;
     }
 };
