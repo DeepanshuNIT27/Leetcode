@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1755-closest-subsequence-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1755-closest-subsequence-sum) |
 | [1758-distribute-repeating-integers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1758-distribute-repeating-integers) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2220-minimum-bit-flips-to-convert-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2220-minimum-bit-flips-to-convert-number) |
 | [2308-divide-array-into-equal-pairs](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2509-minimize-xor](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2509-minimize-xor) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2533-bitwise-xor-of-all-pairings) |
