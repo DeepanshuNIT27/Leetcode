@@ -1,5 +1,6 @@
 class Solution {
 public:
+// Method - 1 complexity O(nlogn);
     int singleNumber(vector<int>& nums) {
         int n = nums.size();
         sort(nums.begin(),nums.end());
