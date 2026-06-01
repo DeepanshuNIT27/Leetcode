@@ -1,20 +1,26 @@
 class Solution {
 public:
-// BRUTE FORCE METHOD .
-// COMPLEXITY O(N*LOGN) AND SPACE O(LOGN);
+// OPTIMAL APPROACH BITWISE LOGIC 
+// WE WILL USE THE PARTITIONING USING XOR
     vector<int> singleNumber(vector<int>& nums) {
+       
+       long long xr = 0;
+       int ans1 = 0;
+       int ans2 = 0;
+       for(auto&it:nums) xr = xr^ it;
+
+       long long  rightMostIndex =  xr & (-xr);
+
+       for(auto&it : nums){
+           
+           if(it & rightMostIndex){
+              ans1 = ans1 ^ it;
+           }
+           else {
+             ans2 = ans2 ^ it;
+           }
+       }
+       return {ans1,ans2};
         
-        vector<int>ans;
-        int n = nums.size();
-        sort(nums.begin(),nums.end());
-        for(int i=0;i<n;i++){
-           if(i+1 < n && nums[i]==nums[i+1]){
-               i += 1;
-           }
-           else if(i+1>=n || nums[i]!=nums[i+1]){
-             ans.push_back(nums[i]);
-           }
-        }
-        return ans;
     }
 };
