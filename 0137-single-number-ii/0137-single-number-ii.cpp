@@ -1,20 +1,20 @@
 class Solution {
 public:
-// METHOD - 2 BITWISE METHOD COMPLEXITY O(32*N) AND  SPACE O(1);
+// METHOD-3 BUCKET METHOD 
+// 1. AGR VO TWO ME NHI HAI TO ONE ME DALO
+//2. AGR VO ONE ME HAI TO USKO TWO ME DALO.
     int singleNumber(vector<int>& nums) {
         
-        int ans = 0;
+        int one  = 0;
+        int two = 0;
         int n = nums.size();
-        for(int i=0;i<=31;i++){
 
-            int count = 0;
-            for(int j=0;j<n;j++){
-              if(nums[j]&(1<<i)) count++;
-            }
-            if(count%3!=0) {
-                ans = ans | (1<<i);
-            }
+        for(int i=0;i<n;i++){
+
+            one = (nums[i]^one) & ~two ;
+            two = (nums[i]^two) & ~one;
         }
-        return ans;
+        return one;
+        
     }
 };
