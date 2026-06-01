@@ -1,19 +1,20 @@
 class Solution {
 public:
-// Method - 1 complexity O(nlogn);
+// METHOD - 2 BITWISE METHOD COMPLEXITY O(32*N) AND  SPACE O(1);
     int singleNumber(vector<int>& nums) {
+        
+        int ans = 0;
         int n = nums.size();
-        sort(nums.begin(),nums.end());
-        for(int i=0;i<n;i++){
+        for(int i=0;i<=31;i++){
 
-            if(i+1<n && nums[i] == nums[i+1]){
-                i = i+2;
+            int count = 0;
+            for(int j=0;j<n;j++){
+              if(nums[j]&(1<<i)) count++;
             }
-
-            else if(i+1>=n || nums[i]!=nums[i+1]){
-                return nums[i];
+            if(count%3!=0) {
+                ans = ans | (1<<i);
             }
         }
-        return 0;
+        return ans;
     }
 };
