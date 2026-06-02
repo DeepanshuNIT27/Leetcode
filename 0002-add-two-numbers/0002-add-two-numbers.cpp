@@ -10,43 +10,52 @@
  */
 class Solution {
 public:
-//ITERATIVE METHOD.
-// ListNode*iterative(ListNode*l1, ListNode*l2){
-//     ListNode*ans = new ListNode(-1);
-//     ListNode*it=ans;
-//     int carry=0;
-//     while(l1 || l2 || carry ){
-//         int a = l1 ? l1->val:0;
-//         int b = l2 ? l2->val:0;
-//         int sum = a+b+carry;
-//         int digit= sum%10;
-//          carry = sum/10;
-//         it->next =new ListNode(digit);
-//         it=it->next;
-//         l1= l1 ? l1->next:nullptr;
-//         l2= l2 ? l2->next:nullptr;
-//     }
-
-//     ListNode*finalans = ans->next;
-//     delete ans;
-//     return finalans;
-// }
-//RECURSIVE APPROACH
-ListNode*recursive(ListNode*l1,ListNode*l2 ,int carry=0){
-    if(!l1 && !l2 && !carry) return 0;
-     int a = l1 ? l1->val:0;
-        int b = l2 ? l2->val:0;
-        int sum = a+b+carry;
-        int digit= sum%10;
-         carry = sum/10;
-         ListNode*ans = new ListNode(digit);
-         ans->next =recursive(l1?l1->next:l1 ,l2?l2->next:l2 ,carry);
-         return ans;
-
-
-}
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-    //    return iterative(l1,l2);
-    return recursive(l1,l2);
+        
+        ListNode* final= new ListNode(-1);
+        ListNode* ans = final;
+
+        ListNode*templ1 = l1;
+        ListNode* templ2 = l2;
+        int carray = 0;
+
+        while(templ1!=NULL && templ2!=NULL){
+
+            int d = templ1->val + templ2->val + carray;
+            ListNode* curr = new ListNode(d%10);
+            carray = d/10;
+            ans->next = curr;
+            ans = curr;
+
+            templ1 = templ1->next;
+            templ2 = templ2->next;
+        }
+        if(templ1){
+            while(templ1!=NULL){
+                int d = carray + templ1->val;
+                 ListNode* curr = new ListNode(d%10);
+                 carray = d/10;
+                 ans->next = curr;
+                 ans = curr;
+                 templ1 = templ1->next;
+            }
+        }
+        if(templ2){
+             while(templ2!=NULL){
+                int d = carray + templ2->val;
+                 ListNode* curr = new ListNode(d%10);
+                 carray = d/10;
+                 ans->next = curr;
+                 ans = curr;
+                 templ2 = templ2->next;
+            }
+        }
+        if(carray){
+             ListNode* curr = new ListNode(carray);
+             carray = 0;
+             ans->next = curr;
+             ans = curr;
+        }
+        return final->next;
     }
 };
