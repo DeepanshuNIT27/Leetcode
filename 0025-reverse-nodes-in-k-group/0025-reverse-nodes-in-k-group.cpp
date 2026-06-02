@@ -8,50 +8,55 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-
- //RECURSIVE APPROACH
+ //ITERATIVE APPROACH
 class Solution {
 public:
-int getLength(ListNode*&head){
-    int count =0;
-   ListNode*temp =head;
-    while(temp!=NULL){
-        count++;
-        temp=temp->next;
-    }
-    return count;
+ListNode* reverse(ListNode*start , int k){
 
+   ListNode* prev = NULL;
+    ListNode* curr  = start;
+while(k){
+    k--;
+    ListNode* front = curr->next;
+    curr->next = prev ;
+    prev = curr;
+    curr = front; 
+   }
+return prev;
 }
     ListNode* reverseKGroup(ListNode* head, int k) {
-//LL IS EMPTY
-if(head==NULL){
-    return head;
-}
-//SINGLE NODE HO
-if(head->next==NULL){
-    return head;
-}
-//at least 2 node hogi;
-int leg = getLength(head);
-if(leg<k){
-    return head;
-}
-ListNode*prev =NULL;
-ListNode*curr = head;
-int position =0;
-while(position<k){
-    ListNode*forward = curr->next;
-    curr->next = prev;
-    prev = curr;
-    curr = forward;
-    position++;
-}
-//BAKI RECURSION SMBHAL LEGA
-if(curr!=NULL){
-    ListNode*recursionKaHead=reverseKGroup(curr,k);
-    head->next =recursionKaHead;
-}
-return prev;
         
+        ListNode* prev  = NULL;
+        ListNode* start = NULL;
+
+        ListNode* curr = head;
+        while(curr!=NULL){
+            ListNode* temp = curr;
+            int count = 0;
+
+            while(temp!=NULL && count<k){
+                count++;
+                temp = temp->next;
+            }
+            if(count==k){
+             ListNode* ans = reverse(curr,k);
+             if(start == NULL) start = ans;
+             if(prev == NULL) {
+                prev = curr;
+             }
+             else{
+                prev->next = ans;
+                prev = curr;
+             }
+            }
+
+            else{
+                prev->next = curr;
+                break;
+            }
+
+            curr = temp;
+        }
+        return start;
     }
 };
