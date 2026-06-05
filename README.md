@@ -168,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1200-minimum-absolute-difference](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1200-minimum-absolute-difference) |
 | [1228-minimum-cost-tree-from-leaf-values](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1228-minimum-cost-tree-from-leaf-values) |
 | [1248-count-number-of-nice-subarrays](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
+| [1331-rank-transform-of-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1364-tuple-with-same-product](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1367-maximum-height-by-stacking-cuboids](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1367-maximum-height-by-stacking-cuboids) |
@@ -374,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1248-count-number-of-nice-subarrays](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
+| [1331-rank-transform-of-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1364-tuple-with-same-product](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -497,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0948-sort-an-array) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1200-minimum-absolute-difference](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1200-minimum-absolute-difference) |
+| [1331-rank-transform-of-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1367-maximum-height-by-stacking-cuboids](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1367-maximum-height-by-stacking-cuboids) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
