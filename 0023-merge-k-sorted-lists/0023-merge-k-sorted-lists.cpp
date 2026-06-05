@@ -8,34 +8,35 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
- class compare{
-    public :
-    bool operator()(ListNode* a,ListNode* b){
-        return a->val > b->val;
-    }
- };
 class Solution {
 public:
+
+struct cmp {
+     bool operator()(ListNode*a ,ListNode*b) {
+        return  a->val > b->val;
+     }
+};
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        priority_queue<ListNode* ,vector<ListNode*> ,compare>pq;
-        int totalrow = lists.size();
-        for(int row=0; row<totalrow ;row++){
-            ListNode* temp = lists[row];
-            if(temp!=NULL){
-                pq.push(temp);
+        if(lists.size()==0) return NULL;
+     // comparator khud likhna hoga 
+        priority_queue<ListNode*, vector<ListNode*> , cmp >pq;
+        for(auto&it:lists){
+            if(it!=NULL){
+               pq.push(it);
             }
         }
-        ListNode* ans = new ListNode(-1);
-        auto it = ans;
+        ListNode* dummy = new ListNode(-1);
+        ListNode* curr = dummy;
         while(!pq.empty()){
-            ListNode* front = pq.top();
-            pq.pop();
-            it->next = front;
-            it = it->next;
-            if(front->next){
-                pq.push(front->next);
-            }
+           auto front = pq.top();
+           pq.pop();
+           dummy->next = front;
+           dummy = front;
+          if(front->next != NULL){
+            pq.push(front->next);
+          }
+          front->next = NULL;
         }
-        return ans->next;
+        return curr->next;
     }
 };
