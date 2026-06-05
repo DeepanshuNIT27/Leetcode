@@ -11,6 +11,11 @@
 class Solution {
 public:
 
+// LEARNING KI COMPARE WALA CHIJ HOTA HAI USKO LIST WAGERA KE CASE ME KHUD SE LIKHNA HOTA HAI NI TO HEAP MEMORY ADDRESS KE BASE PE SORT KRNE LG JAYEGA SO BETTER TO WRITE YOUR COMP ONLY.
+
+// IF NUMBER OF ALL NODES ARE N
+// TOTAL NO OF LIST = K
+// COMPLEXITY O(NLOGK) AND SPACE O(LOGK)
 struct cmp {
      bool operator()(ListNode*a ,ListNode*b) {
         return  a->val > b->val;
@@ -35,7 +40,6 @@ struct cmp {
           if(front->next != NULL){
             pq.push(front->next);
           }
-          front->next = NULL;
         }
         return curr->next;
     }
