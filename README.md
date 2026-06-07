@@ -179,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1477-product-of-the-last-k-numbers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1524-string-matching-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1524-string-matching-in-an-array) |
@@ -294,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0882-peak-index-in-a-mountain-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+| [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1631-path-with-minimum-effort](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2226-maximum-candies-allocated-to-k-children) |
