@@ -20,9 +20,12 @@ bool possible(int days ,vector<int>& bloomDay, int m , int k ){
     return false;
 }
     int minDays(vector<int>& bloomDay, int m, int k) {
+     int n = bloomDay.size();
+
+     if(1LL*m*k > n ) return -1;
         
-        int s = 1;
-        int e = 1e9;
+        int s = *min_element(bloomDay.begin(),bloomDay.end());
+        int e = *max_element(bloomDay.begin(),bloomDay.end());
         int ans = -1;
 
         while(s<=e){
