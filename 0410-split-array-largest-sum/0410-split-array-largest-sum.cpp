@@ -8,8 +8,7 @@ bool possible(int sum ,vector<int>& nums, int k ){
     int count = 1;
 
     for(int i=0;i<n;i++){
-        if(nums[i]>sum ) return false;
-
+        
         if(currsum + nums[i] <= sum){
              currsum += nums[i];
         }
