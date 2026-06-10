@@ -1,36 +1,34 @@
 class Solution {
 public:
-//O(N) space soln 
+//INPLACE O(1) SOLUTION USING 2 POINTER WILL DO STRING COMPRESSION 
     string reverseWords(string s) {
-        
-        string t ;
         int n = s.size();
-        int i = 0;
+        int i=0;
+        int j=0;
 
-        while(i<n){
+        while(j<n){
 
-            while(i<n && s[i] == ' ') i++;
+            while(j<n && s[j]==' ') j++;
 
-            if(i>=n) break;
-
-            if(!t.empty()) t.push_back(' ');
-
-            while(i<n && s[i]!=' '){
-                t.push_back(s[i]);
-                i++;
+            while(j<n && s[j]!=' ') {
+                s[i++] = s[j++];
             }
+
+            while(j<n && s[j]==' ') j++;
+
+            if(j<n) s[i++] = ' ';
         }
 
-        reverse(t.begin(),t.end());
-
+        s.resize(i);
+        reverse(s.begin(),s.end());
         int start = 0;
-        for(int i=0;i<=t.size();i++){
-
-            if(i == t.size() || t[i]==' '){
-                reverse(t.begin()+start , t.begin()+i);
-                start = i+1;
-            }
+        for(int i=0;i<=s.size();i++){
+          
+          if(i==s.size() || s[i]==' '){
+             reverse(s.begin()+start , s.begin()+i);
+             start = i+1;
+          }
         }
-        return t;
+        return s;
     }
 };
