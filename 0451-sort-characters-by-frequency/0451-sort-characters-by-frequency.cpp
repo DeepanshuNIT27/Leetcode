@@ -1,25 +1,24 @@
 class Solution {
 public:
-//USING HEAP WILL SORT COMPLEXITY O(N* LONG N) SPACE O(N)
+//WE WILL USE BUCKET SORT FOR SORTING WILL GROUP THE CHAR HAVING THE 
+//SAME FREQUENCIES.
     string frequencySort(string s) {
-        string ans = "";
+
+        int n = s.size();
         unordered_map<char,int>mp;
         for(auto&it:s) mp[it]++;
-        priority_queue<pair<int,char>>pq;
+
+        vector<vector<char>>buc(n+1);
 
         for(auto&it:mp){
-            pq.push({it.second,it.first});
+            buc[it.second].push_back(it.first);
         }
-        while(!pq.empty()){
-            int k = pq.top().first;
-            char ch = pq.top().second;
-            pq.pop();
-
-            while(k>0){
-               ans += ch;
-               k--;
-            }
-        }
-        return ans;
+        string ans = "";
+      for(int i=n;i>=0;i--){
+          for(char ch : buc[i]){
+            ans.append(i,ch);
+          }
+      }
+      return ans;
     }
 };
