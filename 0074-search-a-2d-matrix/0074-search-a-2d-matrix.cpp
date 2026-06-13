@@ -1,32 +1,30 @@
 class Solution {
 public:
-
-// THIS IS CORRECT BUT COMPLEXITY O(LOG N  + M) .
+// COMPLEXITY LOG(M*N) GIVES US A IDEA TO THINK ABOUT THE 1 D ARRAY.
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
         
-        int s  = 0;
-        int e = matrix.size()-1;
+        int n = matrix.size();
         int m = matrix[0].size();
+
+        int s = 0;
+        int e = n*m - 1;
 
         while(s<=e){
 
             int mid =  s + (e-s)/2;
 
-            if(matrix[mid][0]<= target && target<= matrix[mid][m-1]){
+            int row = mid/m;
+            int col = mid%m;
 
-                for(int i=0;i<m;i++){
-                    if(matrix[mid][i] == target) return true;
-                }
-            }
+            if(matrix[row][col] == target) return true;
 
-            if( target <matrix[mid][0]) {
-                 e = mid-1;
+            if(matrix[row][col]<target){
+                s = mid+1;
             }
-            else{
-                 s = mid+1;
+            else {
+                e = mid-1;
             }
         }
         return false;
-
     }
 };
