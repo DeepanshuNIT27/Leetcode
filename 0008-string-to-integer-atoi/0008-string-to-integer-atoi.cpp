@@ -24,14 +24,14 @@ public:
         while(j<n && (s[j]>='0' && s[j]<='9')){
              
            int digit =   s[j] - '0';
-             if(flag &&  (ans>(INT_MAX/10) || (ans==INT_MAX/10 && digit>7))){
-                 return INT_MAX;
-             }
+            if( flag && (ans > INT_MAX/10 || (ans==INT_MAX/10 && digit>7) ) ){
+                return INT_MAX;
+            }
+            else if( !flag && (ans>INT_MAX/10 || (ans==INT_MAX/10 && digit>8))){
+                return INT_MIN;
+            }
 
-             if(!flag && (-ans < (INT_MIN/10) || (-ans == INT_MIN/10  && digit>8 ))) return INT_MIN;
-
-             ans = 1LL*ans*10 + digit ;
-             
+             ans  =  1LL* ans *10 + digit;
              j++;
         }
         if(!flag){
