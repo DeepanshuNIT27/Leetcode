@@ -1,26 +1,42 @@
 class Solution {
 public:
-   int solve(string &s , int index , int sign, long long &ans){
-    if(index==s.size() || !(isdigit(s[index])) ){
-        return sign*ans;
-    }
-    int d = s[index] -'0';
-    ans = ans*10 + d;
-    if(sign*ans>INT_MAX) return INT_MAX;
-    if(sign*ans<INT_MIN) return INT_MIN;
-    return solve(s,index+1,sign,ans);
-
-   }
     int myAtoi(string s) {
-        int i= 0;
+        
         int n = s.size();
-        while(i<n && s[i]==' ') i++;
-        int sign = 1;
-        if(i<n && (s[i]=='-' || s[i]=='+')){
-            if(s[i]=='-')sign = -1;
-            i++;
+        bool flag = true;
+        long long ans  = 0LL;
+        int j = 0;
+        while(j<n && (s[j]==' ' || s[j]=='+' || s[j]=='-')){
+
+            if(s[j]=='-') {
+                flag = false;
+                j++;
+                break;
+            }
+            if(s[j]=='+') {
+                j++;
+                break;
+                
+            }
+            j++;
         }
-        long long ans = 0;
-    return solve(s, i, sign, ans);
+
+        while(j<n && (s[j]>='0' && s[j]<='9')){
+             
+           int digit =   s[j] - '0';
+             if(flag &&  (ans>(INT_MAX/10) || (ans==INT_MAX/10 && digit>7))){
+                 return INT_MAX;
+             }
+
+             if(!flag && (-ans < (INT_MIN/10) || (-ans == INT_MIN/10  && digit>8 ))) return INT_MIN;
+
+             ans = 1LL*ans*10 + digit ;
+             
+             j++;
+        }
+        if(!flag){
+            ans  = -ans;
+        }
+        return (int) ans;
     }
 };
