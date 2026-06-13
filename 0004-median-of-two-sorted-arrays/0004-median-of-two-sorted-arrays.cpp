@@ -27,7 +27,7 @@ public:
             if(l1 <= r2 && l2<=r1){
                 if((m+n)&1) return max(l1,l2);
                 else{
-                    return (max(l1,l2) + min(r1,r2))/2.0 ;
+                    return ((double)max(l1,l2) + (double)min(r1,r2))/2.0 ;
                 }
             }
             else if(l1 > r2){
