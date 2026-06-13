@@ -1,5 +1,7 @@
 class Solution {
 public:
+
+// THIS IS CORRECT BUT COMPLEXITY O(LOG N  + M) .
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
         
         int s  = 0;
