@@ -1,35 +1,36 @@
 class Solution {
 public:
-//DP SOLUTION 
-    string longestPalindrome(string s) {
-        int n = s.size();
-     vector<vector<bool>>dp(n+1,vector<bool>(n+1,false));
-      int start = 0;
-      int length = 1;
-       for(int i=n-1;i>=0;i--){
-        for(int j =i;j<n;j++){
-            // 1 length 
-            if(i==j){
-                dp[i][j] = true;
-            }
+//EXPAND AROUND THE CENTER KA DP SOLUTION COMPLEXITY HAI O(N^2).
+//ALSO EXPAND AROUND CENTER KA COMPLEXITY BHI O(N^2) HAI.
 
-            //2 
-          else  if(j-i==1 && s[i]==s[j]){
-                dp[i][j] = true;
-            }
+void solve(string s , int i , int j , int &start , int &length){
+    
+    int n = s.size();
+    while(i>=0 && j<n && s[i]==s[j]) {
 
-            //>=3 length 
-            else if(s[i]==s[j] && dp[i+1][j-1]){
-                dp[i][j] = true;
-            }
-
-            //update 
-            if(dp[i][j] && (j-i+1)>length){
-                length = j-i+1;
-                start = i;
-            }
+        if(j-i+1 > length){
+            start = i;
+            length = j-i+1;
         }
-       }
-       return s.substr(start,length);
+        i--;
+        j++;
+    }
+}
+    string longestPalindrome(string s) {
+        int n  = s.size();
+        
+        int start = 0;
+        int length = 1;
+
+        for(int i=0;i<n;i++){
+             
+           //  odd length pal
+             solve(s,i,i,start,length);
+
+           // even length pal 
+            solve(s,i,i+1,start , length);
+        }
+
+        return s.substr(start,length);
     }
 };
