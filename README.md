@@ -673,6 +673,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0944-delete-columns-to-make-sorted](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0944-delete-columns-to-make-sorted) |
 | [0952-word-subsets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0952-word-subsets) |
 | [0953-reverse-only-letters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0953-reverse-only-letters) |
+| [1021-remove-outermost-parentheses](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1250-longest-common-subsequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -749,6 +750,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-sum-of-subarray-minimums](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0943-sum-of-subarray-minimums](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1021-remove-outermost-parentheses](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1228-minimum-cost-tree-from-leaf-values](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1228-minimum-cost-tree-from-leaf-values) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
