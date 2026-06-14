@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0830-largest-triangle-area](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0830-largest-triangle-area) |
 | [0846-hand-of-straights](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0846-hand-of-straights) |
 | [0854-making-a-large-island](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0854-making-a-large-island) |
+| [0860-lemonade-change](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0860-lemonade-change) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0875-koko-eating-bananas](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [0877-stone-game](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0877-stone-game) |
@@ -805,6 +806,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0797-rabbits-in-forest](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0846-hand-of-straights](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0846-hand-of-straights) |
+| [0860-lemonade-change](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0860-lemonade-change) |
 | [1228-minimum-cost-tree-from-leaf-values](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1228-minimum-cost-tree-from-leaf-values) |
 | [1448-maximum-69-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1448-maximum-69-number) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
