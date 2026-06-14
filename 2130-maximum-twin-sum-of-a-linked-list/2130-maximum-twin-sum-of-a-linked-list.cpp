@@ -10,27 +10,48 @@
  */
 class Solution {
 public:
-//COMPLEXITY TIME AND SPACE O(N).
+// reverse the list 
+
+ListNode* reverse(ListNode*head){
+
+    ListNode*prev = NULL;
+    while(head!=NULL){
+        ListNode* forward = head->next;
+          head->next = prev ;
+          prev = head;
+          head = forward;
+    }
+    return prev;
+}
+
+//finding the mid of the list 
+ListNode* findMid(ListNode*slow , ListNode* fast){
+
+    while(fast!=NULL && fast->next!=NULL){
+
+        slow = slow->next;
+        fast = fast->next->next;
+    }
+    return slow;
+}
+
     int pairSum(ListNode* head) {
         
-        unordered_map<int,int>mp;
-        ListNode*temp = head;
-        int n = 0;
+        ListNode* slow  = head;
+        ListNode* fast  = head;
 
-        while(temp){
-            mp[n] = temp->val;
-            temp = temp->next;
-            n++;    
-        }
-        int  t = (n/2)-1;
-        int ans = 0;
-        int i = 0;
-        while(i<=t){
-           
-           ans = max(ans, head->val + mp[n-1-i]);
-           head = head->next;
-            i++;
-        }
-        return ans;
+        ListNode* mid = findMid(slow,fast);
+        
+        ListNode* reverseHead = reverse(mid);
+
+        int ans  = 0;
+        ListNode*curr = head;
+         while(reverseHead!=NULL){
+
+            ans = max(ans, curr->val + reverseHead->val);
+             curr = curr->next ;
+             reverseHead = reverseHead->next;
+         }
+         return ans;
     }
 };
