@@ -1,32 +1,28 @@
 class Solution {
 public:
-bool solve(vector<vector<int>>& matrix,int target,int index , int &n){
-    //base case
-    if(index>=matrix.size()){
-        return false;
-    }
-    //1 case hm dekhenge 
-
-    for(int i=0;i<n;i++){
-     if(matrix[index][i]>target){
-         n = i;
-         break;
-     }
-     else if(matrix[index][i]==target){
-        n = 0;
-       return true;
-     }
-    }
-
-    int ans =   solve(matrix,target,index+1,n);
-    return ans;
-}
+//COMPLEXITY(M+N) TIME O(1) SPACE .
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
-        int m = matrix.size();
-        int n = matrix[0].size();
-        int index = 0;
-     return  solve(matrix,target,index,n);
-    
         
+        int  m = matrix.size();
+        int  n = matrix[0].size();
+
+        int row = 0;
+        int col = n-1;
+
+        while(row<m && col>=0){
+
+            if(matrix[row][col] == target) {
+                return true;
+            }
+
+            if(matrix[row][col]<target){
+                row += 1;
+            }
+
+            else {
+                col -= 1;
+            }
+        }
+        return false;
     }
 };
