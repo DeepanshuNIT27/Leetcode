@@ -1,5 +1,6 @@
 class Solution {
 public:
+// COMPLEXITY O(N) TIME AND SPACE 
     int candy(vector<int>& ratings) {
         
         int n = ratings.size();
