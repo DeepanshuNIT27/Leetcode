@@ -1,23 +1,38 @@
 class Solution {
 public:
-// COMPLEXITY O(N) TIME AND SPACE 
+//PEAK AND DOWM  APPROACH OPTIMAL FOR THIS QUE 
+//COMPLEXITY O(N) TIME AND O(1) SPACE;
     int candy(vector<int>& ratings) {
         
         int n = ratings.size();
-        vector<int>ans(n,1);
+        int i = 1 ; int sum = 1 ;
 
-        for(int i=1;i<n;i++){
-            if(ratings[i] > ratings[i-1]){
-                ans[i]  =  ans[i-1]+1;
-            }
-        }
+        while(i<n){
 
-        for(int i=n-2;i>=0;i--){
-            if(ratings[i] > ratings[i+1]) {
-                ans[i] = max(ans[i] , ans[i+1]+1);
+            if(ratings[i] == ratings[i-1]) {
+                 sum += 1;
+                 i++;
             }
+
+            int peak = 1;
+            while(i<n && ratings[i] > ratings[i-1]){
+                 peak++;
+                  sum += peak;
+                 i++;
+            }
+
+            int down = 1;
+            while(i<n && ratings[i] < ratings[i-1]){
+                sum += down ;
+                down++;
+                i++;
+            }
+
+            if(down > peak){
+                sum += down - peak;
+            }
+
         }
-        int cnt = accumulate(ans.begin(),ans.end(),0);
-        return cnt;
+        return sum;
     }
 };
