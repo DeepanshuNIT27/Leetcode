@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0342-power-of-four](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0342-power-of-four) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0473-matchsticks-to-square](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0473-matchsticks-to-square) |
 | [0491-non-decreasing-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0491-non-decreasing-subsequences) |
 | [0526-beautiful-arrangement](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0526-beautiful-arrangement) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0410-split-array-largest-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0435-non-overlapping-intervals](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0455-assign-cookies) |
 | [0473-matchsticks-to-square](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0473-matchsticks-to-square) |
@@ -379,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0355-design-twitter) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0424-longest-repeating-character-replacement](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0433-minimum-genetic-mutation](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0433-minimum-genetic-mutation) |
 | [0451-sort-characters-by-frequency](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0451-sort-characters-by-frequency) |
@@ -1095,6 +1098,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0140-word-break-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Rolling Hash
