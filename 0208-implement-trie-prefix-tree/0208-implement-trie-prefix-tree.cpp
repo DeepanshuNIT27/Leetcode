@@ -1,82 +1,64 @@
-class TrieNode{
- public:
-    char data;
-    unordered_map<char,TrieNode*>children;
-    bool isTerminal;
-    TrieNode(char value){
-        data = value;
-        isTerminal = false;
+struct Node {
+     Node* links[26] = {};
+     bool flag = false;
+     bool containKey(char ch){
+        return (links[ch-'a']!=NULL);
+   }
+    void put(char ch , Node*node){
+        links[ch-'a'] = node;
+    }
+    Node* get(char ch){
+        return links[ch-'a'];
     }
 
-    void insertWord(TrieNode* root , string &word , int i){
-         if(i>= word.length()){
-            root->isTerminal = true;
-            return ;
-     }
-        char ch = word[i];
-        TrieNode* child;
-        if(root->children.find(ch)!=root->children.end()){
-            child = root->children[ch];
-        }
-        else{
-            child = new TrieNode(ch);
-            root->children[ch] = child;
-        }
-        insertWord(child,word,i+1);
+    void  setEnd(){
+        flag = true;
     }
 
-    bool searchWord(TrieNode* root ,string &word , int i){
-        if(i>= word.size()){
-            return root->isTerminal;
-        }
-        char ch = word[i];
-        TrieNode* child ;
-        if(root->children.find(ch)!=root->children.end()){
-            child = root->children[ch];
-        }
-        else{
-            return false;
-        }
-        bool recursionKaAns = searchWord(child,word,i+1);
-        return recursionKaAns;
-    }
-    bool searchPrefix(TrieNode* root ,string &word,int i){
-        if(i>= word.size()){
-            return true;
-        }
-        char ch = word[i];
-        TrieNode* child ;
-        if(root->children.find(ch)!=root->children.end()){
-            child = root->children[ch];
-        }
-        else{
-            return false;
-        }
-        bool recursionKaAns = searchPrefix(child,word,i+1);
-        return recursionKaAns;
+    bool isEnd(){
+        return flag;
     }
 };
 class Trie {
+
+private : Node* root;
 public:
-  TrieNode* root;
-   
     Trie() {
-      root = new TrieNode('-');
+        root  = new Node();
     }
-   
     
     void insert(string word) {
-      root->insertWord(root,word,0);
+        Node* node = root;
+        for(int i=0;i<word.length();i++){
+            if(!node->containKey(word[i])){
+                node->put(word[i], new Node());
+            }
+          node =   node->get(word[i]);
+        }
+        node->setEnd();
+
     }
     
     bool search(string word) {
-        bool ans = root->searchWord(root,word,0);
-        return ans;
+        Node* node = root;
+        for(int i=0;i<word.size();i++){
+            if(!node->containKey(word[i])){
+                return false;
+            }
+            node = node->get(word[i]);
+        }
+        return node->isEnd();
     }
     
     bool startsWith(string prefix) {
-        bool ans = root->searchPrefix(root,prefix,0);
-        return ans;
+        Node* node =  root;
+        for(int i=0;i<prefix.size();i++){
+            if(!node->containKey(prefix[i])){
+                return false;
+            }
+             node = node->get(prefix[i]);
+        }
+        return true;
     }
 };
 
