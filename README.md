@@ -660,6 +660,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0030-substring-with-concatenation-of-all-words) |
+| [0038-count-and-say](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0038-count-and-say) |
 | [0044-wildcard-matching](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0072-edit-distance) |
