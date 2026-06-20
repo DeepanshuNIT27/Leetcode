@@ -65,7 +65,7 @@ public:
             a += temp;
         }
 
-        a += a;
+        a += temp;
     
     int ans = strStr(a,b);
     if(ans == -1) return -1;
