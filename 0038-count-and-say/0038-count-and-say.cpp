@@ -11,7 +11,7 @@ string solve(int n ){
     string ans = "";
 
     for(int i=0;i<temp.size();i++){
-        int ch = temp[i];
+        char ch = temp[i];
         int j = i;
         while(j<temp.size() && temp[j] == ch){
              j++;
