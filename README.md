@@ -470,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0279-perfect-squares](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0279-perfect-squares) |
 | [0326-power-of-three](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0342-power-of-four) |
+| [0357-count-numbers-with-unique-digits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0357-count-numbers-with-unique-digits) |
 | [0367-valid-perfect-square](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0396-rotate-function](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0396-rotate-function) |
@@ -896,6 +897,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0279-perfect-squares](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0322-coin-change) |
+| [0357-count-numbers-with-unique-digits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0357-count-numbers-with-unique-digits) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0396-rotate-function](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0396-rotate-function) |
 | [0403-frog-jump](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0403-frog-jump) |
@@ -1402,6 +1404,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0140-word-break-ii) |
 | [0216-combination-sum-iii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0257-binary-tree-paths) |
+| [0357-count-numbers-with-unique-digits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0357-count-numbers-with-unique-digits) |
 | [0473-matchsticks-to-square](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0473-matchsticks-to-square) |
 | [0491-non-decreasing-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0491-non-decreasing-subsequences) |
 | [0494-target-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0494-target-sum) |
