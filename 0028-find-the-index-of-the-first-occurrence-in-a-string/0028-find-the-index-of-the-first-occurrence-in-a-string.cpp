@@ -1,60 +1,32 @@
-//RABIN KARP METHOD 
-#define ll long long int 
 class Solution {
 public:
-    const ll RADIX_1 = 26;
-    const ll MOD_1 = 1000000007;
-    const ll RADIX_2 = 27;
-    const ll MOD_2 = 1000000033;
+// APPLYING KMP COMPLEXITY O(N+M) TIME AND SPACE .
+vector<int>kmp(string s){
+    vector<int>lps(s.size(),0);
 
-    pair<ll,ll>hashPair(string string , ll m){
-        ll hash1 = 0  , hash2 = 0;
-        ll factor1 = 1 , factor2 = 1;
+    for(int i=1;i<s.size();i++){
 
-        for(ll i=m-1;i>=0;i--){
+        int prev_index = lps[i-1];
 
-            hash1 += ((string[i]-'a')*factor1)%MOD_1;
-            factor1 = (factor1 * RADIX_1) % MOD_1;
-            hash2 += ((string[i]-'a')*factor2) % MOD_2;
-            factor2 = (factor2 * RADIX_2) % MOD_2;
+        while(prev_index> 0 && s[i]!=s[prev_index]){
+            prev_index = lps[prev_index - 1];
         }
-        return {hash1%MOD_1 , hash2%MOD_2};
+
+        lps[i] = prev_index + (s[i] == s[prev_index] ? 1 : 0);
     }
+    return lps;
+}
     int strStr(string haystack, string needle) {
-        ll n = haystack.length() , m = needle.length();
-        if(n<m) return -1;
+        
+        string s = needle + "#" +  haystack;
+        vector<int>ans = kmp(s);
+        for(int i=0;i<ans.size();i++){
 
-        ll MAX_WEIGHT_1 = 1 , MAX_WEIGHT_2 = 1;
-
-        for(ll i=0; i<m;i++){
-            MAX_WEIGHT_1 = (MAX_WEIGHT_1 * RADIX_1) % MOD_1;
-            MAX_WEIGHT_2 = (MAX_WEIGHT_2 * RADIX_2) % MOD_2;
-        }
-
-        pair<ll,ll>hashNeedle = hashPair(needle, m);
-        pair<ll,ll>hashHay = {0,0};
-
-        for(ll i=0 ; i<=n-m ;i++){
-            if(i==0){
-                hashHay = hashPair(haystack,m);
+            int el = ans[i];
+            if(el == needle.size()){
+                int idx = i;
+                if(i - 2*needle.size() >=0) return i-2*needle.size();
             }
-            else {
-        hashHay.first = 
-              ((hashHay.first * RADIX_1) % MOD_1
-           - ((haystack[i-1]-'a') * MAX_WEIGHT_1) % MOD_1
-         + (haystack[i+m-1]-'a') + MOD_1
-) % MOD_1;
-
-
-       hashHay.second = 
-                ((hashHay.second * RADIX_2) % MOD_2
-               - ((haystack[i-1]-'a') * MAX_WEIGHT_2) % MOD_2
-               + (haystack[i+m-1]-'a')
-               + MOD_2
-) % MOD_2;
-            }
-
-            if(hashNeedle.first == hashHay.first && hashNeedle.second == hashHay.second) return i;
         }
         return -1;
     }
