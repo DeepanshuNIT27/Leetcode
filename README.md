@@ -710,6 +710,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1392-longest-happy-prefix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1392-longest-happy-prefix) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1502-construct-k-palindrome-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1524-string-matching-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1524-string-matching-in-an-array) |
@@ -759,6 +760,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0686-repeated-string-match](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0686-repeated-string-match) |
 | [0796-rotate-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0796-rotate-string) |
+| [1392-longest-happy-prefix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1392-longest-happy-prefix) |
 | [1524-string-matching-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
@@ -1127,11 +1129,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Rolling Hash
 |  |
 | ------- |
+| [1392-longest-happy-prefix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1392-longest-happy-prefix) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Hash Function
 |  |
 | ------- |
+| [1392-longest-happy-prefix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1392-longest-happy-prefix) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Counting
