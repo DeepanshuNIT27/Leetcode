@@ -1,5 +1,6 @@
 class Solution {
 public:
+//BRUTE FORCE 2^N * N .
     vector<string> validStrings(int n) {
         long long N = 1<<n;
         vector<string>ans;
