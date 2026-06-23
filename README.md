@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2533-bitwise-xor-of-all-pairings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2792-neighboring-bitwise-xor) |
+| [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
@@ -738,6 +739,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2691-count-vowel-strings-in-ranges](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2999-count-the-number-of-powerful-integers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2999-count-the-number-of-powerful-integers) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
+| [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3396-valid-word](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3396-valid-word) |
 | [3447-clear-digits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3447-clear-digits) |
@@ -1424,6 +1426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1758-distribute-repeating-integers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1758-distribute-repeating-integers) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1980-find-unique-binary-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1980-find-unique-binary-string) |
+| [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Union Find
 |  |
 | ------- |
