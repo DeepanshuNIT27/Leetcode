@@ -1,26 +1,34 @@
 class Solution {
 public:
-void solve( vector<string>&ans , string &out , int open , int close, int n){
-    //Base case 
-    if(open + close == 2*n){
-        ans.push_back(out);
-        return;
+/*“This is a Catalan-number backtracking problem, so complexity is O(Cn·n) time and O(Cn·n) space including output.”*/
+
+//Due to heavy bound many branches prune so complexity not 2^2N . 
+void solve(int n , int open , int close , string&curr ,vector<string>&ans ){
+
+    if(curr.size() == 2*n) {
+
+      ans.push_back(curr);
+        return ;
     }
+
+    //'(' try kr
     if(open<n){
-        out.push_back('(');
-        solve(ans,out,open+1,close,n);
-        out.pop_back(); //backtracking
+    curr.push_back('(');
+    solve(n,open+1,close,curr,ans);
+    curr.pop_back();
     }
+
+    // try ')' but restricted manner
     if(close<open){
-        out.push_back(')');
-        solve(ans,out,open,close+1,n);
-         out.pop_back(); //backtracking
+        curr.push_back(')');
+        solve(n,open , close+1,curr,ans);
+        curr.pop_back();
     }
 }
     vector<string> generateParenthesis(int n) {
         vector<string>ans;
-        string out;
-        solve(ans,out,0,0,n);
+        string curr = "";
+        solve(n,0,0,curr,ans);
         return ans;
     }
 };
