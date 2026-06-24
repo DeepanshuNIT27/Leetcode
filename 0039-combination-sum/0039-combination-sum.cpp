@@ -3,31 +3,27 @@ public:
 
 void solveRec(int i , int &sum ,vector<int>& candidates, int target,  vector<int>&temp,vector<vector<int>>&ans){
 
-    if( i== candidates.size()) {
-        if(sum == target) {
-            ans.push_back(temp);
-        }
+    if(sum == target) {
+        ans.push_back(temp);
         return ;
     }
 
-    if(sum > target) return ;
+    for(int j=i;j<candidates.size();j++){
+        if(candidates[j] + sum > target) break ;
 
-    //include
-    temp.push_back(candidates[i]);
-    sum += candidates[i];
-    solveRec(i,sum,candidates,target,temp,ans);
-    temp.pop_back();
-    sum -= candidates[i];
-
-    // exclude 
-    solveRec(i+1,sum,candidates,target,temp,ans);
+        temp.push_back(candidates[j]);
+        sum += candidates[j];
+        solveRec(j,sum,candidates,target,temp,ans);
+        sum -= candidates[j];
+        temp.pop_back();
+    }
 }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         int n = candidates.size();
         vector<vector<int>>ans;
         vector<int>temp;
         int sum = 0;
-
+        sort(candidates.begin(),candidates.end());
         solveRec(0,sum,candidates,target,temp,ans);
         return ans ;
     }
