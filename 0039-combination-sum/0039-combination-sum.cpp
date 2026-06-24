@@ -1,27 +1,34 @@
 class Solution {
 public:
-void solve(vector<int>& candidates,vector<vector<int>>&ans,  vector<int>&temp, int target , int index){
-    //BASE CASE
-    if(target == 0){
-        ans.push_back(temp);
+
+void solveRec(int i , int &sum ,vector<int>& candidates, int target,  vector<int>&temp,vector<vector<int>>&ans){
+
+    if( i== candidates.size()) {
+        if(sum == target) {
+            ans.push_back(temp);
+        }
         return ;
     }
-    if(index >= candidates.size() || target<0) return ;
-    
-    // 1 CASE HM SMBHALENGE
-    //include
-    temp.push_back(candidates[index]);
-    solve(candidates,ans,temp,target-candidates[index],index);
-    temp.pop_back();
-    //exclude
-    solve(candidates,ans,temp,target,index+1);
 
+    if(sum > target) return ;
+
+    //include
+    temp.push_back(candidates[i]);
+    sum += candidates[i];
+    solveRec(i,sum,candidates,target,temp,ans);
+    temp.pop_back();
+    sum -= candidates[i];
+
+    // exclude 
+    solveRec(i+1,sum,candidates,target,temp,ans);
 }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        int n = candidates.size();
         vector<vector<int>>ans;
         vector<int>temp;
-        int index = 0;
-        solve(candidates,ans,temp,target,index);
-return ans;
+        int sum = 0;
+
+        solveRec(0,sum,candidates,target,temp,ans);
+        return ans ;
     }
 };
