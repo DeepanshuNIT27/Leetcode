@@ -1,26 +1,31 @@
 class Solution {
 public:
-void solve(vector<int>& candidates, vector<vector<int>>&ans, vector<int>&temp, int target ,int index){
-    //base case
-    if(target == 0){
+//O(N*2^N) COMPLEXITY.
+void solveRec(int i , int sum ,vector<int>& candidates, int target, vector<int>&temp , vector<vector<int>>&ans){
+
+    if(sum == target){
         ans.push_back(temp);
-        return ;
+        return;
     }
-    if(index>=candidates.size() || target<0) return;
-    //include
-    temp.push_back(candidates[index]);
-    solve(candidates,ans,temp,target-candidates[index],index+1);
-    temp.pop_back();
-    //exclude
-    while(index+1< candidates.size() && candidates[index]==candidates[index+1]) index++;
-    solve(candidates,ans,temp,target,index+1);
-    
+
+    for(int j= i;j<candidates.size();j++){
+
+        if(j > i && candidates[j] == candidates[j-1]){
+               continue;
+        }// IT WILL HANDLE THE DUBLICATE PART .
+        if(candidates[j] + sum > target) break;
+        temp.push_back(candidates[j]);
+        solveRec(j+1,sum+candidates[j],candidates,target,temp,ans);
+        temp.pop_back();
+
+    }
 }
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
-        vector<vector<int>>ans;
-        vector<int>temp;
-        sort(candidates.begin(), candidates.end());
-        solve(candidates,ans,temp,target,0);
-        return ans;
+     sort(candidates.begin(),candidates.end());
+     vector<vector<int>>ans;
+     vector<int>temp;
+
+     solveRec(0,0,candidates,target,temp,ans);
+     return ans;   
     }
 };
