@@ -1,5 +1,6 @@
 class Solution {
 public:
+// COMPLEXITY O(4^N * N) BOTH TIME AND SPACE .
 
 void solveRec(int i , string digits, string&temp,vector<string>&ans,unordered_map<char,string>&mp){
 
@@ -7,7 +8,7 @@ void solveRec(int i , string digits, string&temp,vector<string>&ans,unordered_ma
         ans.push_back(temp);
         return ;
     }
-    
+
     for(auto&it : mp[digits[i]]){
 
         temp += it;
