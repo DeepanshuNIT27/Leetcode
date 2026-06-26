@@ -1,117 +1,68 @@
 class Solution {
 public:
-// recursion 
-int solveRec(vector<int>& prices ,int i , int buy , int limit){
-    //Base case 
-    if(limit == 0 || i == prices.size()) return 0 ;
-    int profit = 0;
-    if(buy){
-      int buyItProfit = -prices[i] + solveRec(prices,i+1,0,limit);
-      int skipIt  =  0 + solveRec(prices,i+1,buy,limit);
-      profit = max(buyItProfit,skipIt);
+//RECURSION 
+
+int solveRec(int i , int flag , int trans , vector<int>& prices){
+
+    if(i == prices.size() || trans == 0) return  0 ;
+    
+    int ans = 0;
+    if(flag ==0 ) {
+
+        int ans1 = -prices[i] + solveRec(i+1,1,trans,prices);
+        int ans2 = solveRec(i+1,flag,trans,prices);
+
+        ans = max(ans1,ans2);
+    }
+    else {
+
+        int ans1 = prices[i] + solveRec(i+1,0,trans-1,prices);
+        int ans2 = solveRec(i+1,flag,trans,prices);
+
+        ans = max(ans1,ans2);
     }
 
-    else{
-    int sellItProfit =  +prices[i] + solveRec(prices,i+1,1,limit-1);
-    int skipIt = 0 + solveRec(prices,i+1,buy,limit);
-    profit = max(sellItProfit,skipIt);
-    }
-
-    return profit;
+    return  ans;
 }
 
-//Memoization
-int solveMemo(vector<int>& prices ,int i , int buy , int limit, vector<vector<vector<int>>>&dp){
-    //Base case 
-    if(limit == 0 || i == prices.size()) return 0 ;
-    if( dp[i][buy][limit]!=-1) return  dp[i][buy][limit];
-    int profit = 0;
-    if(buy){
-      int buyItProfit = -prices[i] + solveMemo(prices,i+1,0,limit,dp);
-      int skipIt  =  0 + solveMemo(prices,i+1,buy,limit,dp);
-      profit = max(buyItProfit,skipIt);
+// MEMOIZATION 
+
+int solveMemo(int i , int flag , int trans , vector<int>& prices, vector<vector<vector<int>>>&dp){
+
+    if(i == prices.size() || trans == 0) return  0 ;
+    if(dp[i][flag][trans]!=-1 ) return dp[i][flag][trans];
+    
+    int ans = 0;
+    if(flag ==0 ) {
+
+        int ans1 = -prices[i] + solveMemo(i+1,1,trans,prices,dp);
+        int ans2 = solveMemo(i+1,flag,trans,prices,dp);
+
+        ans = max(ans1,ans2);
+    }
+    else {
+
+        int ans1 = prices[i] + solveMemo(i+1,0,trans-1,prices,dp);
+        int ans2 = solveMemo(i+1,flag,trans,prices,dp);
+
+        ans = max(ans1,ans2);
     }
 
-    else{
-    int sellItProfit =  +prices[i] + solveMemo(prices,i+1,1,limit-1,dp);
-    int skipIt = 0 + solveMemo(prices,i+1,buy,limit,dp);
-    profit = max(sellItProfit,skipIt);
-    }
-
-    dp[i][buy][limit] = profit;
-    return dp[i][buy][limit];
+    return dp[i][flag][trans] = ans;
 }
 
-// tabulation 
-int solveTab(vector<int>& prices ,int i , int buy , int limit, vector<vector<vector<int>>>&dp){
-    int n = prices.size();
-    for(int i=n-1;i>=0;i--){
-        for(int buy=0;buy<2;buy++){
-            for(int limit=1;limit<3;limit++){
-                 int profit = 0;
-                 if(buy){
-              int buyItProfit = -prices[i] + dp[i+1][0][limit];
-                 int skipIt  =  0 + dp[i+1][buy][limit];
-                  profit = max(buyItProfit,skipIt);
-                }
-
-                 else{
-          int sellItProfit =  +prices[i] + dp[i+1][1][limit-1];
-          int skipIt = 0 + dp[i+1][buy][limit];
-                  profit = max(sellItProfit,skipIt);
-    }
-            dp[i][buy][limit] = profit;
-            }
-        }
-    }
-    return dp[0][1][2];
-
-}
-// spaceoptimization 
-int solveSO(vector<int>& prices ,int i , int buy , int limit, vector<vector<vector<int>>>&dp){
-    int n = prices.size();
-    for(int i=n-1;i>=0;i--){
-        for(int buy=0;buy<2;buy++){
-            for(int limit=1;limit<3;limit++){
-                 int profit = 0;
-                 if(buy){
-              int buyItProfit = -prices[i] + dp[1][0][limit];
-                 int skipIt  =  0 + dp[1][buy][limit];
-                  profit = max(buyItProfit,skipIt);
-                }
-
-                 else{
-          int sellItProfit =  +prices[i] + dp[1][1][limit-1];
-          int skipIt = 0 + dp[1][buy][limit];
-                  profit = max(sellItProfit,skipIt);
-    }
-            dp[0][buy][limit] = profit;
-            }
-        }
-        dp[1] = dp[0];
-    }
-    return dp[0][1][2];
-
-}
 
     int maxProfit(vector<int>& prices) {
-        int n  = prices.size();
-        //recursion 
-        //return solveRec(prices,0,1,2);
+        int  n = prices.size();
+        
+        //RECURSION 
+        //return solveRec(0,0,2,prices);
+      
+      //MEMOIZATION 
+        vector<vector<vector<int>>>dp(n+1,vector<vector<int>>(2,vector<int>(3,-1)));
 
-        //Memoization
-        // vector<vector<vector<int>>>dp(n+1,vector<vector<int>>(2,vector<int>(2+1,-1)));
+        return solveMemo(0,0,2,prices,dp);
 
-     //   return solveMemo(prices,0,1,2,dp);
 
-     // tabulation 
-    //   vector<vector<vector<int>>>dp(n+1,vector<vector<int>>(2,vector<int>(2+1,0)));
-
-    //  return solveTab(prices,0,1,2,dp);
-
-    // Spaceoptimization 
-     vector<vector<vector<int>>>dp(2,vector<vector<int>>(2,vector<int>(2+1,0)));
-
-     return solveSO(prices,0,1,2,dp);
     }
 };
