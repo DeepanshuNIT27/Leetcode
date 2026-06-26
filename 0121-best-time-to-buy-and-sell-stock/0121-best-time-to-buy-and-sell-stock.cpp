@@ -1,5 +1,6 @@
 class Solution {
 public:
+// COMPLEXITY -> O(N) TIME AND O(1) SPACE .
     int maxProfit(vector<int>& prices) {
         
        int mini = prices[0];
@@ -9,10 +10,7 @@ public:
        for(int i=1;i<n;i++){
           
           mini = min(mini,prices[i]);
-
-          if(prices[i]>mini){
-             ans = max(ans, prices[i] - mini);
-          }
+         ans = max(ans,prices[i] - mini);
        }
        return ans;
     }
