@@ -84,6 +84,42 @@ int solveTab(vector<int>& prices){
     return dp[0][0];
 }
 
+//SPACE OPTIMIZATION 
+int solveSO(vector<int>& prices){
+
+    int n = prices.size();
+    vector<int>curr(2,0);
+    vector<int>next1(2,0);
+    vector<int>next2(2,0);
+
+
+    for(int i=n-1;i>=0;i--){
+        for(int flag=1;flag>=0;flag--){
+              int ans = 0;
+
+        if(flag == 0 ) {
+        int ans1 = -prices[i] + next1[1];
+    
+        int ans2 = next1[flag];
+        ans = max(ans1,ans2);
+       }
+
+       else {
+        int ans1 = prices[i] + next2[0];
+
+        int ans2 = next1[flag];
+
+        ans = max(ans1,ans2);
+      }
+       curr[flag] = ans;
+        }
+        next2 = next1 ;
+        next1 = curr;
+    }
+    return next1[0];
+}
+
+
 
 
     int maxProfit(vector<int>& prices) {
@@ -96,7 +132,10 @@ int solveTab(vector<int>& prices){
       // return solveMemo(0,0,prices,dp);
 
       //TABULATION
-      return solveTab(prices);
+     // return solveTab(prices);
+
+     //SPACE OPTIMIZATION
+     return solveSO(prices);
 
 
 
