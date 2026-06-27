@@ -1,5 +1,6 @@
 class Solution {
 public:
+//DP SOLUTION COMPLEXITY O(N^2).
 // RECURSION 
 int solveRec(int i , int prev ,vector<int>& nums ){
 
@@ -54,6 +55,31 @@ int solveTab(vector<int>& nums){
      return dp[0][0];
 }
 
+//SPACE OPTIMIZATION 
+
+int solveSO(vector<int>& nums){
+     
+     int n = nums.size();
+     vector<int>curr(n+1,0);
+     vector<int>next(n+1,0);
+
+     for(int i=n-1;i>=0;i--){
+        for(int prev=i-1;prev>=-1;prev--){
+             int ans = 0;
+           if(prev == -1 || nums[prev] < nums[i]){
+        ans =  1 + next[i+1];
+        }
+
+      int ans2 = next[prev+1];
+
+     curr[prev+1] = max(ans,ans2);
+
+        }
+        next = curr;
+     }
+     return next[0];
+}
+
 
     int lengthOfLIS(vector<int>& nums) {
        int n = nums.size();
@@ -65,6 +91,9 @@ int solveTab(vector<int>& nums){
       // return solveMemo(0,-1,nums,dp);
 
       //TABULATION
-      return solveTab(nums);
+      //return solveTab(nums);
+
+      //SPACE OPTIMIZATION 
+      return solveSO(nums);
     }
 };
