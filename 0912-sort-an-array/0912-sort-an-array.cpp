@@ -1,48 +1,46 @@
 class Solution {
 public:
-//MERGE SORT 
-//COMPLEXITY O(N*LOGN) TIME AND O(N) SPACE .
-void merge(vector<int>& nums , int low , int mid, int high){
-    vector<int>temp;
+//QUICK SORT .
+// BEST ANG AVG IS O(N*LOG*N).
+// WORST CASE IS O(N^2) WHEN IT IS ALREADY SORTED.
 
-    int i =low ; int j= mid+1;
-    while(i<=mid && j<=high){
+int partition(vector<int>& nums, int low , int high){
 
-        if(nums[i]<=nums[j]){
-            temp.push_back(nums[i]);
+    int pivot = nums[low];
+    int i = low;
+    int j = high;
+
+    while(i<j){
+
+        while( i<=high-1&& nums[i]<=pivot ){
             i++;
         }
-        else {
-            temp.push_back(nums[j]);
-            j++;
-        }
+
+     while( j>=low+1 && nums[j] > pivot ){
+        j--;
+     }
+
+     
+if(i<j ) swap(nums[i],nums[j]);
+
     }
-    while(i<=mid){
-        temp.push_back(nums[i]);
-        i++;
-    }
-    while(j<=high){
-        temp.push_back(nums[j]);
-        j++;
-    }
-   for(int i=low;i<=high;i++){
-    nums[i] = temp[i-low];
-   }
+    swap(nums[low],nums[j]);
+    return j;
 }
-void mergeSort(vector<int>& nums , int low , int high){
 
-    if(low>=high) return ;
+void qs(vector<int>& nums, int low , int high){
 
-    int mid = (low + high)/2;
-    mergeSort(nums,low,mid);
-    mergeSort(nums,mid+1,high);
-    merge(nums,low,mid,high);
+     if (low >= high) return;
+
+    int pIndex = partition(nums,low,high);
+
+    qs(nums,low,pIndex-1);
+    qs(nums,pIndex+1,high);
+
 }
     vector<int> sortArray(vector<int>& nums) {
-
-        int n = nums.size()-1; 
-         mergeSort(nums,0,n);
-         return nums;
-
+        int n = nums.size()-1;
+        qs(nums,0,n);
+        return nums;
     }
 };
