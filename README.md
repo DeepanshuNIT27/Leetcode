@@ -721,6 +721,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0953-reverse-only-letters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0953-reverse-only-letters) |
 | [1021-remove-outermost-parentheses](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
+| [1143-longest-common-subsequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1250-longest-common-subsequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -949,6 +950,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1013-fibonacci-number) |
 | [1049-last-stone-weight-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1049-last-stone-weight-ii) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1111-minimum-score-triangulation-of-polygon) |
+| [1143-longest-common-subsequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1228-minimum-cost-tree-from-leaf-values](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1228-minimum-cost-tree-from-leaf-values) |
 | [1250-longest-common-subsequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1263-number-of-dice-rolls-with-target-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1263-number-of-dice-rolls-with-target-sum) |
