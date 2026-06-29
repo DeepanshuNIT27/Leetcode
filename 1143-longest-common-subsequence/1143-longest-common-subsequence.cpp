@@ -41,6 +41,30 @@ int solveMemo(int i, int j ,string &text1, string &text2, vector<vector<int>>&dp
     return  dp[i][j] = ans;
 }
 
+//TABULATION
+
+int solveTab(string &text1, string &text2){
+      int n = text1.size();
+      int m = text2.size();
+    vector<vector<int>>dp(n+1,vector<int>(m+1,0));
+
+    for(int i=n-1;i>=0;i--){
+        for(int j=m-1;j>=0;j--){
+            int ans = 0;
+        if(text1[i] == text2[j]){
+      ans = 1 + dp[i+1][j+1];
+       }
+    else {
+        int ans2 = dp[i+1][j];
+        int ans3 = dp[i][j+1];
+        ans = max(ans,max(ans2,ans3));
+    }
+       dp[i][j] = ans;
+        }
+    }
+
+return dp[0][0];
+}
 
 
 
@@ -54,6 +78,9 @@ int solveMemo(int i, int j ,string &text1, string &text2, vector<vector<int>>&dp
 
         //MEMOIZATION 
         vector<vector<int>>dp(n+1,vector<int>(m+1,-1));
-        return solveMemo(0,0,text1,text2,dp);
+       // return solveMemo(0,0,text1,text2,dp);
+
+       //TABULATION 
+       return solveTab(text1,text2);
     }
 };
