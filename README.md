@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0665-non-decreasing-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0665-non-decreasing-array) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0721-accounts-merge](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0733-flood-fill) |
@@ -320,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0658-find-k-closest-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0658-find-k-closest-elements) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0792-binary-search](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0792-binary-search) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0875-koko-eating-bananas](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0875-koko-eating-bananas) |
@@ -940,6 +942,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0788-rotated-digits](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0788-rotated-digits) |
 | [0877-stone-game](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0877-stone-game) |
@@ -1001,6 +1004,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0643-maximum-average-subarray-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0658-find-k-closest-elements) |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0904-fruit-into-baskets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0930-binary-subarrays-with-sum) |
@@ -1152,12 +1156,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Rolling Hash
 |  |
 | ------- |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1392-longest-happy-prefix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1392-longest-happy-prefix) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Hash Function
 |  |
 | ------- |
+| [0718-maximum-length-of-repeated-subarray](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1392-longest-happy-prefix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1392-longest-happy-prefix) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/DeepanshuNIT27/Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
