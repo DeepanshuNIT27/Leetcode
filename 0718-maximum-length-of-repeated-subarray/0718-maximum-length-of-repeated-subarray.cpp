@@ -43,7 +43,7 @@ int solveTab(vector<int>& nums1, vector<int>& nums2){
 
         int ans = 0;
          if(nums1[i] == nums2[j]){
-         ans  = 1 + solveMemo(i+1,j+1,nums1,nums2,dp);
+         ans  = 1 + dp[i+1][j+1];
           }
         else {
         ans  = 0;
@@ -56,6 +56,33 @@ int solveTab(vector<int>& nums1, vector<int>& nums2){
 
 }
 
+//SPACE OPTIMIZATION 
+
+int solveSO(vector<int>& nums1, vector<int>& nums2){
+         int n  = nums1.size();
+         int m = nums2.size();
+    vector<int>curr(m+1,0);
+    vector<int>next(m+1,0);
+       
+       int final = 0;
+     for(int i=n-1;i>=0;i--){
+        for(int j=m-1;j>=0;j--){
+
+        int ans = 0;
+         if(nums1[i] == nums2[j]){
+         ans  = 1 + next[j+1];
+          }
+        else {
+        ans  = 0;
+         }
+         curr[j] = ans;
+         final = max(final,curr[j]);
+        }
+        next = curr;
+     }
+     return final;
+
+}
 
     int findLength(vector<int>& nums1, vector<int>& nums2) {
         int n  = nums1.size();
@@ -74,7 +101,9 @@ int solveTab(vector<int>& nums1, vector<int>& nums2){
         //return ans;
 
        // TABULATION
-       return solveTab(nums1,nums2); 
+      // return solveTab(nums1,nums2); 
 
+      //SPACE OPTIMIZATION 
+      return solveSO(nums1, nums2);
     }
 };
