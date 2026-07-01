@@ -49,6 +49,42 @@ int solveMemo(int i , int j ,string &word1, string &word2, vector<vector<int>>&d
      }
      return dp[i][j] = ans;
 }
+
+//TABULATION 
+int solveTab(string &word1, string &word2){
+     int n = word1.size();
+     int m = word2.size();
+
+    vector<vector<int>>dp(n+1,vector<int>(m+1,0));
+    for(int i=n-1;i>=0;i--){
+        dp[i][m] = dp[i+1][m] + 1;
+    }
+    for(int j=m-1;j>=0;j--){
+        dp[n][j] = 1 + dp[n][j+1];
+    }
+
+    for(int i=n-1;i>=0;i--){
+        for(int j=m-1;j>=0;j--){
+             int ans  = INT_MAX;
+         if(word1[i] == word2[j] ){
+        ans  = dp[i+1][j+1];
+     }
+     else {
+        //INSERT 
+        int ans1 = 1 + dp[i][j+1];
+        //DELETE
+        int ans2  = 1 + dp[i+1][j];
+        //REPLACE
+        int ans3 = 1 + dp[i+1][j+1];
+
+        ans  = min(ans , min(ans1,min(ans2,ans3)));
+     }
+        dp[i][j] = ans;
+        }
+    }
+    return dp[0][0] ;
+}
+
     int minDistance(string word1, string word2) {
         int n = word1.size();
         int m = word2.size();
@@ -57,7 +93,10 @@ int solveMemo(int i , int j ,string &word1, string &word2, vector<vector<int>>&d
 
        //MEMOIZATION 
        vector<vector<int>>dp(n+1,vector<int>(m+1,-1));
-       return solveMemo(0,0,word1,word2,dp);
+      // return solveMemo(0,0,word1,word2,dp);
+
+      //TABULATION 
+      return solveTab(word1,word2);
 
     }
 };
