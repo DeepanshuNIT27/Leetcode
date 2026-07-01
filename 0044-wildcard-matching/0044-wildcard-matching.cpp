@@ -109,6 +109,47 @@ bool solveTab(string &s, string &p){
 return dp[0][0];
 }
 
+//SPACE OPTIMIZATION 
+bool solveSO(string &s, string &p){
+     int n = s.size();
+     int m = p.size();
+
+    vector<bool>curr(m+1,false);
+    vector<bool>next(m+1,false);
+     next[m] =  true;
+    
+   for(int j=m-1; j>=0; j--){
+    if(p[j] == '*')
+        next[j] = next[j+1];
+    else
+       next[j] = false;
+  }
+
+     for(int i=n-1;i>=0;i--){
+        for(int j=m-1;j>=0;j--){
+            bool ans = false;
+         if(s[i] == p[j] || p[j] =='?'){
+         ans  =  ans ||next[j+1];
+         }
+      else {
+        if(p[j] == '*'){
+           bool ans1 = next[j];
+           bool ans2 = curr[j+1];
+
+           ans  = ans1 || ans2;
+        }
+        else {
+            ans  = false;
+        }
+    }
+     curr[j] =  ans;
+        }
+        next = curr;
+     }
+return next[0];
+}
+
+
     bool isMatch(string s, string p) {
         int n = s.size();
         int m = p.size();
@@ -120,6 +161,9 @@ return dp[0][0];
         //return solveMemo(0,0,s,p,dp);
 
         //TABULATION 
-        return solveTab(s,p);
+        //return solveTab(s,p);
+
+        //SPACE OPTIMIZATION 
+        return solveSO(s,p);
     }
 };
