@@ -71,6 +71,44 @@ bool solveMemo(int i, int j , string &s, string &p, vector<vector<int>>&dp){
     return  dp[i][j] =  ans;
 }
 
+//TABULATION 
+bool solveTab(string &s, string &p){
+     int n = s.size();
+     int m = p.size();
+
+     vector<vector<bool>>dp(n+1,vector<bool>(m+1,false));
+     dp[n][m] =  true;
+    
+   for(int j=m-1; j>=0; j--){
+    if(p[j] == '*')
+        dp[n][j] = dp[n][j+1];
+    else
+        dp[n][j] = false;
+  }
+
+     for(int i=n-1;i>=0;i--){
+        for(int j=m-1;j>=0;j--){
+            bool ans = false;
+         if(s[i] == p[j] || p[j] =='?'){
+         ans  =  ans || dp[i+1][j+1];
+         }
+      else {
+        if(p[j] == '*'){
+           bool  ans1  = dp[i+1][j];
+           bool ans2 =  dp[i][j+1];
+
+           ans  = ans1 || ans2;
+        }
+        else {
+            ans  = false;
+        }
+    }
+     dp[i][j] =  ans;
+        }
+     }
+return dp[0][0];
+}
+
     bool isMatch(string s, string p) {
         int n = s.size();
         int m = p.size();
@@ -79,6 +117,9 @@ bool solveMemo(int i, int j , string &s, string &p, vector<vector<int>>&dp){
 
         //MEMOIZATION 
         vector<vector<int>>dp(n+1,vector<int>(m+1,-1));
-        return solveMemo(0,0,s,p,dp);
+        //return solveMemo(0,0,s,p,dp);
+
+        //TABULATION 
+        return solveTab(s,p);
     }
 };
