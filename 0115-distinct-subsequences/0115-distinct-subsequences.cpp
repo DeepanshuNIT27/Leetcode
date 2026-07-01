@@ -1,89 +1,60 @@
 class Solution {
 public:
-//METHOD-2 OPTIMIZED METHOD
-//Recursion
-int solveRec(string&s, string&t, int i , int j){
-    //Base case 
-    if(j==t.size()) return 1;
-    if(i==s.size())  return 0;
+
+//RECURSION 
+int solveRec(int i, int j, string &s, string &t){
+
+    //BASE CASE
+    if(j == t.size()) return 1;
+
+    if(i == s.size()) return 0;
     int ans = 0;
-    if(s[i]==t[j]){
-        //dono bdhao
-     ans += solveRec(s,t,i+1,j+1);
+    if(s[i] == t[j]){
+
+        int ans1 = solveRec(i+1,j+1,s,t);
+        int ans2 = solveRec(i+1,j,s,t);
+
+        ans  =  ans1 + ans2;
     }
-    //i ko bs bdao
-    ans += solveRec(s,t,i+1,j);
+    else {
+        ans = solveRec(i+1,j,s,t);
+    }
+
     return ans;
 }
-//Memoization
-int solveMemo(string&s, string&t, int i , int j,vector<vector<int>>&dp){
-    //Base case 
-    if(j==t.size()) return 1;
-    if(i==s.size())  return 0;
-    if(dp[i][j]!=-1) return dp[i][j];
+
+//MEMOIZATION 
+int solveMemo(int i, int j, string &s, string &t, vector<vector<int>>&dp){
+
+    //BASE CASE
+    if(j == t.size()) return  dp[i][j] = 1;
+
+    if(i == s.size()) return dp[i][j] =  0;
+    if(dp[i][j]!=-1) return  dp[i][j];
     int ans = 0;
-    if(s[i]==t[j]){
-        //dono bdhao
-     ans += solveMemo(s,t,i+1,j+1,dp);
+    if(s[i] == t[j]){
+
+        int ans1 = solveMemo(i+1,j+1,s,t,dp);
+        int ans2 = solveMemo(i+1,j,s,t,dp);
+
+        ans  =  ans1 + ans2;
     }
-    //i ko bs bdao
-    ans += solveMemo(s,t,i+1,j,dp);
-    dp[i][j] = ans;
-    return dp[i][j];
-}
-//Tabulation
-int solveTab(string&s , string&t){
-    vector<vector<int>>dp(s.size()+1,vector<int>(t.size()+1,0));
-    for(int i=0;i<=s.size();i++) dp[i][t.size()] = 1;
-    for(int i=s.size()-1;i>=0;i--){
-        for(int j=t.size()-1;j>=0;j--){
-            long long ans = 0LL;
-           if(s[i]==t[j]){
-            //dono bdhao
-          ans += dp[i+1][j+1];
+    else {
+        ans = solveMemo(i+1,j,s,t,dp);
     }
-           //i ko bs bdao
-         ans += dp[i+1][j];
-         dp[i][j] = ans;
-        }
-    }
- return dp[0][0];
-}
-// Space optimization
-int solveSO(string&s , string&t){
-    vector<int>next(t.size()+1,0),curr(t.size()+1,0);
-    next[t.size()] = 1; 
-    for(int i=s.size()-1;i>=0;i--){
-        curr[t.size()] = 1;
-        for(int j=t.size()-1;j>=0;j--){
-            long long ans = 0LL;
-           if(s[i]==t[j]){
-            //dono bdhao
-          ans += next[j+1];
-    }
-           //i ko bs bdao
-         ans += next[j];
-         curr[j] = ans;
-        }
-         next = curr;
-    }
- return next[0];
+
+    return  dp[i][j] = ans;
 }
 
 
     int numDistinct(string s, string t) {
-        //recursion
-       // return solveRec(s,t,0,0);
+        int n = s.size();
+        int m = t.size();
+        //RECURSION 
+       // return solveRec(0,0,s,t);
 
-        //Memoization
-        vector<vector<int>>dp(s.size()+1,vector<int>(t.size()+1,-1));
-      //  return solveMemo(s,t,0,0,dp);
-
-        //Tabulation
-        //return solveTab(s,t);
-
-        //space optimization 
-        return solveSO(s,t);
-
+       //MEMOIZATION 
+       vector<vector<int>>dp(n+1,vector<int>(m+1,-1));
+       return solveMemo(0,0,s,t,dp);
     }
 };
