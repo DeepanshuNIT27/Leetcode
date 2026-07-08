@@ -46,6 +46,36 @@ int solveMemo(int i, int j, string &s, string &t, vector<vector<long long>>&dp){
     return  dp[i][j] = ans;
 }
 
+//TABULATION 
+int solveTab(string &s, string &t){
+
+      int n = s.size();
+      int m = t.size();
+      vector<vector<unsigned long long>>dp(n+1,vector<unsigned long long>(m+1,0));
+
+    //BASE CASE
+    for(int i=0;i<=n;i++){
+        dp[i][m] = 1;
+    }
+   for(int i=n-1;i>=0;i--){
+    for(int j=m-1;j>=0;j--){
+
+        if(n-i < m-j) continue;
+
+    
+    if(s[i] == t[j]){
+       unsigned  long long  ans1 = dp[i+1][j+1];
+       unsigned  long long  ans2 = dp[i+1][j];
+        dp[i][j]  =  ans1 + ans2;
+    }
+    else {
+        dp[i][j] = dp[i+1][j];
+    }
+    }
+   }
+   return dp[0][0];
+}
+
 
     int numDistinct(string s, string t) {
         int n = s.size();
@@ -54,7 +84,10 @@ int solveMemo(int i, int j, string &s, string &t, vector<vector<long long>>&dp){
        // return solveRec(0,0,s,t);
 
        //MEMOIZATION 
-       vector<vector<long long>>dp(n+1,vector<long long>(m+1,-1));
-       return solveMemo(0,0,s,t,dp);
+      // vector<vector<long long>>dp(n+1,vector<long long>(m+1,-1));
+       //return solveMemo(0,0,s,t,dp);
+
+       //TABULATION 
+       return solveTab(s,t);
     }
 };
