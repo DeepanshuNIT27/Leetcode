@@ -24,7 +24,7 @@ int solveRec(int i, int j, string &s, string &t){
 }
 
 //MEMOIZATION 
-int solveMemo(int i, int j, string &s, string &t, vector<vector<int>>&dp){
+int solveMemo(int i, int j, string &s, string &t, vector<vector<long long>>&dp){
 
     //BASE CASE
     if(j == t.size()) return  dp[i][j] = 1;
@@ -54,7 +54,7 @@ int solveMemo(int i, int j, string &s, string &t, vector<vector<int>>&dp){
        // return solveRec(0,0,s,t);
 
        //MEMOIZATION 
-       vector<vector<int>>dp(n+1,vector<int>(m+1,-1));
+       vector<vector<long long>>dp(n+1,vector<long long>(m+1,-1));
        return solveMemo(0,0,s,t,dp);
     }
 };
