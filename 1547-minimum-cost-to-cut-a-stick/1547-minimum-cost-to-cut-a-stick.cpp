@@ -26,6 +26,24 @@ int solveMemo(int i , int j ,vector<int>& cuts, vector<vector<int>>&dp ){
     }
     return  dp[i][j] = mini;
 }
+
+//TABULATION 
+int solveTab(vector<int>& cuts){
+     int m = cuts.size();
+    vector<vector<int>>dp(m,vector<int>(m,0));
+
+    for(int i=m-1;i>=0;i--){
+        for(int j=i+2;j<m;j++){
+            int mini = INT_MAX;
+           for(int k=i+1;k<j;k++){ 
+            int step = cuts[j] - cuts[i] + dp[i][k] + dp[k][j] ;
+           mini = min(mini,step);
+    }
+     dp[i][j] = mini;
+        }
+    }
+  return  dp[0][m-1];
+}
     int minCost(int n, vector<int>& cuts) {
        
         cuts.push_back(0);
@@ -37,7 +55,10 @@ int solveMemo(int i , int j ,vector<int>& cuts, vector<vector<int>>&dp ){
         //MEMOIZATION 
         int m = cuts.size();
         vector<vector<int>>dp(m,vector<int>(m,-1));
-        return solveMemo(0,m-1,cuts,dp);
+       // return solveMemo(0,m-1,cuts,dp);
+
+       //TABULATION 
+       return solveTab(cuts);
 
     }
 };
