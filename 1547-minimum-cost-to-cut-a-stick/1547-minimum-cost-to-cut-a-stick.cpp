@@ -19,7 +19,7 @@ int solveMemo(int i , int j ,vector<int>& cuts, vector<vector<int>>&dp ){
     if( i+1 == j) return 0;
     if(dp[i][j]!=-1) return dp[i][j];
 
-    int mini = 1e9;
+    int mini = INT_MAX;
     for(int k=i+1;k<j;k++){ 
        int step = cuts[j] - cuts[i] + solveMemo(i,k,cuts,dp) + solveMemo(k,j,cuts,dp);
        mini = min(mini,step);
@@ -36,7 +36,7 @@ int solveMemo(int i , int j ,vector<int>& cuts, vector<vector<int>>&dp ){
 
         //MEMOIZATION 
         int m = cuts.size();
-        vector<vector<int>>dp(m+1,vector<int>(m+1,-1));
+        vector<vector<int>>dp(m,vector<int>(m,-1));
         return solveMemo(0,m-1,cuts,dp);
 
     }
