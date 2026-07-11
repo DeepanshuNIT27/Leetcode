@@ -31,6 +31,27 @@ int solveMemo(int i, int j ,vector<int>& nums, vector<vector<int>>&dp ){
     return  dp[i][j] = maxi;
 }
 
+//TABULATION 
+int solveTab(vector<int>& nums){
+   int n = nums.size();
+vector<vector<int>>dp(n,vector<int>(n,0));
+
+ for(int i=n-1;i>=0;i--){
+    for(int j=i+2;j<n;j++){
+         int maxi = 0;
+       for(int k=i+1;k<j;k++){
+
+        int step = nums[i]*nums[k]*nums[j] + dp[i][k] + dp[k][j];
+
+        maxi = max(maxi,step);
+    }
+        dp[i][j] = maxi;
+    }
+ }
+ return dp[0][n-1];
+
+}
+
     int maxCoins(vector<int>& nums) {
         nums.insert(nums.begin(),1);
         nums.push_back(1);
@@ -41,7 +62,10 @@ int solveMemo(int i, int j ,vector<int>& nums, vector<vector<int>>&dp ){
 
        //MEMOIZATION  
        vector<vector<int>>dp(n,vector<int>(n,-1));
-       return solveMemo(0,n-1,nums,dp);
+       //return solveMemo(0,n-1,nums,dp);
+
+       //TABULATION
+       return solveTab(nums);
 
     }
 };
