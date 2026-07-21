@@ -40,6 +40,25 @@ int solveMemo(int i, string&s,vector<int>&dp){
     }
     return dp[i] = ans;
 }
+
+//TABULATION 
+int solveTab(string&s){
+
+    int n = s.size();
+    vector<int>dp(n+1,0);
+     
+    for(int i=n-1;i>=0;i--){
+        int ans = INT_MAX;
+        for(int j=i;j<s.size();j++){
+        if(ispalindrom(i,j,s)){
+            int val = 1 + dp[j+1];
+            ans = min(ans,val);
+        } 
+    }
+     dp[i] = ans;
+    }
+    return dp[0];
+}
     int minCut(string s) {
         int n = s.size();
         //RECURSION 
@@ -47,6 +66,9 @@ int solveMemo(int i, string&s,vector<int>&dp){
 
        //MEMOIZATION 
        vector<int>dp(n+1,-1);
-       return solveMemo(0,s,dp)-1 ;
+       //return solveMemo(0,s,dp)-1 ;
+
+       //TABULATION 
+       return solveTab(s)-1;
     }
 };
