@@ -45,6 +45,45 @@ int solveMemo(int i, int j1 , int j2,int n , int m ,vector<vector<int>>& grid,  
     return  dp[i][j1][j2] = maxi;
 }
 
+//TABULATION 
+int solveTab(vector<vector<int>>& grid ){
+        int n = grid.size();
+        int m = grid[0].size();
+
+vector<vector<vector<int>>>dp(n+1,vector<vector<int>>(m,vector<int>(m,0)));
+   for(int i=n-1;i>=0;i--){
+    for(int j1=m-1;j1>=0;j1--){
+        for(int j2=0;j2<m;j2++){
+                int maxi = -1e8;
+         for(int dj2 =-1; dj2<=1 ; dj2++){
+         for(int dj1=-1;dj1<=1 ; dj1++){
+           
+        if(j1 + dj1 < 0 || j1 + dj1 >= m ||
+   j2 + dj2 < 0 || j2 + dj2 >= m)
+{
+   int  ans = -1e8;
+   maxi = max(ans,maxi);
+}
+else {
+        if(j1 == j2) {
+            int ans  =  grid[i][j1] + dp[i+1][j1+dj1][ j2+dj2];
+            maxi = max(ans,maxi); 
+        }
+        else{
+            int ans = grid[i][j1] + grid[i][j2] +dp[i+1][j1+dj1][j2+dj2];
+             maxi = max(ans,maxi); 
+        }
+     }
+    }
+         }
+     dp[i][j1][j2] = maxi;
+        }
+    }
+   }
+
+  return dp[0][0][m-1];
+}
+
 
     int cherryPickup(vector<vector<int>>& grid) {
         int n = grid.size();
@@ -54,6 +93,9 @@ int solveMemo(int i, int j1 , int j2,int n , int m ,vector<vector<int>>& grid,  
 
       //MEMOIZATION 
       vector<vector<vector<int>>>dp(n,vector<vector<int>>(m,vector<int>(m,-1)));
-      return solveMemo(0,0,m-1,n,m,grid,dp);
+     // return solveMemo(0,0,m-1,n,m,grid,dp);
+
+     //TABULATION 
+     return solveTab(grid);
     }
 };
