@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0473-matchsticks-to-square](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0473-matchsticks-to-square) |
 | [0491-non-decreasing-subsequences](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0491-non-decreasing-subsequences) |
 | [0526-beautiful-arrangement](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0526-beautiful-arrangement) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [1755-closest-subsequence-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1755-closest-subsequence-sum) |
 | [1758-distribute-repeating-integers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1758-distribute-repeating-integers) |
@@ -340,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1539-kth-missing-positive-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1539-kth-missing-positive-number) |
 | [1631-path-with-minimum-effort](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
@@ -990,6 +992,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1406-stone-game-iii) |
 | [1463-cherry-pickup-ii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1463-cherry-pickup-ii) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1691-maximum-height-by-stacking-cuboids](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1691-maximum-height-by-stacking-cuboids) |
@@ -1158,6 +1161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0355-design-twitter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [1477-product-of-the-last-k-numbers](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2434-design-a-number-container-system](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2434-design-a-number-container-system) |
 ## Queue
@@ -1275,6 +1279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Depth-First Search
 |  |
@@ -1328,6 +1333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1558-course-schedule-iv](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1558-course-schedule-iv) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1631-path-with-minimum-effort) |
@@ -1377,6 +1383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1396-count-servers-that-communicate](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1396-count-servers-that-communicate) |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1558-course-schedule-iv](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1558-course-schedule-iv) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
@@ -1654,4 +1661,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [2193-minimum-number-of-moves-to-make-palindrome](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2193-minimum-number-of-moves-to-make-palindrome) |
+## Binary Lifting
+|  |
+| ------- |
+| [1483-kth-ancestor-of-a-tree-node](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 <!---LeetCode Topics End-->
