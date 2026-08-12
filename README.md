@@ -1665,4 +1665,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
