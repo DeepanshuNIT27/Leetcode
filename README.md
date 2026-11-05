@@ -208,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1364-tuple-with-same-product](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1364-tuple-with-same-product) |
 | [1367-maximum-height-by-stacking-cuboids](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1367-maximum-height-by-stacking-cuboids) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1396-count-servers-that-communicate](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1406-stone-game-iii](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1406-stone-game-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
@@ -343,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1483-kth-ancestor-of-a-tree-node) |
 | [1539-kth-missing-positive-number](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1539-kth-missing-positive-number) |
@@ -581,6 +583,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1200-minimum-absolute-difference](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1200-minimum-absolute-difference) |
 | [1331-rank-transform-of-an-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1367-maximum-height-by-stacking-cuboids](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1367-maximum-height-by-stacking-cuboids) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
@@ -680,6 +683,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0908-middle-of-the-linked-list](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [0953-reverse-only-letters](https://github.com/DeepanshuNIT27/Leetcode/tree/master/0953-reverse-only-letters) |
 | [1048-longest-string-chain](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1048-longest-string-chain) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1755-closest-subsequence-sum](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1755-closest-subsequence-sum) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/DeepanshuNIT27/Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/DeepanshuNIT27/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
