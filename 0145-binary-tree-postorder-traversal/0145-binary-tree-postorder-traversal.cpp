@@ -10,31 +10,45 @@
  * };
  */
 
-//ITERATIVE TRAVERSAL USING 2 STACK 
+// ITERATIVE POST ORDER TRAVERSAL USING SINGLE STACKS 
 class Solution {
 public:
     vector<int> postorderTraversal(TreeNode* root) {
         
-        stack<TreeNode*>st1,st2;
-        vector<int>ans; 
-        if(root == nullptr) return ans;
-        st1.push(root);
-        while(!st1.empty()){
+        vector<int>post;
+        stack<TreeNode*>st;
+        TreeNode* curr = root;
+        TreeNode* temp;
 
-            TreeNode* node = st1.top();
-            st1.pop();
+        while(curr!=nullptr || !st.empty()){
 
-            st2.push(node);
+            if(curr != nullptr){
+              st.push(curr);
+              curr = curr->left;
+            } 
 
-            if(node->left != nullptr) st1.push(node->left);
-            if(node->right != nullptr) st1.push(node->right);
+            else {
+
+                temp = st.top()->right;
+
+                if(temp == nullptr){
+                      
+                      temp = st.top();
+                      st.pop();
+
+                      post.push_back(temp->val);
+
+                      while(!st.empty() && temp == st.top()->right){
+                        temp = st.top();
+                        st.pop();
+                        post.push_back(temp->val);
+                      }
+                }
+                else {
+                    curr = temp;
+                }
+            }
         }
-
-        while(!st2.empty()){
-            TreeNode* node = st2.top();
-            st2.pop();
-            ans.push_back(node->val);
-        }
-        return ans;
+        return post;
     }
 };
